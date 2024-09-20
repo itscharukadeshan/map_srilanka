@@ -33,6 +33,7 @@ const baseLayerConfig = {
     attribution:
       "&copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap contributors",
   },
+
   StadiaStamenToner: {
     url: "https://tiles.stadiamaps.com/styles/stamen_toner.json",
     attribution:
@@ -43,6 +44,12 @@ const baseLayerConfig = {
     attribution:
       "&copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap contributors",
   },
+  StamenTerrainBackground: {
+    url: "https://tiles.stadiamaps.com/styles/stamen_terrain_background.json",
+    attribution:
+      "&copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap contributors",
+  },
+
   StamenWatercolor: {
     url: "https://tiles.stadiamaps.com/styles/stamen_watercolor.json",
     attribution:

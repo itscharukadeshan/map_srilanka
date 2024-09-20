@@ -67,6 +67,13 @@ const Map: React.FC = () => {
             attribution={baseLayerConfig.StamenTerrain.attribution}
           />
         </BaseLayer>
+        <BaseLayer name='Stamen Terrain Background'>
+          <MapLibreTileLayer
+            url={baseLayerConfig.StamenTerrainBackground.url}
+            attribution={baseLayerConfig.StamenTerrainBackground.attribution}
+          />
+        </BaseLayer>
+
         <BaseLayer name='Stamen Watercolor'>
           <MapLibreTileLayer
             url={baseLayerConfig.StamenWatercolor.url}
