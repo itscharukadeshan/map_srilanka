@@ -6,6 +6,7 @@ import icon from "leaflet/dist/images/marker-icon.png";
 import iconShadow from "leaflet/dist/images/marker-shadow.png";
 
 import baseLayerConfig from "../config/baseLayerConfig";
+import MapLibreTileLayer from "./MapLibreTileLayer";
 
 const { BaseLayer } = LayersControl;
 
@@ -40,16 +41,48 @@ const Map: React.FC = () => {
             attribution={baseLayerConfig.humanitarian.attribution}
           />
         </BaseLayer>
-        <BaseLayer name='Satellite'>
-          <TileLayer
+        <BaseLayer name='OSMB Bright'>
+          <MapLibreTileLayer
+            url={baseLayerConfig.OSMBright.url}
+            attribution={baseLayerConfig.OSMBright.attribution}
+          />
+        </BaseLayer>
+        <BaseLayer name='Stadia Satellite'>
+          <MapLibreTileLayer
             url={baseLayerConfig.StadiaSatellite.url}
             attribution={baseLayerConfig.StadiaSatellite.attribution}
           />
         </BaseLayer>
-        <BaseLayer name='Grey'>
-          <TileLayer
-            url={baseLayerConfig.Grey.url}
-            attribution={baseLayerConfig.Grey.attribution}
+        <BaseLayer name='Stamen Toner'>
+          <MapLibreTileLayer
+            url={baseLayerConfig.StadiaStamenToner.url}
+            attribution={baseLayerConfig.StadiaStamenToner.attribution}
+          />
+        </BaseLayer>
+        <BaseLayer name='Stamen Terrain'>
+          <MapLibreTileLayer
+            url={baseLayerConfig.StamenTerrain.url}
+            attribution={baseLayerConfig.StamenTerrain.attribution}
+          />
+        </BaseLayer>
+        <BaseLayer name='Stamen Watercolor'>
+          <MapLibreTileLayer
+            url={baseLayerConfig.StamenWatercolor.url}
+            attribution={baseLayerConfig.StamenWatercolor.attribution}
+          />
+        </BaseLayer>
+
+        <BaseLayer name='Alidade Smooth'>
+          <MapLibreTileLayer
+            url={baseLayerConfig.StadiaAlidadeSmooth.url}
+            attribution={baseLayerConfig.StadiaAlidadeSmooth.attribution}
+          />
+        </BaseLayer>
+
+        <BaseLayer name='Alidade Smooth Dark'>
+          <MapLibreTileLayer
+            url={baseLayerConfig.StadiaAlidadeSmoothDark.url}
+            attribution={baseLayerConfig.StadiaAlidadeSmoothDark.attribution}
           />
         </BaseLayer>
       </LayersControl>
