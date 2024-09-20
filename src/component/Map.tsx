@@ -8,6 +8,8 @@ import iconShadow from "leaflet/dist/images/marker-shadow.png";
 import baseLayerConfig from "../config/baseLayerConfig";
 import MapLibreTileLayer from "./MapLibreTileLayer";
 
+// import STADIA_MAPS_API_KEY from "../config";
+
 const { BaseLayer } = LayersControl;
 
 const DefaultIcon = L.icon({
@@ -23,7 +25,13 @@ const Map: React.FC = () => {
       zoom={8}
       style={{ height: "100vh", width: "100%" }}>
       <LayersControl>
-        <BaseLayer checked name='OpenStreetMap'>
+        <BaseLayer checked name='OSMB Bright'>
+          <MapLibreTileLayer
+            url={baseLayerConfig.OSMBright.url}
+            attribution={baseLayerConfig.OSMBright.attribution}
+          />
+        </BaseLayer>
+        <BaseLayer name='OpenStreetMap'>
           <TileLayer
             url={baseLayerConfig.openStreetMap.url}
             attribution={baseLayerConfig.openStreetMap.attribution}
@@ -39,12 +47,6 @@ const Map: React.FC = () => {
           <TileLayer
             url={baseLayerConfig.humanitarian.url}
             attribution={baseLayerConfig.humanitarian.attribution}
-          />
-        </BaseLayer>
-        <BaseLayer name='OSMB Bright'>
-          <MapLibreTileLayer
-            url={baseLayerConfig.OSMBright.url}
-            attribution={baseLayerConfig.OSMBright.attribution}
           />
         </BaseLayer>
         <BaseLayer name='Stadia Satellite'>
