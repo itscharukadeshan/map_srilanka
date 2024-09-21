@@ -2,16 +2,12 @@
 import {
   createElementObject,
   createTileLayerComponent,
-  updateGridLayer,
-  withPane,
   LayerProps,
 } from "@react-leaflet/core";
 import L from "leaflet";
 import "@maplibre/maplibre-gl-leaflet";
 
-interface MapLibreTileLayerProps
-  extends L.LeafletMaplibreGLOptions,
-    LayerProps {
+interface MapLibreTileLayerProps extends LayerProps {
   url: string;
   attribution: string;
 }
@@ -20,21 +16,19 @@ const MapLibreTileLayer = createTileLayerComponent<
   L.MaplibreGL,
   MapLibreTileLayerProps
 >(
-  function createTileLayer({ url, attribution, ...options }, context) {
-    const layer = L.maplibreGL(
-      { style: url, attribution },
-      withPane(options, context)
-    );
+  ({ url, ...options }, context) => {
+    const layer = L.maplibreGL({
+      style: url,
+      ...options,
+    });
     return createElementObject(layer, context);
   },
-  function updateTileLayer(layer, props, prevProps) {
-    updateGridLayer(layer, props, prevProps);
-    const { url, attribution } = props;
-    if (url && url !== prevProps.url) {
-      layer.getMaplibreMap().setStyle(url);
+  (layer, props, prevProps) => {
+    if (props.url !== prevProps.url) {
+      layer.getMaplibreMap().setStyle(props.url);
     }
-    if (attribution && attribution !== prevProps.attribution) {
-      layer.options.attribution = attribution;
+    if (props.attribution !== prevProps.attribution) {
+      layer.options.attribution = props.attribution;
     }
   }
 );
