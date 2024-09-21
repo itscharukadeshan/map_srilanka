@@ -23,7 +23,13 @@ const Map: React.FC = () => {
       zoom={8}
       style={{ height: "100vh", width: "100%" }}>
       <LayersControl>
-        <BaseLayer checked name='OSMB Bright'>
+        <BaseLayer checked name='OpenStreetMap'>
+          <TileLayer
+            url={baseLayerConfig.openStreetMap.url}
+            attribution={baseLayerConfig.openStreetMap.attribution}
+          />
+        </BaseLayer>
+        <BaseLayer name='OSMB Bright'>
           <MapLibreTileLayer
             url={baseLayerConfig.OSMBright.url}
             attribution={baseLayerConfig.OSMBright.attribution}
@@ -74,12 +80,7 @@ const Map: React.FC = () => {
             attribution={baseLayerConfig.StadiaAlidadeSmoothDark.attribution}
           />
         </BaseLayer>
-        <BaseLayer name='OpenStreetMap'>
-          <TileLayer
-            url={baseLayerConfig.openStreetMap.url}
-            attribution={baseLayerConfig.openStreetMap.attribution}
-          />
-        </BaseLayer>
+
         <BaseLayer name='OpenTopoMap'>
           <TileLayer
             url={baseLayerConfig.openTopoMap.url}
