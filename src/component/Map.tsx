@@ -29,6 +29,18 @@ const Map: React.FC = () => {
             attribution={baseLayerConfig.openStreetMap.attribution}
           />
         </BaseLayer>
+        <BaseLayer name='OpenTopoMap'>
+          <TileLayer
+            url={baseLayerConfig.openTopoMap.url}
+            attribution={baseLayerConfig.openTopoMap.attribution}
+          />
+        </BaseLayer>
+        <BaseLayer name='Humanitarian'>
+          <TileLayer
+            url={baseLayerConfig.humanitarian.url}
+            attribution={baseLayerConfig.humanitarian.attribution}
+          />
+        </BaseLayer>
         <BaseLayer name='OSMB Bright'>
           <MapLibreTileLayer
             url={baseLayerConfig.OSMBright.url}
@@ -78,19 +90,6 @@ const Map: React.FC = () => {
           <MapLibreTileLayer
             url={baseLayerConfig.StadiaAlidadeSmoothDark.url}
             attribution={baseLayerConfig.StadiaAlidadeSmoothDark.attribution}
-          />
-        </BaseLayer>
-
-        <BaseLayer name='OpenTopoMap'>
-          <TileLayer
-            url={baseLayerConfig.openTopoMap.url}
-            attribution={baseLayerConfig.openTopoMap.attribution}
-          />
-        </BaseLayer>
-        <BaseLayer name='Humanitarian'>
-          <TileLayer
-            url={baseLayerConfig.humanitarian.url}
-            attribution={baseLayerConfig.humanitarian.attribution}
           />
         </BaseLayer>
       </LayersControl>
