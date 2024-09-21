@@ -1,4 +1,5 @@
 /** @format */
+import STADIA_MAPS_API_KEY from "../config";
 
 const baseLayerConfig = {
   openStreetMap: {
@@ -19,44 +20,44 @@ const baseLayerConfig = {
       'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)',
   },
   StadiaSatellite: {
-    url: "https://tiles.stadiamaps.com/styles/alidade_satellite.json",
+    url: `https://tiles.stadiamaps.com/styles/alidade_satellite.json?api_key=${STADIA_MAPS_API_KEY}`,
     attribution:
       "copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap contributors",
   },
   StadiaAlidadeSmoothDark: {
-    url: "https://tiles.stadiamaps.com/styles/alidade_smooth_dark.json",
+    url: `https://tiles.stadiamaps.com/styles/alidade_smooth_dark.json?api_key=${STADIA_MAPS_API_KEY}`,
     attribution:
       "&copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap contributors",
   },
   StadiaAlidadeSmooth: {
-    url: "https://tiles.stadiamaps.com/styles/alidade_smooth.json",
+    url: `https://tiles.stadiamaps.com/styles/alidade_smooth.json?api_key=${STADIA_MAPS_API_KEY}`,
     attribution:
       "&copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap contributors",
   },
 
   StadiaStamenToner: {
-    url: "https://tiles.stadiamaps.com/styles/stamen_toner.json",
+    url: `https://tiles.stadiamaps.com/styles/stamen_toner.json?api_key=${STADIA_MAPS_API_KEY}`,
     attribution:
       "&copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap contributors",
   },
   StamenTerrain: {
-    url: "https://tiles.stadiamaps.com/styles/stamen_terrain.json",
+    url: `https://tiles.stadiamaps.com/styles/stamen_terrain.json?api_key=${STADIA_MAPS_API_KEY}`,
     attribution:
       "&copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap contributors",
   },
   StamenTerrainBackground: {
-    url: "https://tiles.stadiamaps.com/styles/stamen_terrain_background.json",
+    url: `https://tiles.stadiamaps.com/styles/stamen_terrain_background.json?api_key=${STADIA_MAPS_API_KEY}`,
     attribution:
       "&copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap contributors",
   },
 
   StamenWatercolor: {
-    url: "https://tiles.stadiamaps.com/styles/stamen_watercolor.json",
+    url: `https://tiles.stadiamaps.com/styles/stamen_watercolor.json?api_key=${STADIA_MAPS_API_KEY}`,
     attribution:
       "&copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap contributors",
   },
   OSMBright: {
-    url: "https://tiles.stadiamaps.com/styles/osm_bright.json",
+    url: `https://tiles.stadiamaps.com/styles/osm_bright.json?api_key=${STADIA_MAPS_API_KEY}`,
     attribution:
       "&copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap contributors",
   },

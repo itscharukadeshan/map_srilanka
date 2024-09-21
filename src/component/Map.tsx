@@ -8,8 +8,6 @@ import iconShadow from "leaflet/dist/images/marker-shadow.png";
 import baseLayerConfig from "../config/baseLayerConfig";
 import MapLibreTileLayer from "./MapLibreTileLayer";
 
-// import STADIA_MAPS_API_KEY from "../config";
-
 const { BaseLayer } = LayersControl;
 
 const DefaultIcon = L.icon({
