@@ -1,5 +1,7 @@
 /** @format */
 import { MapContainer, TileLayer, LayersControl } from "react-leaflet";
+import "esri-leaflet";
+
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import icon from "leaflet/dist/images/marker-icon.png";
