@@ -23,75 +23,17 @@ const Map: React.FC = () => {
       zoom={8}
       style={{ height: "100vh", width: "100%" }}>
       <LayersControl>
-        <BaseLayer checked name='OpenStreetMap'>
-          <TileLayer
-            url={baseLayerConfig.openStreetMap.url}
-            attribution={baseLayerConfig.openStreetMap.attribution}
-          />
-        </BaseLayer>
-        <BaseLayer name='OpenTopoMap'>
-          <TileLayer
-            url={baseLayerConfig.openTopoMap.url}
-            attribution={baseLayerConfig.openTopoMap.attribution}
-          />
-        </BaseLayer>
-        <BaseLayer name='Humanitarian'>
-          <TileLayer
-            url={baseLayerConfig.humanitarian.url}
-            attribution={baseLayerConfig.humanitarian.attribution}
-          />
-        </BaseLayer>
-        <BaseLayer name='OSMB Bright'>
-          <MapLibreTileLayer
-            url={baseLayerConfig.OSMBright.url}
-            attribution={baseLayerConfig.OSMBright.attribution}
-          />
-        </BaseLayer>
-        <BaseLayer name='Stadia Satellite'>
-          <MapLibreTileLayer
-            url={baseLayerConfig.StadiaSatellite.url}
-            attribution={baseLayerConfig.StadiaSatellite.attribution}
-          />
-        </BaseLayer>
-        <BaseLayer name='Stamen Toner'>
-          <MapLibreTileLayer
-            url={baseLayerConfig.StadiaStamenToner.url}
-            attribution={baseLayerConfig.StadiaStamenToner.attribution}
-          />
-        </BaseLayer>
-        <BaseLayer name='Stamen Terrain'>
-          <MapLibreTileLayer
-            url={baseLayerConfig.StamenTerrain.url}
-            attribution={baseLayerConfig.StamenTerrain.attribution}
-          />
-        </BaseLayer>
-        <BaseLayer name='Stamen Terrain Background'>
-          <MapLibreTileLayer
-            url={baseLayerConfig.StamenTerrainBackground.url}
-            attribution={baseLayerConfig.StamenTerrainBackground.attribution}
-          />
-        </BaseLayer>
-
-        <BaseLayer name='Stamen Watercolor'>
-          <MapLibreTileLayer
-            url={baseLayerConfig.StamenWatercolor.url}
-            attribution={baseLayerConfig.StamenWatercolor.attribution}
-          />
-        </BaseLayer>
-
-        <BaseLayer name='Alidade Smooth'>
-          <MapLibreTileLayer
-            url={baseLayerConfig.StadiaAlidadeSmooth.url}
-            attribution={baseLayerConfig.StadiaAlidadeSmooth.attribution}
-          />
-        </BaseLayer>
-
-        <BaseLayer name='Alidade Smooth Dark'>
-          <MapLibreTileLayer
-            url={baseLayerConfig.StadiaAlidadeSmoothDark.url}
-            attribution={baseLayerConfig.StadiaAlidadeSmoothDark.attribution}
-          />
-        </BaseLayer>
+        {Object.values(baseLayerConfig).map(
+          ({ url, attribution, key, type }) => (
+            <BaseLayer key={key} name={key} checked={key === `OpenStreetMap`}>
+              {type === "glStyle" ? (
+                <MapLibreTileLayer url={url} attribution={attribution} />
+              ) : (
+                <TileLayer url={url} attribution={attribution} />
+              )}
+            </BaseLayer>
+          )
+        )}
       </LayersControl>
     </MapContainer>
   );
