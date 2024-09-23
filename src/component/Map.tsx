@@ -1,5 +1,5 @@
 /** @format */
-import { MapContainer, TileLayer, LayersControl } from "react-leaflet";
+import { MapContainer, TileLayer, LayersControl, GeoJSON } from "react-leaflet";
 import "esri-leaflet";
 
 import "leaflet/dist/leaflet.css";
@@ -9,8 +9,9 @@ import iconShadow from "leaflet/dist/images/marker-shadow.png";
 
 import baseLayerConfig from "../config/baseLayerConfig";
 import MapLibreTileLayer from "./MapLibreTileLayer";
+import central from "../data/PROV_BOUN_GEOJSON/PROV_CENTRAL_1.geojsons.json";
 
-const { BaseLayer } = LayersControl;
+const { BaseLayer, Overlay } = LayersControl;
 
 const DefaultIcon = L.icon({
   iconUrl: icon,
@@ -36,6 +37,9 @@ const Map: React.FC = () => {
             </BaseLayer>
           )
         )}
+        <Overlay name='Central province ' checked>
+          <GeoJSON data={central} />
+        </Overlay>
       </LayersControl>
     </MapContainer>
   );

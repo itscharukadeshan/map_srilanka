@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@maplibre/maplibre-gl-leaflet": "^0.0.22",
+    "@types/geojson": "^7946.0.14",
     "esri-leaflet": "^3.0.12",
     "leaflet": "^1.9.4",
     "react": "^18.3.1",
