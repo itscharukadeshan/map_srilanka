@@ -9,7 +9,7 @@ import iconShadow from "leaflet/dist/images/marker-shadow.png";
 
 import baseLayerConfig from "../config/baseLayerConfig";
 import MapLibreTileLayer from "./MapLibreTileLayer";
-import central from "../data/PROV_BOUN_GEOJSON/PROV_CENTRAL_1.geojsons.json";
+import { useEffect, useState } from "react";
 
 const { BaseLayer, Overlay } = LayersControl;
 
@@ -20,6 +20,19 @@ const DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 const Map: React.FC = () => {
+  const [geojsonData, setGeojsonData] = useState(null);
+
+  useEffect(() => {
+    const fetchGeojson = async () => {
+      const response = await fetch(
+        "https://raw.githubusercontent.com/itscharukadeshan/map_srilanka/refs/heads/main/src/data/PROV_BOUN_GEOJSON/PROV_CENTRAL_1.geojsons.json"
+      );
+      const data = await response.json();
+      setGeojsonData(data);
+    };
+
+    fetchGeojson();
+  }, []);
   return (
     <MapContainer
       center={[7.8731, 80.7718]}
@@ -37,9 +50,11 @@ const Map: React.FC = () => {
             </BaseLayer>
           )
         )}
-        <Overlay name='Central province ' checked>
-          <GeoJSON data={central} />
-        </Overlay>
+        {geojsonData && (
+          <Overlay name='Central Province' checked>
+            <GeoJSON data={geojsonData} />
+          </Overlay>
+        )}
       </LayersControl>
     </MapContainer>
   );
