@@ -25,7 +25,7 @@ const Map: React.FC = () => {
   useEffect(() => {
     const fetchGeojson = async () => {
       const response = await fetch(
-        "https://raw.githubusercontent.com/itscharukadeshan/map_srilanka/refs/heads/main/src/data/PROV_BOUN_GEOJSON/PROV_CENTRAL_1.geojsons.json"
+        "https://github.com/itscharukadeshan/map_srilanka_data/blob/main/v1/administrative/geo_json/district/DST_AMPARA_1.geojson"
       );
       const data = await response.json();
       setGeojsonData(data);
