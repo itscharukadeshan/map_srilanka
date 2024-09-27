@@ -1,177 +1,152 @@
-[
-  {
-    "fid": 1,
+{
+  "1": {
     "district_name": "AMPARA",
     "province_name": "EASTERN",
     "type": "district",
     "filename": "DST_AMPARA_1.geojson"
   },
-  {
-    "fid": 2,
+  "2": {
     "district_name": "ANURADHAPURA",
     "province_name": "NORTH CENTRAL",
     "type": "district",
     "filename": "DST_ANURADHAPURA_2.geojson"
   },
-  {
-    "fid": 3,
+  "3": {
     "district_name": "BADULLA",
     "province_name": "UVA",
     "type": "district",
     "filename": "DST_BADULLA_3.geojson"
   },
-  {
-    "fid": 4,
+  "4": {
     "district_name": "BATTICALOA",
     "province_name": "EASTERN",
     "type": "district",
     "filename": "DST_BATTICALOA_4.geojson"
   },
-  {
-    "fid": 5,
+  "5": {
     "district_name": "COLOMBO",
     "province_name": "WESTERN",
     "type": "district",
     "filename": "DST_COLOMBO_5.geojson"
   },
-  {
-    "fid": 6,
+  "6": {
     "district_name": "GALLE",
     "province_name": "SOUTHERN",
     "type": "district",
     "filename": "DST_GALLE_6.geojson"
   },
-  {
-    "fid": 7,
+  "7": {
     "district_name": "GAMPAHA",
     "province_name": "WESTERN",
     "type": "district",
     "filename": "DST_GAMPAHA_7.geojson"
   },
-  {
-    "fid": 8,
+  "8": {
     "district_name": "HAMBANTOTA",
     "province_name": "SOUTHERN",
     "type": "district",
     "filename": "DST_HAMBANTOTA_8.geojson"
   },
-  {
-    "fid": 9,
+  "9": {
     "district_name": "JAFFNA",
     "province_name": "NORTHERN",
     "type": "district",
     "filename": "DST_JAFFNA_9.geojson"
   },
-  {
-    "fid": 10,
+  "10": {
     "district_name": "KALUTARA",
     "province_name": "WESTERN",
     "type": "district",
     "filename": "DST_KALUTARA_10.geojson"
   },
-  {
-    "fid": 11,
+  "11": {
     "district_name": "KANDY",
     "province_name": "CENTRAL",
     "type": "district",
     "filename": "DST_KANDY_11.geojson"
   },
-  {
-    "fid": 12,
+  "12": {
     "district_name": "KEGALLE",
     "province_name": "SABARAGAMUWA",
     "type": "district",
     "filename": "DST_KEGALLE_12.geojson"
   },
-  {
-    "fid": 13,
+  "13": {
     "district_name": "KILINOCHCHI",
     "province_name": "NORTHERN",
     "type": "district",
     "filename": "DST_KILINOCHCHI_13.geojson"
   },
-  {
-    "fid": 14,
+  "14": {
     "district_name": "KURUNEGALA",
     "province_name": "NORTH_WESTERN",
     "type": "district",
     "filename": "DST_KURUNEGALA_14.geojson"
   },
-  {
-    "fid": 15,
+  "15": {
     "district_name": "MANNAR",
     "province_name": "NORTHERN",
     "type": "district",
     "filename": "DST_MANNAR_15.geojson"
   },
-  {
-    "fid": 16,
+  "16": {
     "district_name": "MATALE",
     "province_name": "CENTRAL",
     "type": "district",
     "filename": "DST_MATALE_16.geojson"
   },
-  {
-    "fid": 17,
+  "17": {
     "district_name": "MATARA",
     "province_name": "SOUTHERN",
     "type": "district",
     "filename": "DST_MATARA_17.geojson"
   },
-  {
-    "fid": 18,
+  "18": {
     "district_name": "MONARAGALA",
     "province_name": "UVA",
     "type": "district",
     "filename": "DST_MONARAGALA_18.geojson"
   },
-  {
-    "fid": 19,
+  "19": {
     "district_name": "MULLAITIVU",
     "province_name": "NORTHERN",
     "type": "district",
     "filename": "DST_MULLAITIVU_19.geojson"
   },
-  {
-    "fid": 20,
+  "20": {
     "district_name": "NUWARA ELIYA",
     "province_name": "CENTRAL",
     "type": "district",
     "filename": "DST_NUWARA ELIYA_20.geojson"
   },
-  {
-    "fid": 21,
+  "21": {
     "district_name": "POLONNARUWA",
     "province_name": "NORTH CENTRAL",
     "type": "district",
     "filename": "DST_POLONNARUWA_21.geojson"
   },
-  {
-    "fid": 22,
+  "22": {
     "district_name": "PUTTALAM",
     "province_name": "NORTH_WESTERN",
     "type": "district",
     "filename": "DST_PUTTALAM_22.geojson"
   },
-  {
-    "fid": 23,
+  "23": {
     "district_name": "RATNAPURA",
     "province_name": "SABARAGAMUWA",
     "type": "district",
     "filename": "DST_RATNAPURA_23.geojson"
   },
-  {
-    "fid": 24,
+  "24": {
     "district_name": "TRINCOMALEE",
     "province_name": "EASTERN",
     "type": "district",
     "filename": "DST_TRINCOMALEE_24.geojson"
   },
-  {
-    "fid": 25,
+  "25": {
     "district_name": "VAVUNIYA",
     "province_name": "NORTHERN",
     "type": "district",
     "filename": "DST_VAVUNIYA_25.geojson"
   }
-]
+}
