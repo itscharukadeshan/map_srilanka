@@ -1,2256 +1,2254 @@
 {
-  "provinces": {
-    "Central": {
-      "province_name": "Central",
-      "type": "province",
-      "filename": "PROV_CENTRAL_1.geojson",
-      "districts": {
-        "Kandy": {
-          "district_name": "Kandy",
-          "province_name": "Central",
-          "type": "district",
-          "filename": "DST_KANDY_11.geojson",
-          "ds_divisions": {
-            "Akurana": {
-              "district_name": "Kandy",
-              "ds_division_name": "Akurana",
-              "type": "ds_divisions",
-              "filename": "DS_AKURANA_159.geojson"
-            },
-            "Deltota": {
-              "district_name": "Kandy",
-              "ds_division_name": "Deltota",
-              "type": "ds_divisions",
-              "filename": "DS_DELTOTA_160.geojson"
-            },
-            "Doluwa": {
-              "district_name": "Kandy",
-              "ds_division_name": "Doluwa",
-              "type": "ds_divisions",
-              "filename": "DS_DOLUWA_161.geojson"
-            },
-            "Ganga ihala korale": {
-              "district_name": "Kandy",
-              "ds_division_name": "Ganga ihala korale",
-              "type": "ds_divisions",
-              "filename": "DS_GANGA IHALA KORALE_162.geojson"
-            },
-            "Gangawata korale": {
-              "district_name": "Kandy",
-              "ds_division_name": "Gangawata korale",
-              "type": "ds_divisions",
-              "filename": "DS_GANGAWATA KORALE_163.geojson"
-            },
-            "Harispattuwa": {
-              "district_name": "Kandy",
-              "ds_division_name": "Harispattuwa",
-              "type": "ds_divisions",
-              "filename": "DS_HARISPATTUWA_164.geojson"
-            },
-            "Hatharaliyadda": {
-              "district_name": "Kandy",
-              "ds_division_name": "Hatharaliyadda",
-              "type": "ds_divisions",
-              "filename": "DS_HATHARALIYADDA_165.geojson"
-            },
-            "Kundasale": {
-              "district_name": "Kandy",
-              "ds_division_name": "Kundasale",
-              "type": "ds_divisions",
-              "filename": "DS_KUNDASALE_166.geojson"
-            },
-            "Medadumbara": {
-              "district_name": "Kandy",
-              "ds_division_name": "Medadumbara",
-              "type": "ds_divisions",
-              "filename": "DS_MEDADUMBARA_167.geojson"
-            },
-            "Minipe": {
-              "district_name": "Kandy",
-              "ds_division_name": "Minipe",
-              "type": "ds_divisions",
-              "filename": "DS_MINIPE_168.geojson"
-            },
-            "Panvila": {
-              "district_name": "Kandy",
-              "ds_division_name": "Panvila",
-              "type": "ds_divisions",
-              "filename": "DS_PANVILA_169.geojson"
-            },
-            "Pasbagekorale": {
-              "district_name": "Kandy",
-              "ds_division_name": "Pasbagekorale",
-              "type": "ds_divisions",
-              "filename": "DS_PASBAGEKORALE_170.geojson"
-            },
-            "Pathadumbara": {
-              "district_name": "Kandy",
-              "ds_division_name": "Pathadumbara",
-              "type": "ds_divisions",
-              "filename": "DS_PATHADUMBARA_171.geojson"
-            },
-            "Pathahewaheta": {
-              "district_name": "Kandy",
-              "ds_division_name": "Pathahewaheta",
-              "type": "ds_divisions",
-              "filename": "DS_PATHAHEWAHETA_172.geojson"
-            },
-            "Poojapitiya": {
-              "district_name": "Kandy",
-              "ds_division_name": "Poojapitiya",
-              "type": "ds_divisions",
-              "filename": "DS_POOJAPITIYA_173.geojson"
-            },
-            "Tumpane": {
-              "district_name": "Kandy",
-              "ds_division_name": "Tumpane",
-              "type": "ds_divisions",
-              "filename": "DS_TUMPANE_174.geojson"
-            },
-            "Udapalatha": {
-              "district_name": "Kandy",
-              "ds_division_name": "Udapalatha",
-              "type": "ds_divisions",
-              "filename": "DS_UDAPALATHA_175.geojson"
-            },
-            "Ududumbara": {
-              "district_name": "Kandy",
-              "ds_division_name": "Ududumbara",
-              "type": "ds_divisions",
-              "filename": "DS_UDUDUMBARA_228.geojson"
-            },
-            "Udunuwara": {
-              "district_name": "Kandy",
-              "ds_division_name": "Udunuwara",
-              "type": "ds_divisions",
-              "filename": "DS_UDUNUWARA_229.geojson"
-            },
-            "Yatinuwara": {
-              "district_name": "Kandy",
-              "ds_division_name": "Yatinuwara",
-              "type": "ds_divisions",
-              "filename": "DS_YATINUWARA_230.geojson"
-            }
+  "Central": {
+    "province_name": "Central",
+    "type": "province",
+    "filename": "PROV_CENTRAL_1.geojson",
+    "districts": {
+      "Kandy": {
+        "district_name": "Kandy",
+        "province_name": "Central",
+        "type": "district",
+        "filename": "DST_KANDY_11.geojson",
+        "ds_divisions": {
+          "Akurana": {
+            "district_name": "Kandy",
+            "ds_division_name": "Akurana",
+            "type": "ds_divisions",
+            "filename": "DS_AKURANA_159.geojson"
+          },
+          "Deltota": {
+            "district_name": "Kandy",
+            "ds_division_name": "Deltota",
+            "type": "ds_divisions",
+            "filename": "DS_DELTOTA_160.geojson"
+          },
+          "Doluwa": {
+            "district_name": "Kandy",
+            "ds_division_name": "Doluwa",
+            "type": "ds_divisions",
+            "filename": "DS_DOLUWA_161.geojson"
+          },
+          "Ganga ihala korale": {
+            "district_name": "Kandy",
+            "ds_division_name": "Ganga ihala korale",
+            "type": "ds_divisions",
+            "filename": "DS_GANGA IHALA KORALE_162.geojson"
+          },
+          "Gangawata korale": {
+            "district_name": "Kandy",
+            "ds_division_name": "Gangawata korale",
+            "type": "ds_divisions",
+            "filename": "DS_GANGAWATA KORALE_163.geojson"
+          },
+          "Harispattuwa": {
+            "district_name": "Kandy",
+            "ds_division_name": "Harispattuwa",
+            "type": "ds_divisions",
+            "filename": "DS_HARISPATTUWA_164.geojson"
+          },
+          "Hatharaliyadda": {
+            "district_name": "Kandy",
+            "ds_division_name": "Hatharaliyadda",
+            "type": "ds_divisions",
+            "filename": "DS_HATHARALIYADDA_165.geojson"
+          },
+          "Kundasale": {
+            "district_name": "Kandy",
+            "ds_division_name": "Kundasale",
+            "type": "ds_divisions",
+            "filename": "DS_KUNDASALE_166.geojson"
+          },
+          "Medadumbara": {
+            "district_name": "Kandy",
+            "ds_division_name": "Medadumbara",
+            "type": "ds_divisions",
+            "filename": "DS_MEDADUMBARA_167.geojson"
+          },
+          "Minipe": {
+            "district_name": "Kandy",
+            "ds_division_name": "Minipe",
+            "type": "ds_divisions",
+            "filename": "DS_MINIPE_168.geojson"
+          },
+          "Panvila": {
+            "district_name": "Kandy",
+            "ds_division_name": "Panvila",
+            "type": "ds_divisions",
+            "filename": "DS_PANVILA_169.geojson"
+          },
+          "Pasbagekorale": {
+            "district_name": "Kandy",
+            "ds_division_name": "Pasbagekorale",
+            "type": "ds_divisions",
+            "filename": "DS_PASBAGEKORALE_170.geojson"
+          },
+          "Pathadumbara": {
+            "district_name": "Kandy",
+            "ds_division_name": "Pathadumbara",
+            "type": "ds_divisions",
+            "filename": "DS_PATHADUMBARA_171.geojson"
+          },
+          "Pathahewaheta": {
+            "district_name": "Kandy",
+            "ds_division_name": "Pathahewaheta",
+            "type": "ds_divisions",
+            "filename": "DS_PATHAHEWAHETA_172.geojson"
+          },
+          "Poojapitiya": {
+            "district_name": "Kandy",
+            "ds_division_name": "Poojapitiya",
+            "type": "ds_divisions",
+            "filename": "DS_POOJAPITIYA_173.geojson"
+          },
+          "Tumpane": {
+            "district_name": "Kandy",
+            "ds_division_name": "Tumpane",
+            "type": "ds_divisions",
+            "filename": "DS_TUMPANE_174.geojson"
+          },
+          "Udapalatha": {
+            "district_name": "Kandy",
+            "ds_division_name": "Udapalatha",
+            "type": "ds_divisions",
+            "filename": "DS_UDAPALATHA_175.geojson"
+          },
+          "Ududumbara": {
+            "district_name": "Kandy",
+            "ds_division_name": "Ududumbara",
+            "type": "ds_divisions",
+            "filename": "DS_UDUDUMBARA_228.geojson"
+          },
+          "Udunuwara": {
+            "district_name": "Kandy",
+            "ds_division_name": "Udunuwara",
+            "type": "ds_divisions",
+            "filename": "DS_UDUNUWARA_229.geojson"
+          },
+          "Yatinuwara": {
+            "district_name": "Kandy",
+            "ds_division_name": "Yatinuwara",
+            "type": "ds_divisions",
+            "filename": "DS_YATINUWARA_230.geojson"
           }
-        },
-        "Matale": {
-          "district_name": "Matale",
-          "province_name": "Central",
-          "type": "district",
-          "filename": "DST_MATALE_16.geojson",
-          "ds_divisions": {
-            "Ambanganga": {
-              "district_name": "Matale",
-              "ds_division_name": "Ambanganga",
-              "type": "ds_divisions",
-              "filename": "DS_AMBANGANGA_216.geojson"
-            },
-            "Dambulla": {
-              "district_name": "Matale",
-              "ds_division_name": "Dambulla",
-              "type": "ds_divisions",
-              "filename": "DS_DAMBULLA_217.geojson"
-            },
-            "Galewela": {
-              "district_name": "Matale",
-              "ds_division_name": "Galewela",
-              "type": "ds_divisions",
-              "filename": "DS_GALEWELA_218.geojson"
-            },
-            "Laggala": {
-              "district_name": "Matale",
-              "ds_division_name": "Laggala",
-              "type": "ds_divisions",
-              "filename": "DS_LAGGALA_219.geojson"
-            },
-            "Matale": {
-              "district_name": "Matale",
-              "ds_division_name": "Matale",
-              "type": "ds_divisions",
-              "filename": "DS_MATALE_220.geojson"
-            },
-            "Naula": {
-              "district_name": "Matale",
-              "ds_division_name": "Naula",
-              "type": "ds_divisions",
-              "filename": "DS_NAULA_221.geojson"
-            },
-            "Pallepola": {
-              "district_name": "Matale",
-              "ds_division_name": "Pallepola",
-              "type": "ds_divisions",
-              "filename": "DS_PALLEPOLA_222.geojson"
-            },
-            "Rattota": {
-              "district_name": "Matale",
-              "ds_division_name": "Rattota",
-              "type": "ds_divisions",
-              "filename": "DS_RATTOTA_223.geojson"
-            },
-            "Ukuwela": {
-              "district_name": "Matale",
-              "ds_division_name": "Ukuwela",
-              "type": "ds_divisions",
-              "filename": "DS_UKUWELA_224.geojson"
-            },
-            "Wilgamuwa": {
-              "district_name": "Matale",
-              "ds_division_name": "Wilgamuwa",
-              "type": "ds_divisions",
-              "filename": "DS_WILGAMUWA_225.geojson"
-            },
-            "Yatawatta": {
-              "district_name": "Matale",
-              "ds_division_name": "Yatawatta",
-              "type": "ds_divisions",
-              "filename": "DS_YATAWATTA_226.geojson"
-            }
+        }
+      },
+      "Matale": {
+        "district_name": "Matale",
+        "province_name": "Central",
+        "type": "district",
+        "filename": "DST_MATALE_16.geojson",
+        "ds_divisions": {
+          "Ambanganga": {
+            "district_name": "Matale",
+            "ds_division_name": "Ambanganga",
+            "type": "ds_divisions",
+            "filename": "DS_AMBANGANGA_216.geojson"
+          },
+          "Dambulla": {
+            "district_name": "Matale",
+            "ds_division_name": "Dambulla",
+            "type": "ds_divisions",
+            "filename": "DS_DAMBULLA_217.geojson"
+          },
+          "Galewela": {
+            "district_name": "Matale",
+            "ds_division_name": "Galewela",
+            "type": "ds_divisions",
+            "filename": "DS_GALEWELA_218.geojson"
+          },
+          "Laggala": {
+            "district_name": "Matale",
+            "ds_division_name": "Laggala",
+            "type": "ds_divisions",
+            "filename": "DS_LAGGALA_219.geojson"
+          },
+          "Matale": {
+            "district_name": "Matale",
+            "ds_division_name": "Matale",
+            "type": "ds_divisions",
+            "filename": "DS_MATALE_220.geojson"
+          },
+          "Naula": {
+            "district_name": "Matale",
+            "ds_division_name": "Naula",
+            "type": "ds_divisions",
+            "filename": "DS_NAULA_221.geojson"
+          },
+          "Pallepola": {
+            "district_name": "Matale",
+            "ds_division_name": "Pallepola",
+            "type": "ds_divisions",
+            "filename": "DS_PALLEPOLA_222.geojson"
+          },
+          "Rattota": {
+            "district_name": "Matale",
+            "ds_division_name": "Rattota",
+            "type": "ds_divisions",
+            "filename": "DS_RATTOTA_223.geojson"
+          },
+          "Ukuwela": {
+            "district_name": "Matale",
+            "ds_division_name": "Ukuwela",
+            "type": "ds_divisions",
+            "filename": "DS_UKUWELA_224.geojson"
+          },
+          "Wilgamuwa": {
+            "district_name": "Matale",
+            "ds_division_name": "Wilgamuwa",
+            "type": "ds_divisions",
+            "filename": "DS_WILGAMUWA_225.geojson"
+          },
+          "Yatawatta": {
+            "district_name": "Matale",
+            "ds_division_name": "Yatawatta",
+            "type": "ds_divisions",
+            "filename": "DS_YATAWATTA_226.geojson"
           }
-        },
-        "Nuwara eliya": {
-          "district_name": "Nuwara eliya",
-          "province_name": "Central",
-          "type": "district",
-          "filename": "DST_NUWARA ELIYA_20.geojson",
-          "ds_divisions": {
-            "Ambagamuwa": {
-              "district_name": "Nuwara eliya",
-              "ds_division_name": "Ambagamuwa",
-              "type": "ds_divisions",
-              "filename": "DS_AMBAGAMUWA_254.geojson"
-            },
-            "Hanguranketa": {
-              "district_name": "Nuwara eliya",
-              "ds_division_name": "Hanguranketa",
-              "type": "ds_divisions",
-              "filename": "DS_HANGURANKETA_255.geojson"
-            },
-            "Kothmale": {
-              "district_name": "Nuwara eliya",
-              "ds_division_name": "Kothmale",
-              "type": "ds_divisions",
-              "filename": "DS_KOTHMALE_256.geojson"
-            },
-            "Nuwara eliya": {
-              "district_name": "Nuwara eliya",
-              "ds_division_name": "Nuwara eliya",
-              "type": "ds_divisions",
-              "filename": "DS_NUWARA ELIYA_259.geojson"
-            },
-            "Walapane": {
-              "district_name": "Nuwara eliya",
-              "ds_division_name": "Walapane",
-              "type": "ds_divisions",
-              "filename": "DS_WALAPANE_260.geojson"
-            }
+        }
+      },
+      "Nuwara eliya": {
+        "district_name": "Nuwara eliya",
+        "province_name": "Central",
+        "type": "district",
+        "filename": "DST_NUWARA ELIYA_20.geojson",
+        "ds_divisions": {
+          "Ambagamuwa": {
+            "district_name": "Nuwara eliya",
+            "ds_division_name": "Ambagamuwa",
+            "type": "ds_divisions",
+            "filename": "DS_AMBAGAMUWA_254.geojson"
+          },
+          "Hanguranketa": {
+            "district_name": "Nuwara eliya",
+            "ds_division_name": "Hanguranketa",
+            "type": "ds_divisions",
+            "filename": "DS_HANGURANKETA_255.geojson"
+          },
+          "Kothmale": {
+            "district_name": "Nuwara eliya",
+            "ds_division_name": "Kothmale",
+            "type": "ds_divisions",
+            "filename": "DS_KOTHMALE_256.geojson"
+          },
+          "Nuwara eliya": {
+            "district_name": "Nuwara eliya",
+            "ds_division_name": "Nuwara eliya",
+            "type": "ds_divisions",
+            "filename": "DS_NUWARA ELIYA_259.geojson"
+          },
+          "Walapane": {
+            "district_name": "Nuwara eliya",
+            "ds_division_name": "Walapane",
+            "type": "ds_divisions",
+            "filename": "DS_WALAPANE_260.geojson"
           }
         }
       }
-    },
-    "Eastern": {
-      "province_name": "Eastern",
-      "type": "province",
-      "filename": "PROV_EASTERN_2.geojson",
-      "districts": {
-        "Ampara": {
-          "district_name": "Ampara",
-          "province_name": "Eastern",
-          "type": "district",
-          "filename": "DST_AMPARA_1.geojson",
-          "ds_divisions": {
-            "Addalaichenai": {
-              "district_name": "Ampara",
-              "ds_division_name": "Addalaichenai",
-              "type": "ds_divisions",
-              "filename": "DS_ADDALAICHENAI_1.geojson"
-            },
-            "Akkaraipattu": {
-              "district_name": "Ampara",
-              "ds_division_name": "Akkaraipattu",
-              "type": "ds_divisions",
-              "filename": "DS_AKKARAIPATTU_2.geojson"
-            },
-            "Alayadivembu": {
-              "district_name": "Ampara",
-              "ds_division_name": "Alayadivembu",
-              "type": "ds_divisions",
-              "filename": "DS_ALAYADIVEMBU_3.geojson"
-            },
-            "Ampara": {
-              "district_name": "Ampara",
-              "ds_division_name": "Ampara",
-              "type": "ds_divisions",
-              "filename": "DS_AMPARA_4.geojson"
-            },
-            "Damana": {
-              "district_name": "Ampara",
-              "ds_division_name": "Damana",
-              "type": "ds_divisions",
-              "filename": "DS_DAMANA_5.geojson"
-            },
-            "Dehiattakandiya": {
-              "district_name": "Ampara",
-              "ds_division_name": "Dehiattakandiya",
-              "type": "ds_divisions",
-              "filename": "DS_DEHIATTAKANDIYA_6.geojson"
-            },
-            "Irakkamam": {
-              "district_name": "Ampara",
-              "ds_division_name": "Irakkamam",
-              "type": "ds_divisions",
-              "filename": "DS_IRAKKAMAM_7.geojson"
-            },
-            "Kalmunai": {
-              "district_name": "Ampara",
-              "ds_division_name": "Kalmunai",
-              "type": "ds_divisions",
-              "filename": "DS_KALMUNAI_8.geojson"
-            },
-            "Karaitivu": {
-              "district_name": "Ampara",
-              "ds_division_name": "Karaitivu",
-              "type": "ds_divisions",
-              "filename": "DS_KARAITIVU_54.geojson"
-            },
-            "Lahugala": {
-              "district_name": "Ampara",
-              "ds_division_name": "Lahugala",
-              "type": "ds_divisions",
-              "filename": "DS_LAHUGALA_55.geojson"
-            },
-            "Mahaoya": {
-              "district_name": "Ampara",
-              "ds_division_name": "Mahaoya",
-              "type": "ds_divisions",
-              "filename": "DS_MAHAOYA_56.geojson"
-            },
-            "Navithanveli": {
-              "district_name": "Ampara",
-              "ds_division_name": "Navithanveli",
-              "type": "ds_divisions",
-              "filename": "DS_NAVITHANVELI_57.geojson"
-            },
-            "Nintavur": {
-              "district_name": "Ampara",
-              "ds_division_name": "Nintavur",
-              "type": "ds_divisions",
-              "filename": "DS_NINTAVUR_58.geojson"
-            },
-            "Padiyathalawa": {
-              "district_name": "Ampara",
-              "ds_division_name": "Padiyathalawa",
-              "type": "ds_divisions",
-              "filename": "DS_PADIYATHALAWA_59.geojson"
-            },
-            "Pottuvil": {
-              "district_name": "Ampara",
-              "ds_division_name": "Pottuvil",
-              "type": "ds_divisions",
-              "filename": "DS_POTTUVIL_60.geojson"
-            },
-            "Sainthamaruthu": {
-              "district_name": "Ampara",
-              "ds_division_name": "Sainthamaruthu",
-              "type": "ds_divisions",
-              "filename": "DS_SAINTHAMARUTHU_61.geojson"
-            },
-            "Sammanthurai": {
-              "district_name": "Ampara",
-              "ds_division_name": "Sammanthurai",
-              "type": "ds_divisions",
-              "filename": "DS_SAMMANTHURAI_62.geojson"
-            },
-            "Tirukkovil": {
-              "district_name": "Ampara",
-              "ds_division_name": "Tirukkovil",
-              "type": "ds_divisions",
-              "filename": "DS_TIRUKKOVIL_63.geojson"
-            },
-            "Uhana": {
-              "district_name": "Ampara",
-              "ds_division_name": "Uhana",
-              "type": "ds_divisions",
-              "filename": "DS_UHANA_64.geojson"
-            }
+    }
+  },
+  "Eastern": {
+    "province_name": "Eastern",
+    "type": "province",
+    "filename": "PROV_EASTERN_2.geojson",
+    "districts": {
+      "Ampara": {
+        "district_name": "Ampara",
+        "province_name": "Eastern",
+        "type": "district",
+        "filename": "DST_AMPARA_1.geojson",
+        "ds_divisions": {
+          "Addalaichenai": {
+            "district_name": "Ampara",
+            "ds_division_name": "Addalaichenai",
+            "type": "ds_divisions",
+            "filename": "DS_ADDALAICHENAI_1.geojson"
+          },
+          "Akkaraipattu": {
+            "district_name": "Ampara",
+            "ds_division_name": "Akkaraipattu",
+            "type": "ds_divisions",
+            "filename": "DS_AKKARAIPATTU_2.geojson"
+          },
+          "Alayadivembu": {
+            "district_name": "Ampara",
+            "ds_division_name": "Alayadivembu",
+            "type": "ds_divisions",
+            "filename": "DS_ALAYADIVEMBU_3.geojson"
+          },
+          "Ampara": {
+            "district_name": "Ampara",
+            "ds_division_name": "Ampara",
+            "type": "ds_divisions",
+            "filename": "DS_AMPARA_4.geojson"
+          },
+          "Damana": {
+            "district_name": "Ampara",
+            "ds_division_name": "Damana",
+            "type": "ds_divisions",
+            "filename": "DS_DAMANA_5.geojson"
+          },
+          "Dehiattakandiya": {
+            "district_name": "Ampara",
+            "ds_division_name": "Dehiattakandiya",
+            "type": "ds_divisions",
+            "filename": "DS_DEHIATTAKANDIYA_6.geojson"
+          },
+          "Irakkamam": {
+            "district_name": "Ampara",
+            "ds_division_name": "Irakkamam",
+            "type": "ds_divisions",
+            "filename": "DS_IRAKKAMAM_7.geojson"
+          },
+          "Kalmunai": {
+            "district_name": "Ampara",
+            "ds_division_name": "Kalmunai",
+            "type": "ds_divisions",
+            "filename": "DS_KALMUNAI_8.geojson"
+          },
+          "Karaitivu": {
+            "district_name": "Ampara",
+            "ds_division_name": "Karaitivu",
+            "type": "ds_divisions",
+            "filename": "DS_KARAITIVU_54.geojson"
+          },
+          "Lahugala": {
+            "district_name": "Ampara",
+            "ds_division_name": "Lahugala",
+            "type": "ds_divisions",
+            "filename": "DS_LAHUGALA_55.geojson"
+          },
+          "Mahaoya": {
+            "district_name": "Ampara",
+            "ds_division_name": "Mahaoya",
+            "type": "ds_divisions",
+            "filename": "DS_MAHAOYA_56.geojson"
+          },
+          "Navithanveli": {
+            "district_name": "Ampara",
+            "ds_division_name": "Navithanveli",
+            "type": "ds_divisions",
+            "filename": "DS_NAVITHANVELI_57.geojson"
+          },
+          "Nintavur": {
+            "district_name": "Ampara",
+            "ds_division_name": "Nintavur",
+            "type": "ds_divisions",
+            "filename": "DS_NINTAVUR_58.geojson"
+          },
+          "Padiyathalawa": {
+            "district_name": "Ampara",
+            "ds_division_name": "Padiyathalawa",
+            "type": "ds_divisions",
+            "filename": "DS_PADIYATHALAWA_59.geojson"
+          },
+          "Pottuvil": {
+            "district_name": "Ampara",
+            "ds_division_name": "Pottuvil",
+            "type": "ds_divisions",
+            "filename": "DS_POTTUVIL_60.geojson"
+          },
+          "Sainthamaruthu": {
+            "district_name": "Ampara",
+            "ds_division_name": "Sainthamaruthu",
+            "type": "ds_divisions",
+            "filename": "DS_SAINTHAMARUTHU_61.geojson"
+          },
+          "Sammanthurai": {
+            "district_name": "Ampara",
+            "ds_division_name": "Sammanthurai",
+            "type": "ds_divisions",
+            "filename": "DS_SAMMANTHURAI_62.geojson"
+          },
+          "Tirukkovil": {
+            "district_name": "Ampara",
+            "ds_division_name": "Tirukkovil",
+            "type": "ds_divisions",
+            "filename": "DS_TIRUKKOVIL_63.geojson"
+          },
+          "Uhana": {
+            "district_name": "Ampara",
+            "ds_division_name": "Uhana",
+            "type": "ds_divisions",
+            "filename": "DS_UHANA_64.geojson"
           }
-        },
-        "Batticaloa": {
-          "district_name": "Batticaloa",
-          "province_name": "Eastern",
-          "type": "district",
-          "filename": "DST_BATTICALOA_4.geojson",
-          "ds_divisions": {
-            "Eravur pattu": {
-              "district_name": "Batticaloa",
-              "ds_division_name": "Eravur pattu",
-              "type": "ds_divisions",
-              "filename": "DS_ERAVUR PATTU_33.geojson"
-            },
-            "Eravur town": {
-              "district_name": "Batticaloa",
-              "ds_division_name": "Eravur town",
-              "type": "ds_divisions",
-              "filename": "DS_ERAVUR TOWN_78.geojson"
-            },
-            "Kattankudy": {
-              "district_name": "Batticaloa",
-              "ds_division_name": "Kattankudy",
-              "type": "ds_divisions",
-              "filename": "DS_KATTANKUDY_79.geojson"
-            },
-            "Koralai pattu": {
-              "district_name": "Batticaloa",
-              "ds_division_name": "Koralai pattu",
-              "type": "ds_divisions",
-              "filename": "DS_KORALAI PATTU_80.geojson"
-            },
-            "Koralai pattu central": {
-              "district_name": "Batticaloa",
-              "ds_division_name": "Koralai pattu central",
-              "type": "ds_divisions",
-              "filename": "DS_KORALAI PATTU CENTRAL_81.geojson"
-            },
-            "Koralai pattu north": {
-              "district_name": "Batticaloa",
-              "ds_division_name": "Koralai pattu north",
-              "type": "ds_divisions",
-              "filename": "DS_KORALAI PATTU NORTH_82.geojson"
-            },
-            "Koralai pattu south": {
-              "district_name": "Batticaloa",
-              "ds_division_name": "Koralai pattu south",
-              "type": "ds_divisions",
-              "filename": "DS_KORALAI PATTU SOUTH_83.geojson"
-            },
-            "Koralai pattu west": {
-              "district_name": "Batticaloa",
-              "ds_division_name": "Koralai pattu west",
-              "type": "ds_divisions",
-              "filename": "DS_KORALAI PATTU WEST_84.geojson"
-            },
-            "Manmunai north": {
-              "district_name": "Batticaloa",
-              "ds_division_name": "Manmunai north",
-              "type": "ds_divisions",
-              "filename": "DS_MANMUNAI NORTH_85.geojson"
-            },
-            "Manmunai pattu": {
-              "district_name": "Batticaloa",
-              "ds_division_name": "Manmunai pattu",
-              "type": "ds_divisions",
-              "filename": "DS_MANMUNAI PATTU_86.geojson"
-            },
-            "Manmunai south & eruvil pattu": {
-              "district_name": "Batticaloa",
-              "ds_division_name": "Manmunai south & eruvil pattu",
-              "type": "ds_divisions",
-              "filename": "DS_MANMUNAI SOUTH & ERUVIL PATTU_87.geojson"
-            },
-            "Manmunai south west": {
-              "district_name": "Batticaloa",
-              "ds_division_name": "Manmunai south west",
-              "type": "ds_divisions",
-              "filename": "DS_MANMUNAI SOUTH WEST_88.geojson"
-            },
-            "Manmunai west": {
-              "district_name": "Batticaloa",
-              "ds_division_name": "Manmunai west",
-              "type": "ds_divisions",
-              "filename": "DS_MANMUNAI WEST_89.geojson"
-            },
-            "Porativu pattu": {
-              "district_name": "Batticaloa",
-              "ds_division_name": "Porativu pattu",
-              "type": "ds_divisions",
-              "filename": "DS_PORATIVU PATTU_90.geojson"
-            },
-            "Water area": {
-              "district_name": "Batticaloa",
-              "ds_division_name": "Water area",
-              "type": "ds_divisions",
-              "filename": "DS_WATER AREA_91.geojson"
-            }
+        }
+      },
+      "Batticaloa": {
+        "district_name": "Batticaloa",
+        "province_name": "Eastern",
+        "type": "district",
+        "filename": "DST_BATTICALOA_4.geojson",
+        "ds_divisions": {
+          "Eravur pattu": {
+            "district_name": "Batticaloa",
+            "ds_division_name": "Eravur pattu",
+            "type": "ds_divisions",
+            "filename": "DS_ERAVUR PATTU_33.geojson"
+          },
+          "Eravur town": {
+            "district_name": "Batticaloa",
+            "ds_division_name": "Eravur town",
+            "type": "ds_divisions",
+            "filename": "DS_ERAVUR TOWN_78.geojson"
+          },
+          "Kattankudy": {
+            "district_name": "Batticaloa",
+            "ds_division_name": "Kattankudy",
+            "type": "ds_divisions",
+            "filename": "DS_KATTANKUDY_79.geojson"
+          },
+          "Koralai pattu": {
+            "district_name": "Batticaloa",
+            "ds_division_name": "Koralai pattu",
+            "type": "ds_divisions",
+            "filename": "DS_KORALAI PATTU_80.geojson"
+          },
+          "Koralai pattu central": {
+            "district_name": "Batticaloa",
+            "ds_division_name": "Koralai pattu central",
+            "type": "ds_divisions",
+            "filename": "DS_KORALAI PATTU CENTRAL_81.geojson"
+          },
+          "Koralai pattu north": {
+            "district_name": "Batticaloa",
+            "ds_division_name": "Koralai pattu north",
+            "type": "ds_divisions",
+            "filename": "DS_KORALAI PATTU NORTH_82.geojson"
+          },
+          "Koralai pattu south": {
+            "district_name": "Batticaloa",
+            "ds_division_name": "Koralai pattu south",
+            "type": "ds_divisions",
+            "filename": "DS_KORALAI PATTU SOUTH_83.geojson"
+          },
+          "Koralai pattu west": {
+            "district_name": "Batticaloa",
+            "ds_division_name": "Koralai pattu west",
+            "type": "ds_divisions",
+            "filename": "DS_KORALAI PATTU WEST_84.geojson"
+          },
+          "Manmunai north": {
+            "district_name": "Batticaloa",
+            "ds_division_name": "Manmunai north",
+            "type": "ds_divisions",
+            "filename": "DS_MANMUNAI NORTH_85.geojson"
+          },
+          "Manmunai pattu": {
+            "district_name": "Batticaloa",
+            "ds_division_name": "Manmunai pattu",
+            "type": "ds_divisions",
+            "filename": "DS_MANMUNAI PATTU_86.geojson"
+          },
+          "Manmunai south & eruvil pattu": {
+            "district_name": "Batticaloa",
+            "ds_division_name": "Manmunai south & eruvil pattu",
+            "type": "ds_divisions",
+            "filename": "DS_MANMUNAI SOUTH & ERUVIL PATTU_87.geojson"
+          },
+          "Manmunai south west": {
+            "district_name": "Batticaloa",
+            "ds_division_name": "Manmunai south west",
+            "type": "ds_divisions",
+            "filename": "DS_MANMUNAI SOUTH WEST_88.geojson"
+          },
+          "Manmunai west": {
+            "district_name": "Batticaloa",
+            "ds_division_name": "Manmunai west",
+            "type": "ds_divisions",
+            "filename": "DS_MANMUNAI WEST_89.geojson"
+          },
+          "Porativu pattu": {
+            "district_name": "Batticaloa",
+            "ds_division_name": "Porativu pattu",
+            "type": "ds_divisions",
+            "filename": "DS_PORATIVU PATTU_90.geojson"
+          },
+          "Water area": {
+            "district_name": "Batticaloa",
+            "ds_division_name": "Water area",
+            "type": "ds_divisions",
+            "filename": "DS_WATER AREA_91.geojson"
           }
-        },
-        "Trincomalee": {
-          "district_name": "Trincomalee",
-          "province_name": "Eastern",
-          "type": "district",
-          "filename": "DST_TRINCOMALEE_24.geojson",
-          "ds_divisions": {
-            "Gomarankadawala": {
-              "district_name": "Trincomalee",
-              "ds_division_name": "Gomarankadawala",
-              "type": "ds_divisions",
-              "filename": "DS_GOMARANKADAWALA_302.geojson"
-            },
-            "Kantale": {
-              "district_name": "Trincomalee",
-              "ds_division_name": "Kantale",
-              "type": "ds_divisions",
-              "filename": "DS_KANTALE_303.geojson"
-            },
-            "Kinniya": {
-              "district_name": "Trincomalee",
-              "ds_division_name": "Kinniya",
-              "type": "ds_divisions",
-              "filename": "DS_KINNIYA_304.geojson"
-            },
-            "Kuchchaweli": {
-              "district_name": "Trincomalee",
-              "ds_division_name": "Kuchchaweli",
-              "type": "ds_divisions",
-              "filename": "DS_KUCHCHAWELI_305.geojson"
-            },
-            "Morawewa": {
-              "district_name": "Trincomalee",
-              "ds_division_name": "Morawewa",
-              "type": "ds_divisions",
-              "filename": "DS_MORAWEWA_306.geojson"
-            },
-            "Muthur": {
-              "district_name": "Trincomalee",
-              "ds_division_name": "Muthur",
-              "type": "ds_divisions",
-              "filename": "DS_MUTHUR_307.geojson"
-            },
-            "Padavi sri pura": {
-              "district_name": "Trincomalee",
-              "ds_division_name": "Padavi sri pura",
-              "type": "ds_divisions",
-              "filename": "DS_PADAVI SRI PURA_308.geojson"
-            },
-            "Seruvila": {
-              "district_name": "Trincomalee",
-              "ds_division_name": "Seruvila",
-              "type": "ds_divisions",
-              "filename": "DS_SERUVILA_309.geojson"
-            },
-            "Thambalagamuwa": {
-              "district_name": "Trincomalee",
-              "ds_division_name": "Thambalagamuwa",
-              "type": "ds_divisions",
-              "filename": "DS_THAMBALAGAMUWA_310.geojson"
-            },
-            "Town & gravets": {
-              "district_name": "Trincomalee",
-              "ds_division_name": "Town & gravets",
-              "type": "ds_divisions",
-              "filename": "DS_TOWN & GRAVETS_311.geojson"
-            },
-            "Verugal": {
-              "district_name": "Trincomalee",
-              "ds_division_name": "Verugal",
-              "type": "ds_divisions",
-              "filename": "DS_VERUGAL_312.geojson"
-            }
+        }
+      },
+      "Trincomalee": {
+        "district_name": "Trincomalee",
+        "province_name": "Eastern",
+        "type": "district",
+        "filename": "DST_TRINCOMALEE_24.geojson",
+        "ds_divisions": {
+          "Gomarankadawala": {
+            "district_name": "Trincomalee",
+            "ds_division_name": "Gomarankadawala",
+            "type": "ds_divisions",
+            "filename": "DS_GOMARANKADAWALA_302.geojson"
+          },
+          "Kantale": {
+            "district_name": "Trincomalee",
+            "ds_division_name": "Kantale",
+            "type": "ds_divisions",
+            "filename": "DS_KANTALE_303.geojson"
+          },
+          "Kinniya": {
+            "district_name": "Trincomalee",
+            "ds_division_name": "Kinniya",
+            "type": "ds_divisions",
+            "filename": "DS_KINNIYA_304.geojson"
+          },
+          "Kuchchaweli": {
+            "district_name": "Trincomalee",
+            "ds_division_name": "Kuchchaweli",
+            "type": "ds_divisions",
+            "filename": "DS_KUCHCHAWELI_305.geojson"
+          },
+          "Morawewa": {
+            "district_name": "Trincomalee",
+            "ds_division_name": "Morawewa",
+            "type": "ds_divisions",
+            "filename": "DS_MORAWEWA_306.geojson"
+          },
+          "Muthur": {
+            "district_name": "Trincomalee",
+            "ds_division_name": "Muthur",
+            "type": "ds_divisions",
+            "filename": "DS_MUTHUR_307.geojson"
+          },
+          "Padavi sri pura": {
+            "district_name": "Trincomalee",
+            "ds_division_name": "Padavi sri pura",
+            "type": "ds_divisions",
+            "filename": "DS_PADAVI SRI PURA_308.geojson"
+          },
+          "Seruvila": {
+            "district_name": "Trincomalee",
+            "ds_division_name": "Seruvila",
+            "type": "ds_divisions",
+            "filename": "DS_SERUVILA_309.geojson"
+          },
+          "Thambalagamuwa": {
+            "district_name": "Trincomalee",
+            "ds_division_name": "Thambalagamuwa",
+            "type": "ds_divisions",
+            "filename": "DS_THAMBALAGAMUWA_310.geojson"
+          },
+          "Town & gravets": {
+            "district_name": "Trincomalee",
+            "ds_division_name": "Town & gravets",
+            "type": "ds_divisions",
+            "filename": "DS_TOWN & GRAVETS_311.geojson"
+          },
+          "Verugal": {
+            "district_name": "Trincomalee",
+            "ds_division_name": "Verugal",
+            "type": "ds_divisions",
+            "filename": "DS_VERUGAL_312.geojson"
           }
         }
       }
-    },
-    "North central": {
-      "province_name": "North central",
-      "type": "province",
-      "filename": "PROV_NORTH CENTRAL_3.geojson",
-      "districts": {
-        "Anuradhapura": {
-          "district_name": "Anuradhapura",
-          "province_name": "North central",
-          "type": "district",
-          "filename": "DST_ANURADHAPURA_2.geojson",
-          "ds_divisions": {
-            "Nuwaragam palatha east": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Nuwaragam palatha east",
-              "type": "ds_divisions",
-              "filename": "DS_NUWARAGAM PALATHA EAST_9.geojson"
-            },
-            "Padaviya": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Padaviya",
-              "type": "ds_divisions",
-              "filename": "DS_PADAVIYA_10.geojson"
-            },
-            "Palagala": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Palagala",
-              "type": "ds_divisions",
-              "filename": "DS_PALAGALA_11.geojson"
-            },
-            "Palugaswewa": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Palugaswewa",
-              "type": "ds_divisions",
-              "filename": "DS_PALUGASWEWA_12.geojson"
-            },
-            "Rajanganaya": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Rajanganaya",
-              "type": "ds_divisions",
-              "filename": "DS_RAJANGANAYA_13.geojson"
-            },
-            "Rambewa": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Rambewa",
-              "type": "ds_divisions",
-              "filename": "DS_RAMBEWA_14.geojson"
-            },
-            "Thalawa": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Thalawa",
-              "type": "ds_divisions",
-              "filename": "DS_THALAWA_15.geojson"
-            },
-            "Thambuththegama": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Thambuththegama",
-              "type": "ds_divisions",
-              "filename": "DS_THAMBUTHTHEGAMA_16.geojson"
-            },
-            "Thirappane": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Thirappane",
-              "type": "ds_divisions",
-              "filename": "DS_THIRAPPANE_17.geojson"
-            },
-            "Galenbidunuwewa": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Galenbidunuwewa",
-              "type": "ds_divisions",
-              "filename": "DS_GALENBIDUNUWEWA_65.geojson"
-            },
-            "Galnewa": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Galnewa",
-              "type": "ds_divisions",
-              "filename": "DS_GALNEWA_66.geojson"
-            },
-            "Horowpathana": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Horowpathana",
-              "type": "ds_divisions",
-              "filename": "DS_HOROWPATHANA_67.geojson"
-            },
-            "Ipalogama": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Ipalogama",
-              "type": "ds_divisions",
-              "filename": "DS_IPALOGAMA_68.geojson"
-            },
-            "Kahatagasdigiliya": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Kahatagasdigiliya",
-              "type": "ds_divisions",
-              "filename": "DS_KAHATAGASDIGILIYA_69.geojson"
-            },
-            "Kebithigollewa": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Kebithigollewa",
-              "type": "ds_divisions",
-              "filename": "DS_KEBITHIGOLLEWA_70.geojson"
-            },
-            "Kekirawa": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Kekirawa",
-              "type": "ds_divisions",
-              "filename": "DS_KEKIRAWA_71.geojson"
-            },
-            "Mahawilachchiya": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Mahawilachchiya",
-              "type": "ds_divisions",
-              "filename": "DS_MAHAWILACHCHIYA_72.geojson"
-            },
-            "Medawachchiya": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Medawachchiya",
-              "type": "ds_divisions",
-              "filename": "DS_MEDAWACHCHIYA_73.geojson"
-            },
-            "Mihinthale": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Mihinthale",
-              "type": "ds_divisions",
-              "filename": "DS_MIHINTHALE_74.geojson"
-            },
-            "Nachchaduwa": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Nachchaduwa",
-              "type": "ds_divisions",
-              "filename": "DS_NACHCHADUWA_75.geojson"
-            },
-            "Nochchiyagama": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Nochchiyagama",
-              "type": "ds_divisions",
-              "filename": "DS_NOCHCHIYAGAMA_76.geojson"
-            },
-            "Nuwaragam palatha central": {
-              "district_name": "Anuradhapura",
-              "ds_division_name": "Nuwaragam palatha central",
-              "type": "ds_divisions",
-              "filename": "DS_NUWARAGAM PALATHA CENTRAL_77.geojson"
-            }
+    }
+  },
+  "North central": {
+    "province_name": "North central",
+    "type": "province",
+    "filename": "PROV_NORTH CENTRAL_3.geojson",
+    "districts": {
+      "Anuradhapura": {
+        "district_name": "Anuradhapura",
+        "province_name": "North central",
+        "type": "district",
+        "filename": "DST_ANURADHAPURA_2.geojson",
+        "ds_divisions": {
+          "Nuwaragam palatha east": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Nuwaragam palatha east",
+            "type": "ds_divisions",
+            "filename": "DS_NUWARAGAM PALATHA EAST_9.geojson"
+          },
+          "Padaviya": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Padaviya",
+            "type": "ds_divisions",
+            "filename": "DS_PADAVIYA_10.geojson"
+          },
+          "Palagala": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Palagala",
+            "type": "ds_divisions",
+            "filename": "DS_PALAGALA_11.geojson"
+          },
+          "Palugaswewa": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Palugaswewa",
+            "type": "ds_divisions",
+            "filename": "DS_PALUGASWEWA_12.geojson"
+          },
+          "Rajanganaya": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Rajanganaya",
+            "type": "ds_divisions",
+            "filename": "DS_RAJANGANAYA_13.geojson"
+          },
+          "Rambewa": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Rambewa",
+            "type": "ds_divisions",
+            "filename": "DS_RAMBEWA_14.geojson"
+          },
+          "Thalawa": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Thalawa",
+            "type": "ds_divisions",
+            "filename": "DS_THALAWA_15.geojson"
+          },
+          "Thambuththegama": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Thambuththegama",
+            "type": "ds_divisions",
+            "filename": "DS_THAMBUTHTHEGAMA_16.geojson"
+          },
+          "Thirappane": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Thirappane",
+            "type": "ds_divisions",
+            "filename": "DS_THIRAPPANE_17.geojson"
+          },
+          "Galenbidunuwewa": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Galenbidunuwewa",
+            "type": "ds_divisions",
+            "filename": "DS_GALENBIDUNUWEWA_65.geojson"
+          },
+          "Galnewa": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Galnewa",
+            "type": "ds_divisions",
+            "filename": "DS_GALNEWA_66.geojson"
+          },
+          "Horowpathana": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Horowpathana",
+            "type": "ds_divisions",
+            "filename": "DS_HOROWPATHANA_67.geojson"
+          },
+          "Ipalogama": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Ipalogama",
+            "type": "ds_divisions",
+            "filename": "DS_IPALOGAMA_68.geojson"
+          },
+          "Kahatagasdigiliya": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Kahatagasdigiliya",
+            "type": "ds_divisions",
+            "filename": "DS_KAHATAGASDIGILIYA_69.geojson"
+          },
+          "Kebithigollewa": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Kebithigollewa",
+            "type": "ds_divisions",
+            "filename": "DS_KEBITHIGOLLEWA_70.geojson"
+          },
+          "Kekirawa": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Kekirawa",
+            "type": "ds_divisions",
+            "filename": "DS_KEKIRAWA_71.geojson"
+          },
+          "Mahawilachchiya": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Mahawilachchiya",
+            "type": "ds_divisions",
+            "filename": "DS_MAHAWILACHCHIYA_72.geojson"
+          },
+          "Medawachchiya": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Medawachchiya",
+            "type": "ds_divisions",
+            "filename": "DS_MEDAWACHCHIYA_73.geojson"
+          },
+          "Mihinthale": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Mihinthale",
+            "type": "ds_divisions",
+            "filename": "DS_MIHINTHALE_74.geojson"
+          },
+          "Nachchaduwa": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Nachchaduwa",
+            "type": "ds_divisions",
+            "filename": "DS_NACHCHADUWA_75.geojson"
+          },
+          "Nochchiyagama": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Nochchiyagama",
+            "type": "ds_divisions",
+            "filename": "DS_NOCHCHIYAGAMA_76.geojson"
+          },
+          "Nuwaragam palatha central": {
+            "district_name": "Anuradhapura",
+            "ds_division_name": "Nuwaragam palatha central",
+            "type": "ds_divisions",
+            "filename": "DS_NUWARAGAM PALATHA CENTRAL_77.geojson"
           }
-        },
-        "Polonnaruwa": {
-          "district_name": "Polonnaruwa",
-          "province_name": "North central",
-          "type": "district",
-          "filename": "DST_POLONNARUWA_21.geojson",
-          "ds_divisions": {
-            "Dimbulagala": {
-              "district_name": "Polonnaruwa",
-              "ds_division_name": "Dimbulagala",
-              "type": "ds_divisions",
-              "filename": "DS_DIMBULAGALA_261.geojson"
-            },
-            "Elahera": {
-              "district_name": "Polonnaruwa",
-              "ds_division_name": "Elahera",
-              "type": "ds_divisions",
-              "filename": "DS_ELAHERA_262.geojson"
-            },
-            "Higurakgoda": {
-              "district_name": "Polonnaruwa",
-              "ds_division_name": "Higurakgoda",
-              "type": "ds_divisions",
-              "filename": "DS_HIGURAKGODA_263.geojson"
-            },
-            "Lankapura": {
-              "district_name": "Polonnaruwa",
-              "ds_division_name": "Lankapura",
-              "type": "ds_divisions",
-              "filename": "DS_LANKAPURA_264.geojson"
-            },
-            "Medirigiriya": {
-              "district_name": "Polonnaruwa",
-              "ds_division_name": "Medirigiriya",
-              "type": "ds_divisions",
-              "filename": "DS_MEDIRIGIRIYA_265.geojson"
-            },
-            "Thamankaduwa": {
-              "district_name": "Polonnaruwa",
-              "ds_division_name": "Thamankaduwa",
-              "type": "ds_divisions",
-              "filename": "DS_THAMANKADUWA_266.geojson"
-            },
-            "Welikanda": {
-              "district_name": "Polonnaruwa",
-              "ds_division_name": "Welikanda",
-              "type": "ds_divisions",
-              "filename": "DS_WELIKANDA_284.geojson"
-            }
+        }
+      },
+      "Polonnaruwa": {
+        "district_name": "Polonnaruwa",
+        "province_name": "North central",
+        "type": "district",
+        "filename": "DST_POLONNARUWA_21.geojson",
+        "ds_divisions": {
+          "Dimbulagala": {
+            "district_name": "Polonnaruwa",
+            "ds_division_name": "Dimbulagala",
+            "type": "ds_divisions",
+            "filename": "DS_DIMBULAGALA_261.geojson"
+          },
+          "Elahera": {
+            "district_name": "Polonnaruwa",
+            "ds_division_name": "Elahera",
+            "type": "ds_divisions",
+            "filename": "DS_ELAHERA_262.geojson"
+          },
+          "Higurakgoda": {
+            "district_name": "Polonnaruwa",
+            "ds_division_name": "Higurakgoda",
+            "type": "ds_divisions",
+            "filename": "DS_HIGURAKGODA_263.geojson"
+          },
+          "Lankapura": {
+            "district_name": "Polonnaruwa",
+            "ds_division_name": "Lankapura",
+            "type": "ds_divisions",
+            "filename": "DS_LANKAPURA_264.geojson"
+          },
+          "Medirigiriya": {
+            "district_name": "Polonnaruwa",
+            "ds_division_name": "Medirigiriya",
+            "type": "ds_divisions",
+            "filename": "DS_MEDIRIGIRIYA_265.geojson"
+          },
+          "Thamankaduwa": {
+            "district_name": "Polonnaruwa",
+            "ds_division_name": "Thamankaduwa",
+            "type": "ds_divisions",
+            "filename": "DS_THAMANKADUWA_266.geojson"
+          },
+          "Welikanda": {
+            "district_name": "Polonnaruwa",
+            "ds_division_name": "Welikanda",
+            "type": "ds_divisions",
+            "filename": "DS_WELIKANDA_284.geojson"
           }
         }
       }
-    },
-    "North_western": {
-      "province_name": "North_western",
-      "type": "province",
-      "filename": "PROV_NORTH_WESTERN_4.geojson",
-      "districts": {
-        "Kurunegala": {
-          "district_name": "Kurunegala",
-          "province_name": "North_western",
-          "type": "district",
-          "filename": "DST_KURUNEGALA_14.geojson",
-          "ds_divisions": {
-            "Alawwa": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Alawwa",
-              "type": "ds_divisions",
-              "filename": "DS_ALAWWA_181.geojson"
-            },
-            "Ambanpola": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Ambanpola",
-              "type": "ds_divisions",
-              "filename": "DS_AMBANPOLA_182.geojson"
-            },
-            "Bamunakotuwa": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Bamunakotuwa",
-              "type": "ds_divisions",
-              "filename": "DS_BAMUNAKOTUWA_183.geojson"
-            },
-            "Bingiriya": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Bingiriya",
-              "type": "ds_divisions",
-              "filename": "DS_BINGIRIYA_184.geojson"
-            },
-            "Ehetuwewa": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Ehetuwewa",
-              "type": "ds_divisions",
-              "filename": "DS_EHETUWEWA_185.geojson"
-            },
-            "Galgamuwa": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Galgamuwa",
-              "type": "ds_divisions",
-              "filename": "DS_GALGAMUWA_186.geojson"
-            },
-            "Ganewatta": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Ganewatta",
-              "type": "ds_divisions",
-              "filename": "DS_GANEWATTA_187.geojson"
-            },
-            "Giribawa": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Giribawa",
-              "type": "ds_divisions",
-              "filename": "DS_GIRIBAWA_188.geojson"
-            },
-            "Ibbagamuwa": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Ibbagamuwa",
-              "type": "ds_divisions",
-              "filename": "DS_IBBAGAMUWA_189.geojson"
-            },
-            "Kobeigane": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Kobeigane",
-              "type": "ds_divisions",
-              "filename": "DS_KOBEIGANE_190.geojson"
-            },
-            "Kotawehera": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Kotawehera",
-              "type": "ds_divisions",
-              "filename": "DS_KOTAWEHERA_191.geojson"
-            },
-            "Kuliyapitiya east": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Kuliyapitiya east",
-              "type": "ds_divisions",
-              "filename": "DS_KULIYAPITIYA EAST_192.geojson"
-            },
-            "Kuliyapitiya west": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Kuliyapitiya west",
-              "type": "ds_divisions",
-              "filename": "DS_KULIYAPITIYA WEST_193.geojson"
-            },
-            "Kurunegala": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Kurunegala",
-              "type": "ds_divisions",
-              "filename": "DS_KURUNEGALA_194.geojson"
-            },
-            "Maho": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Maho",
-              "type": "ds_divisions",
-              "filename": "DS_MAHO_195.geojson"
-            },
-            "Mallawapitiya": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Mallawapitiya",
-              "type": "ds_divisions",
-              "filename": "DS_MALLAWAPITIYA_196.geojson"
-            },
-            "Maspotha": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Maspotha",
-              "type": "ds_divisions",
-              "filename": "DS_MASPOTHA_197.geojson"
-            },
-            "Mawathagama": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Mawathagama",
-              "type": "ds_divisions",
-              "filename": "DS_MAWATHAGAMA_198.geojson"
-            },
-            "Narammala": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Narammala",
-              "type": "ds_divisions",
-              "filename": "DS_NARAMMALA_199.geojson"
-            },
-            "Nikaweratiya": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Nikaweratiya",
-              "type": "ds_divisions",
-              "filename": "DS_NIKAWERATIYA_200.geojson"
-            },
-            "Panduwasnuwara east": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Panduwasnuwara east",
-              "type": "ds_divisions",
-              "filename": "DS_PANDUWASNUWARA EAST_201.geojson"
-            },
-            "Panduwasnuwara west": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Panduwasnuwara west",
-              "type": "ds_divisions",
-              "filename": "DS_PANDUWASNUWARA WEST_202.geojson"
-            },
-            "Pannala": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Pannala",
-              "type": "ds_divisions",
-              "filename": "DS_PANNALA_203.geojson"
-            },
-            "Polgahawela": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Polgahawela",
-              "type": "ds_divisions",
-              "filename": "DS_POLGAHAWELA_204.geojson"
-            },
-            "Polpitigama": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Polpitigama",
-              "type": "ds_divisions",
-              "filename": "DS_POLPITIGAMA_205.geojson"
-            },
-            "Rasnayakapura": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Rasnayakapura",
-              "type": "ds_divisions",
-              "filename": "DS_RASNAYAKAPURA_206.geojson"
-            },
-            "Rideegama": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Rideegama",
-              "type": "ds_divisions",
-              "filename": "DS_RIDEEGAMA_207.geojson"
-            },
-            "Udubaddawa": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Udubaddawa",
-              "type": "ds_divisions",
-              "filename": "DS_UDUBADDAWA_208.geojson"
-            },
-            "Wariyapola": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Wariyapola",
-              "type": "ds_divisions",
-              "filename": "DS_WARIYAPOLA_209.geojson"
-            },
-            "Weerabugedara": {
-              "district_name": "Kurunegala",
-              "ds_division_name": "Weerabugedara",
-              "type": "ds_divisions",
-              "filename": "DS_WEERABUGEDARA_210.geojson"
-            }
+    }
+  },
+  "North_western": {
+    "province_name": "North_western",
+    "type": "province",
+    "filename": "PROV_NORTH_WESTERN_4.geojson",
+    "districts": {
+      "Kurunegala": {
+        "district_name": "Kurunegala",
+        "province_name": "North_western",
+        "type": "district",
+        "filename": "DST_KURUNEGALA_14.geojson",
+        "ds_divisions": {
+          "Alawwa": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Alawwa",
+            "type": "ds_divisions",
+            "filename": "DS_ALAWWA_181.geojson"
+          },
+          "Ambanpola": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Ambanpola",
+            "type": "ds_divisions",
+            "filename": "DS_AMBANPOLA_182.geojson"
+          },
+          "Bamunakotuwa": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Bamunakotuwa",
+            "type": "ds_divisions",
+            "filename": "DS_BAMUNAKOTUWA_183.geojson"
+          },
+          "Bingiriya": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Bingiriya",
+            "type": "ds_divisions",
+            "filename": "DS_BINGIRIYA_184.geojson"
+          },
+          "Ehetuwewa": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Ehetuwewa",
+            "type": "ds_divisions",
+            "filename": "DS_EHETUWEWA_185.geojson"
+          },
+          "Galgamuwa": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Galgamuwa",
+            "type": "ds_divisions",
+            "filename": "DS_GALGAMUWA_186.geojson"
+          },
+          "Ganewatta": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Ganewatta",
+            "type": "ds_divisions",
+            "filename": "DS_GANEWATTA_187.geojson"
+          },
+          "Giribawa": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Giribawa",
+            "type": "ds_divisions",
+            "filename": "DS_GIRIBAWA_188.geojson"
+          },
+          "Ibbagamuwa": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Ibbagamuwa",
+            "type": "ds_divisions",
+            "filename": "DS_IBBAGAMUWA_189.geojson"
+          },
+          "Kobeigane": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Kobeigane",
+            "type": "ds_divisions",
+            "filename": "DS_KOBEIGANE_190.geojson"
+          },
+          "Kotawehera": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Kotawehera",
+            "type": "ds_divisions",
+            "filename": "DS_KOTAWEHERA_191.geojson"
+          },
+          "Kuliyapitiya east": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Kuliyapitiya east",
+            "type": "ds_divisions",
+            "filename": "DS_KULIYAPITIYA EAST_192.geojson"
+          },
+          "Kuliyapitiya west": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Kuliyapitiya west",
+            "type": "ds_divisions",
+            "filename": "DS_KULIYAPITIYA WEST_193.geojson"
+          },
+          "Kurunegala": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Kurunegala",
+            "type": "ds_divisions",
+            "filename": "DS_KURUNEGALA_194.geojson"
+          },
+          "Maho": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Maho",
+            "type": "ds_divisions",
+            "filename": "DS_MAHO_195.geojson"
+          },
+          "Mallawapitiya": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Mallawapitiya",
+            "type": "ds_divisions",
+            "filename": "DS_MALLAWAPITIYA_196.geojson"
+          },
+          "Maspotha": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Maspotha",
+            "type": "ds_divisions",
+            "filename": "DS_MASPOTHA_197.geojson"
+          },
+          "Mawathagama": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Mawathagama",
+            "type": "ds_divisions",
+            "filename": "DS_MAWATHAGAMA_198.geojson"
+          },
+          "Narammala": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Narammala",
+            "type": "ds_divisions",
+            "filename": "DS_NARAMMALA_199.geojson"
+          },
+          "Nikaweratiya": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Nikaweratiya",
+            "type": "ds_divisions",
+            "filename": "DS_NIKAWERATIYA_200.geojson"
+          },
+          "Panduwasnuwara east": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Panduwasnuwara east",
+            "type": "ds_divisions",
+            "filename": "DS_PANDUWASNUWARA EAST_201.geojson"
+          },
+          "Panduwasnuwara west": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Panduwasnuwara west",
+            "type": "ds_divisions",
+            "filename": "DS_PANDUWASNUWARA WEST_202.geojson"
+          },
+          "Pannala": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Pannala",
+            "type": "ds_divisions",
+            "filename": "DS_PANNALA_203.geojson"
+          },
+          "Polgahawela": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Polgahawela",
+            "type": "ds_divisions",
+            "filename": "DS_POLGAHAWELA_204.geojson"
+          },
+          "Polpitigama": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Polpitigama",
+            "type": "ds_divisions",
+            "filename": "DS_POLPITIGAMA_205.geojson"
+          },
+          "Rasnayakapura": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Rasnayakapura",
+            "type": "ds_divisions",
+            "filename": "DS_RASNAYAKAPURA_206.geojson"
+          },
+          "Rideegama": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Rideegama",
+            "type": "ds_divisions",
+            "filename": "DS_RIDEEGAMA_207.geojson"
+          },
+          "Udubaddawa": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Udubaddawa",
+            "type": "ds_divisions",
+            "filename": "DS_UDUBADDAWA_208.geojson"
+          },
+          "Wariyapola": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Wariyapola",
+            "type": "ds_divisions",
+            "filename": "DS_WARIYAPOLA_209.geojson"
+          },
+          "Weerabugedara": {
+            "district_name": "Kurunegala",
+            "ds_division_name": "Weerabugedara",
+            "type": "ds_divisions",
+            "filename": "DS_WEERABUGEDARA_210.geojson"
           }
-        },
-        "Puttalam": {
-          "district_name": "Puttalam",
-          "province_name": "North_western",
-          "type": "district",
-          "filename": "DST_PUTTALAM_22.geojson",
-          "ds_divisions": {
-            "Anamaduwa": {
-              "district_name": "Puttalam",
-              "ds_division_name": "Anamaduwa",
-              "type": "ds_divisions",
-              "filename": "DS_ANAMADUWA_285.geojson"
-            },
-            "Arachchikattuwa": {
-              "district_name": "Puttalam",
-              "ds_division_name": "Arachchikattuwa",
-              "type": "ds_divisions",
-              "filename": "DS_ARACHCHIKATTUWA_286.geojson"
-            },
-            "Chilaw": {
-              "district_name": "Puttalam",
-              "ds_division_name": "Chilaw",
-              "type": "ds_divisions",
-              "filename": "DS_CHILAW_287.geojson"
-            },
-            "Dankotuwa": {
-              "district_name": "Puttalam",
-              "ds_division_name": "Dankotuwa",
-              "type": "ds_divisions",
-              "filename": "DS_DANKOTUWA_288.geojson"
-            },
-            "Kalpitiya": {
-              "district_name": "Puttalam",
-              "ds_division_name": "Kalpitiya",
-              "type": "ds_divisions",
-              "filename": "DS_KALPITIYA_289.geojson"
-            },
-            "Karuwalagaswewa": {
-              "district_name": "Puttalam",
-              "ds_division_name": "Karuwalagaswewa",
-              "type": "ds_divisions",
-              "filename": "DS_KARUWALAGASWEWA_290.geojson"
-            },
-            "Madampe": {
-              "district_name": "Puttalam",
-              "ds_division_name": "Madampe",
-              "type": "ds_divisions",
-              "filename": "DS_MADAMPE_291.geojson"
-            },
-            "Mahakumbukkadawala": {
-              "district_name": "Puttalam",
-              "ds_division_name": "Mahakumbukkadawala",
-              "type": "ds_divisions",
-              "filename": "DS_MAHAKUMBUKKADAWALA_292.geojson"
-            },
-            "Mahawewa": {
-              "district_name": "Puttalam",
-              "ds_division_name": "Mahawewa",
-              "type": "ds_divisions",
-              "filename": "DS_MAHAWEWA_293.geojson"
-            },
-            "Mundel": {
-              "district_name": "Puttalam",
-              "ds_division_name": "Mundel",
-              "type": "ds_divisions",
-              "filename": "DS_MUNDEL_294.geojson"
-            },
-            "Nattandiya": {
-              "district_name": "Puttalam",
-              "ds_division_name": "Nattandiya",
-              "type": "ds_divisions",
-              "filename": "DS_NATTANDIYA_295.geojson"
-            },
-            "Nawagattegama": {
-              "district_name": "Puttalam",
-              "ds_division_name": "Nawagattegama",
-              "type": "ds_divisions",
-              "filename": "DS_NAWAGATTEGAMA_296.geojson"
-            },
-            "Pallama": {
-              "district_name": "Puttalam",
-              "ds_division_name": "Pallama",
-              "type": "ds_divisions",
-              "filename": "DS_PALLAMA_297.geojson"
-            },
-            "Puttalam": {
-              "district_name": "Puttalam",
-              "ds_division_name": "Puttalam",
-              "type": "ds_divisions",
-              "filename": "DS_PUTTALAM_298.geojson"
-            },
-            "Vanathavilluwa": {
-              "district_name": "Puttalam",
-              "ds_division_name": "Vanathavilluwa",
-              "type": "ds_divisions",
-              "filename": "DS_VANATHAVILLUWA_299.geojson"
-            },
-            "Wennappuwa": {
-              "district_name": "Puttalam",
-              "ds_division_name": "Wennappuwa",
-              "type": "ds_divisions",
-              "filename": "DS_WENNAPPUWA_317.geojson"
-            }
+        }
+      },
+      "Puttalam": {
+        "district_name": "Puttalam",
+        "province_name": "North_western",
+        "type": "district",
+        "filename": "DST_PUTTALAM_22.geojson",
+        "ds_divisions": {
+          "Anamaduwa": {
+            "district_name": "Puttalam",
+            "ds_division_name": "Anamaduwa",
+            "type": "ds_divisions",
+            "filename": "DS_ANAMADUWA_285.geojson"
+          },
+          "Arachchikattuwa": {
+            "district_name": "Puttalam",
+            "ds_division_name": "Arachchikattuwa",
+            "type": "ds_divisions",
+            "filename": "DS_ARACHCHIKATTUWA_286.geojson"
+          },
+          "Chilaw": {
+            "district_name": "Puttalam",
+            "ds_division_name": "Chilaw",
+            "type": "ds_divisions",
+            "filename": "DS_CHILAW_287.geojson"
+          },
+          "Dankotuwa": {
+            "district_name": "Puttalam",
+            "ds_division_name": "Dankotuwa",
+            "type": "ds_divisions",
+            "filename": "DS_DANKOTUWA_288.geojson"
+          },
+          "Kalpitiya": {
+            "district_name": "Puttalam",
+            "ds_division_name": "Kalpitiya",
+            "type": "ds_divisions",
+            "filename": "DS_KALPITIYA_289.geojson"
+          },
+          "Karuwalagaswewa": {
+            "district_name": "Puttalam",
+            "ds_division_name": "Karuwalagaswewa",
+            "type": "ds_divisions",
+            "filename": "DS_KARUWALAGASWEWA_290.geojson"
+          },
+          "Madampe": {
+            "district_name": "Puttalam",
+            "ds_division_name": "Madampe",
+            "type": "ds_divisions",
+            "filename": "DS_MADAMPE_291.geojson"
+          },
+          "Mahakumbukkadawala": {
+            "district_name": "Puttalam",
+            "ds_division_name": "Mahakumbukkadawala",
+            "type": "ds_divisions",
+            "filename": "DS_MAHAKUMBUKKADAWALA_292.geojson"
+          },
+          "Mahawewa": {
+            "district_name": "Puttalam",
+            "ds_division_name": "Mahawewa",
+            "type": "ds_divisions",
+            "filename": "DS_MAHAWEWA_293.geojson"
+          },
+          "Mundel": {
+            "district_name": "Puttalam",
+            "ds_division_name": "Mundel",
+            "type": "ds_divisions",
+            "filename": "DS_MUNDEL_294.geojson"
+          },
+          "Nattandiya": {
+            "district_name": "Puttalam",
+            "ds_division_name": "Nattandiya",
+            "type": "ds_divisions",
+            "filename": "DS_NATTANDIYA_295.geojson"
+          },
+          "Nawagattegama": {
+            "district_name": "Puttalam",
+            "ds_division_name": "Nawagattegama",
+            "type": "ds_divisions",
+            "filename": "DS_NAWAGATTEGAMA_296.geojson"
+          },
+          "Pallama": {
+            "district_name": "Puttalam",
+            "ds_division_name": "Pallama",
+            "type": "ds_divisions",
+            "filename": "DS_PALLAMA_297.geojson"
+          },
+          "Puttalam": {
+            "district_name": "Puttalam",
+            "ds_division_name": "Puttalam",
+            "type": "ds_divisions",
+            "filename": "DS_PUTTALAM_298.geojson"
+          },
+          "Vanathavilluwa": {
+            "district_name": "Puttalam",
+            "ds_division_name": "Vanathavilluwa",
+            "type": "ds_divisions",
+            "filename": "DS_VANATHAVILLUWA_299.geojson"
+          },
+          "Wennappuwa": {
+            "district_name": "Puttalam",
+            "ds_division_name": "Wennappuwa",
+            "type": "ds_divisions",
+            "filename": "DS_WENNAPPUWA_317.geojson"
           }
         }
       }
-    },
-    "Northern": {
-      "province_name": "Northern",
-      "type": "province",
-      "filename": "PROV_NORTHERN_5.geojson",
-      "districts": {
-        "Jaffna": {
-          "district_name": "Jaffna",
-          "province_name": "Northern",
-          "type": "district",
-          "filename": "DST_JAFFNA_9.geojson",
-          "ds_divisions": {
-            "Delft": {
-              "district_name": "Jaffna",
-              "ds_division_name": "Delft",
-              "type": "ds_divisions",
-              "filename": "DS_DELFT_53.geojson"
-            },
-            "Islands north(kayts)": {
-              "district_name": "Jaffna",
-              "ds_division_name": "Islands north(kayts)",
-              "type": "ds_divisions",
-              "filename": "DS_ISLANDS NORTH(KAYTS)_131.geojson"
-            },
-            "Islands south(velanai)": {
-              "district_name": "Jaffna",
-              "ds_division_name": "Islands south(velanai)",
-              "type": "ds_divisions",
-              "filename": "DS_ISLANDS SOUTH(VELANAI)_132.geojson"
-            },
-            "Jaffna": {
-              "district_name": "Jaffna",
-              "ds_division_name": "Jaffna",
-              "type": "ds_divisions",
-              "filename": "DS_JAFFNA_133.geojson"
-            },
-            "Karainagar": {
-              "district_name": "Jaffna",
-              "ds_division_name": "Karainagar",
-              "type": "ds_divisions",
-              "filename": "DS_KARAINAGAR_134.geojson"
-            },
-            "Nallur": {
-              "district_name": "Jaffna",
-              "ds_division_name": "Nallur",
-              "type": "ds_divisions",
-              "filename": "DS_NALLUR_135.geojson"
-            },
-            "Thenmaradchi(chavakachcheri)": {
-              "district_name": "Jaffna",
-              "ds_division_name": "Thenmaradchi(chavakachcheri)",
-              "type": "ds_divisions",
-              "filename": "DS_THENMARADCHI(CHAVAKACHCHERI)_136.geojson"
-            },
-            "Vadamaradchchi east": {
-              "district_name": "Jaffna",
-              "ds_division_name": "Vadamaradchchi east",
-              "type": "ds_divisions",
-              "filename": "DS_VADAMARADCHCHI EAST_137.geojson"
-            },
-            "Vadamaradchchi south-west(karaveddy)": {
-              "district_name": "Jaffna",
-              "ds_division_name": "Vadamaradchchi south-west(karaveddy)",
-              "type": "ds_divisions",
-              "filename": "DS_VADAMARADCHCHI SOUTH-WEST(KARAVEDDY)_138.geojson"
-            },
-            "Vadamaradchi north(point pedro)": {
-              "district_name": "Jaffna",
-              "ds_division_name": "Vadamaradchi north(point pedro)",
-              "type": "ds_divisions",
-              "filename": "DS_VADAMARADCHI NORTH(POINT PEDRO)_139.geojson"
-            },
-            "Valikamam east(kopay)": {
-              "district_name": "Jaffna",
-              "ds_division_name": "Valikamam east(kopay)",
-              "type": "ds_divisions",
-              "filename": "DS_VALIKAMAM EAST(KOPAY)_140.geojson"
-            },
-            "Valikamam north(thllippalai)": {
-              "district_name": "Jaffna",
-              "ds_division_name": "Valikamam north(thllippalai)",
-              "type": "ds_divisions",
-              "filename": "DS_VALIKAMAM NORTH(THLLIPPALAI)_141.geojson"
-            },
-            "Valikamam south west(sandilipay)": {
-              "district_name": "Jaffna",
-              "ds_division_name": "Valikamam south west(sandilipay)",
-              "type": "ds_divisions",
-              "filename": "DS_VALIKAMAM SOUTH WEST(SANDILIPAY)_142.geojson"
-            },
-            "Valikamam south(uduvil)": {
-              "district_name": "Jaffna",
-              "ds_division_name": "Valikamam south(uduvil)",
-              "type": "ds_divisions",
-              "filename": "DS_VALIKAMAM SOUTH(UDUVIL)_143.geojson"
-            },
-            "Valikamam west(chankanai)": {
-              "district_name": "Jaffna",
-              "ds_division_name": "Valikamam west(chankanai)",
-              "type": "ds_divisions",
-              "filename": "DS_VALIKAMAM WEST(CHANKANAI)_144.geojson"
-            }
+    }
+  },
+  "Northern": {
+    "province_name": "Northern",
+    "type": "province",
+    "filename": "PROV_NORTHERN_5.geojson",
+    "districts": {
+      "Jaffna": {
+        "district_name": "Jaffna",
+        "province_name": "Northern",
+        "type": "district",
+        "filename": "DST_JAFFNA_9.geojson",
+        "ds_divisions": {
+          "Delft": {
+            "district_name": "Jaffna",
+            "ds_division_name": "Delft",
+            "type": "ds_divisions",
+            "filename": "DS_DELFT_53.geojson"
+          },
+          "Islands north(kayts)": {
+            "district_name": "Jaffna",
+            "ds_division_name": "Islands north(kayts)",
+            "type": "ds_divisions",
+            "filename": "DS_ISLANDS NORTH(KAYTS)_131.geojson"
+          },
+          "Islands south(velanai)": {
+            "district_name": "Jaffna",
+            "ds_division_name": "Islands south(velanai)",
+            "type": "ds_divisions",
+            "filename": "DS_ISLANDS SOUTH(VELANAI)_132.geojson"
+          },
+          "Jaffna": {
+            "district_name": "Jaffna",
+            "ds_division_name": "Jaffna",
+            "type": "ds_divisions",
+            "filename": "DS_JAFFNA_133.geojson"
+          },
+          "Karainagar": {
+            "district_name": "Jaffna",
+            "ds_division_name": "Karainagar",
+            "type": "ds_divisions",
+            "filename": "DS_KARAINAGAR_134.geojson"
+          },
+          "Nallur": {
+            "district_name": "Jaffna",
+            "ds_division_name": "Nallur",
+            "type": "ds_divisions",
+            "filename": "DS_NALLUR_135.geojson"
+          },
+          "Thenmaradchi(chavakachcheri)": {
+            "district_name": "Jaffna",
+            "ds_division_name": "Thenmaradchi(chavakachcheri)",
+            "type": "ds_divisions",
+            "filename": "DS_THENMARADCHI(CHAVAKACHCHERI)_136.geojson"
+          },
+          "Vadamaradchchi east": {
+            "district_name": "Jaffna",
+            "ds_division_name": "Vadamaradchchi east",
+            "type": "ds_divisions",
+            "filename": "DS_VADAMARADCHCHI EAST_137.geojson"
+          },
+          "Vadamaradchchi south-west(karaveddy)": {
+            "district_name": "Jaffna",
+            "ds_division_name": "Vadamaradchchi south-west(karaveddy)",
+            "type": "ds_divisions",
+            "filename": "DS_VADAMARADCHCHI SOUTH-WEST(KARAVEDDY)_138.geojson"
+          },
+          "Vadamaradchi north(point pedro)": {
+            "district_name": "Jaffna",
+            "ds_division_name": "Vadamaradchi north(point pedro)",
+            "type": "ds_divisions",
+            "filename": "DS_VADAMARADCHI NORTH(POINT PEDRO)_139.geojson"
+          },
+          "Valikamam east(kopay)": {
+            "district_name": "Jaffna",
+            "ds_division_name": "Valikamam east(kopay)",
+            "type": "ds_divisions",
+            "filename": "DS_VALIKAMAM EAST(KOPAY)_140.geojson"
+          },
+          "Valikamam north(thllippalai)": {
+            "district_name": "Jaffna",
+            "ds_division_name": "Valikamam north(thllippalai)",
+            "type": "ds_divisions",
+            "filename": "DS_VALIKAMAM NORTH(THLLIPPALAI)_141.geojson"
+          },
+          "Valikamam south west(sandilipay)": {
+            "district_name": "Jaffna",
+            "ds_division_name": "Valikamam south west(sandilipay)",
+            "type": "ds_divisions",
+            "filename": "DS_VALIKAMAM SOUTH WEST(SANDILIPAY)_142.geojson"
+          },
+          "Valikamam south(uduvil)": {
+            "district_name": "Jaffna",
+            "ds_division_name": "Valikamam south(uduvil)",
+            "type": "ds_divisions",
+            "filename": "DS_VALIKAMAM SOUTH(UDUVIL)_143.geojson"
+          },
+          "Valikamam west(chankanai)": {
+            "district_name": "Jaffna",
+            "ds_division_name": "Valikamam west(chankanai)",
+            "type": "ds_divisions",
+            "filename": "DS_VALIKAMAM WEST(CHANKANAI)_144.geojson"
           }
-        },
-        "Kilinochchi": {
-          "district_name": "Kilinochchi",
-          "province_name": "Northern",
-          "type": "district",
-          "filename": "DST_KILINOCHCHI_13.geojson",
-          "ds_divisions": {
-            "Kandavalai": {
-              "district_name": "Kilinochchi",
-              "ds_division_name": "Kandavalai",
-              "type": "ds_divisions",
-              "filename": "DS_KANDAVALAI_177.geojson"
-            },
-            "Karachchi": {
-              "district_name": "Kilinochchi",
-              "ds_division_name": "Karachchi",
-              "type": "ds_divisions",
-              "filename": "DS_KARACHCHI_178.geojson"
-            },
-            "Pachchilaipalli": {
-              "district_name": "Kilinochchi",
-              "ds_division_name": "Pachchilaipalli",
-              "type": "ds_divisions",
-              "filename": "DS_PACHCHILAIPALLI_179.geojson"
-            },
-            "Poonakary": {
-              "district_name": "Kilinochchi",
-              "ds_division_name": "Poonakary",
-              "type": "ds_divisions",
-              "filename": "DS_POONAKARY_180.geojson"
-            }
+        }
+      },
+      "Kilinochchi": {
+        "district_name": "Kilinochchi",
+        "province_name": "Northern",
+        "type": "district",
+        "filename": "DST_KILINOCHCHI_13.geojson",
+        "ds_divisions": {
+          "Kandavalai": {
+            "district_name": "Kilinochchi",
+            "ds_division_name": "Kandavalai",
+            "type": "ds_divisions",
+            "filename": "DS_KANDAVALAI_177.geojson"
+          },
+          "Karachchi": {
+            "district_name": "Kilinochchi",
+            "ds_division_name": "Karachchi",
+            "type": "ds_divisions",
+            "filename": "DS_KARACHCHI_178.geojson"
+          },
+          "Pachchilaipalli": {
+            "district_name": "Kilinochchi",
+            "ds_division_name": "Pachchilaipalli",
+            "type": "ds_divisions",
+            "filename": "DS_PACHCHILAIPALLI_179.geojson"
+          },
+          "Poonakary": {
+            "district_name": "Kilinochchi",
+            "ds_division_name": "Poonakary",
+            "type": "ds_divisions",
+            "filename": "DS_POONAKARY_180.geojson"
           }
-        },
-        "Mannar": {
-          "district_name": "Mannar",
-          "province_name": "Northern",
-          "type": "district",
-          "filename": "DST_MANNAR_15.geojson",
-          "ds_divisions": {
-            "Madhu": {
-              "district_name": "Mannar",
-              "ds_division_name": "Madhu",
-              "type": "ds_divisions",
-              "filename": "DS_MADHU_211.geojson"
-            },
-            "Mannar town": {
-              "district_name": "Mannar",
-              "ds_division_name": "Mannar town",
-              "type": "ds_divisions",
-              "filename": "DS_MANNAR TOWN_212.geojson"
-            },
-            "Manthai west": {
-              "district_name": "Mannar",
-              "ds_division_name": "Manthai west",
-              "type": "ds_divisions",
-              "filename": "DS_MANTHAI WEST_213.geojson"
-            },
-            "Musali": {
-              "district_name": "Mannar",
-              "ds_division_name": "Musali",
-              "type": "ds_divisions",
-              "filename": "DS_MUSALI_214.geojson"
-            },
-            "Nanaddan": {
-              "district_name": "Mannar",
-              "ds_division_name": "Nanaddan",
-              "type": "ds_divisions",
-              "filename": "DS_NANADDAN_215.geojson"
-            }
+        }
+      },
+      "Mannar": {
+        "district_name": "Mannar",
+        "province_name": "Northern",
+        "type": "district",
+        "filename": "DST_MANNAR_15.geojson",
+        "ds_divisions": {
+          "Madhu": {
+            "district_name": "Mannar",
+            "ds_division_name": "Madhu",
+            "type": "ds_divisions",
+            "filename": "DS_MADHU_211.geojson"
+          },
+          "Mannar town": {
+            "district_name": "Mannar",
+            "ds_division_name": "Mannar town",
+            "type": "ds_divisions",
+            "filename": "DS_MANNAR TOWN_212.geojson"
+          },
+          "Manthai west": {
+            "district_name": "Mannar",
+            "ds_division_name": "Manthai west",
+            "type": "ds_divisions",
+            "filename": "DS_MANTHAI WEST_213.geojson"
+          },
+          "Musali": {
+            "district_name": "Mannar",
+            "ds_division_name": "Musali",
+            "type": "ds_divisions",
+            "filename": "DS_MUSALI_214.geojson"
+          },
+          "Nanaddan": {
+            "district_name": "Mannar",
+            "ds_division_name": "Nanaddan",
+            "type": "ds_divisions",
+            "filename": "DS_NANADDAN_215.geojson"
           }
-        },
-        "Mullaitivu": {
-          "district_name": "Mullaitivu",
-          "province_name": "Northern",
-          "type": "district",
-          "filename": "DST_MULLAITIVU_19.geojson",
-          "ds_divisions": {
-            "Manthai east": {
-              "district_name": "Mullaitivu",
-              "ds_division_name": "Manthai east",
-              "type": "ds_divisions",
-              "filename": "DS_MANTHAI EAST_246.geojson"
-            },
-            "Maritimepattu": {
-              "district_name": "Mullaitivu",
-              "ds_division_name": "Maritimepattu",
-              "type": "ds_divisions",
-              "filename": "DS_MARITIMEPATTU_247.geojson"
-            },
-            "Oddusuddan": {
-              "district_name": "Mullaitivu",
-              "ds_division_name": "Oddusuddan",
-              "type": "ds_divisions",
-              "filename": "DS_ODDUSUDDAN_248.geojson"
-            },
-            "Puthukkudiyiruppu": {
-              "district_name": "Mullaitivu",
-              "ds_division_name": "Puthukkudiyiruppu",
-              "type": "ds_divisions",
-              "filename": "DS_PUTHUKKUDIYIRUPPU_249.geojson"
-            },
-            "Thunukkai": {
-              "district_name": "Mullaitivu",
-              "ds_division_name": "Thunukkai",
-              "type": "ds_divisions",
-              "filename": "DS_THUNUKKAI_250.geojson"
-            },
-            "Welioya": {
-              "district_name": "Mullaitivu",
-              "ds_division_name": "Welioya",
-              "type": "ds_divisions",
-              "filename": "DS_WELIOYA_253.geojson"
-            }
+        }
+      },
+      "Mullaitivu": {
+        "district_name": "Mullaitivu",
+        "province_name": "Northern",
+        "type": "district",
+        "filename": "DST_MULLAITIVU_19.geojson",
+        "ds_divisions": {
+          "Manthai east": {
+            "district_name": "Mullaitivu",
+            "ds_division_name": "Manthai east",
+            "type": "ds_divisions",
+            "filename": "DS_MANTHAI EAST_246.geojson"
+          },
+          "Maritimepattu": {
+            "district_name": "Mullaitivu",
+            "ds_division_name": "Maritimepattu",
+            "type": "ds_divisions",
+            "filename": "DS_MARITIMEPATTU_247.geojson"
+          },
+          "Oddusuddan": {
+            "district_name": "Mullaitivu",
+            "ds_division_name": "Oddusuddan",
+            "type": "ds_divisions",
+            "filename": "DS_ODDUSUDDAN_248.geojson"
+          },
+          "Puthukkudiyiruppu": {
+            "district_name": "Mullaitivu",
+            "ds_division_name": "Puthukkudiyiruppu",
+            "type": "ds_divisions",
+            "filename": "DS_PUTHUKKUDIYIRUPPU_249.geojson"
+          },
+          "Thunukkai": {
+            "district_name": "Mullaitivu",
+            "ds_division_name": "Thunukkai",
+            "type": "ds_divisions",
+            "filename": "DS_THUNUKKAI_250.geojson"
+          },
+          "Welioya": {
+            "district_name": "Mullaitivu",
+            "ds_division_name": "Welioya",
+            "type": "ds_divisions",
+            "filename": "DS_WELIOYA_253.geojson"
           }
-        },
-        "Vavuniya": {
-          "district_name": "Vavuniya",
-          "province_name": "Northern",
-          "type": "district",
-          "filename": "DST_VAVUNIYA_25.geojson",
-          "ds_divisions": {
-            "Vavuniya": {
-              "district_name": "Vavuniya",
-              "ds_division_name": "Vavuniya",
-              "type": "ds_divisions",
-              "filename": "DS_VAVUNIYA_313.geojson"
-            },
-            "Vavuniya north": {
-              "district_name": "Vavuniya",
-              "ds_division_name": "Vavuniya north",
-              "type": "ds_divisions",
-              "filename": "DS_VAVUNIYA NORTH_314.geojson"
-            },
-            "Vavuniya south": {
-              "district_name": "Vavuniya",
-              "ds_division_name": "Vavuniya south",
-              "type": "ds_divisions",
-              "filename": "DS_VAVUNIYA SOUTH_315.geojson"
-            },
-            "Vengalacheddikulam": {
-              "district_name": "Vavuniya",
-              "ds_division_name": "Vengalacheddikulam",
-              "type": "ds_divisions",
-              "filename": "DS_VENGALACHEDDIKULAM_316.geojson"
-            }
+        }
+      },
+      "Vavuniya": {
+        "district_name": "Vavuniya",
+        "province_name": "Northern",
+        "type": "district",
+        "filename": "DST_VAVUNIYA_25.geojson",
+        "ds_divisions": {
+          "Vavuniya": {
+            "district_name": "Vavuniya",
+            "ds_division_name": "Vavuniya",
+            "type": "ds_divisions",
+            "filename": "DS_VAVUNIYA_313.geojson"
+          },
+          "Vavuniya north": {
+            "district_name": "Vavuniya",
+            "ds_division_name": "Vavuniya north",
+            "type": "ds_divisions",
+            "filename": "DS_VAVUNIYA NORTH_314.geojson"
+          },
+          "Vavuniya south": {
+            "district_name": "Vavuniya",
+            "ds_division_name": "Vavuniya south",
+            "type": "ds_divisions",
+            "filename": "DS_VAVUNIYA SOUTH_315.geojson"
+          },
+          "Vengalacheddikulam": {
+            "district_name": "Vavuniya",
+            "ds_division_name": "Vengalacheddikulam",
+            "type": "ds_divisions",
+            "filename": "DS_VENGALACHEDDIKULAM_316.geojson"
           }
         }
       }
-    },
-    "Sabaragamuwa": {
-      "province_name": "Sabaragamuwa",
-      "type": "province",
-      "filename": "PROV_SABARAGAMUWA_6.geojson",
-      "districts": {
-        "Kegalle": {
-          "district_name": "Kegalle",
-          "province_name": "Sabaragamuwa",
-          "type": "district",
-          "filename": "DST_KEGALLE_12.geojson",
-          "ds_divisions": {
-            "Yatiyantota": {
-              "district_name": "Kegalle",
-              "ds_division_name": "Yatiyantota",
-              "type": "ds_divisions",
-              "filename": "DS_YATIYANTOTA_176.geojson"
-            },
-            "Aranayake": {
-              "district_name": "Kegalle",
-              "ds_division_name": "Aranayake",
-              "type": "ds_divisions",
-              "filename": "DS_ARANAYAKE_231.geojson"
-            },
-            "Bulathkohipitiya": {
-              "district_name": "Kegalle",
-              "ds_division_name": "Bulathkohipitiya",
-              "type": "ds_divisions",
-              "filename": "DS_BULATHKOHIPITIYA_232.geojson"
-            },
-            "Dehiowita": {
-              "district_name": "Kegalle",
-              "ds_division_name": "Dehiowita",
-              "type": "ds_divisions",
-              "filename": "DS_DEHIOWITA_233.geojson"
-            },
-            "Deraniyagala": {
-              "district_name": "Kegalle",
-              "ds_division_name": "Deraniyagala",
-              "type": "ds_divisions",
-              "filename": "DS_DERANIYAGALA_234.geojson"
-            },
-            "Galigamuwa": {
-              "district_name": "Kegalle",
-              "ds_division_name": "Galigamuwa",
-              "type": "ds_divisions",
-              "filename": "DS_GALIGAMUWA_235.geojson"
-            },
-            "Kegalle": {
-              "district_name": "Kegalle",
-              "ds_division_name": "Kegalle",
-              "type": "ds_divisions",
-              "filename": "DS_KEGALLE_236.geojson"
-            },
-            "Mawanella": {
-              "district_name": "Kegalle",
-              "ds_division_name": "Mawanella",
-              "type": "ds_divisions",
-              "filename": "DS_MAWANELLA_237.geojson"
-            },
-            "Rambukkana": {
-              "district_name": "Kegalle",
-              "ds_division_name": "Rambukkana",
-              "type": "ds_divisions",
-              "filename": "DS_RAMBUKKANA_238.geojson"
-            },
-            "Ruwanwella": {
-              "district_name": "Kegalle",
-              "ds_division_name": "Ruwanwella",
-              "type": "ds_divisions",
-              "filename": "DS_RUWANWELLA_239.geojson"
-            },
-            "Warakapola": {
-              "district_name": "Kegalle",
-              "ds_division_name": "Warakapola",
-              "type": "ds_divisions",
-              "filename": "DS_WARAKAPOLA_240.geojson"
-            }
+    }
+  },
+  "Sabaragamuwa": {
+    "province_name": "Sabaragamuwa",
+    "type": "province",
+    "filename": "PROV_SABARAGAMUWA_6.geojson",
+    "districts": {
+      "Kegalle": {
+        "district_name": "Kegalle",
+        "province_name": "Sabaragamuwa",
+        "type": "district",
+        "filename": "DST_KEGALLE_12.geojson",
+        "ds_divisions": {
+          "Yatiyantota": {
+            "district_name": "Kegalle",
+            "ds_division_name": "Yatiyantota",
+            "type": "ds_divisions",
+            "filename": "DS_YATIYANTOTA_176.geojson"
+          },
+          "Aranayake": {
+            "district_name": "Kegalle",
+            "ds_division_name": "Aranayake",
+            "type": "ds_divisions",
+            "filename": "DS_ARANAYAKE_231.geojson"
+          },
+          "Bulathkohipitiya": {
+            "district_name": "Kegalle",
+            "ds_division_name": "Bulathkohipitiya",
+            "type": "ds_divisions",
+            "filename": "DS_BULATHKOHIPITIYA_232.geojson"
+          },
+          "Dehiowita": {
+            "district_name": "Kegalle",
+            "ds_division_name": "Dehiowita",
+            "type": "ds_divisions",
+            "filename": "DS_DEHIOWITA_233.geojson"
+          },
+          "Deraniyagala": {
+            "district_name": "Kegalle",
+            "ds_division_name": "Deraniyagala",
+            "type": "ds_divisions",
+            "filename": "DS_DERANIYAGALA_234.geojson"
+          },
+          "Galigamuwa": {
+            "district_name": "Kegalle",
+            "ds_division_name": "Galigamuwa",
+            "type": "ds_divisions",
+            "filename": "DS_GALIGAMUWA_235.geojson"
+          },
+          "Kegalle": {
+            "district_name": "Kegalle",
+            "ds_division_name": "Kegalle",
+            "type": "ds_divisions",
+            "filename": "DS_KEGALLE_236.geojson"
+          },
+          "Mawanella": {
+            "district_name": "Kegalle",
+            "ds_division_name": "Mawanella",
+            "type": "ds_divisions",
+            "filename": "DS_MAWANELLA_237.geojson"
+          },
+          "Rambukkana": {
+            "district_name": "Kegalle",
+            "ds_division_name": "Rambukkana",
+            "type": "ds_divisions",
+            "filename": "DS_RAMBUKKANA_238.geojson"
+          },
+          "Ruwanwella": {
+            "district_name": "Kegalle",
+            "ds_division_name": "Ruwanwella",
+            "type": "ds_divisions",
+            "filename": "DS_RUWANWELLA_239.geojson"
+          },
+          "Warakapola": {
+            "district_name": "Kegalle",
+            "ds_division_name": "Warakapola",
+            "type": "ds_divisions",
+            "filename": "DS_WARAKAPOLA_240.geojson"
           }
-        },
-        "Ratnapura": {
-          "district_name": "Ratnapura",
-          "province_name": "Sabaragamuwa",
-          "type": "district",
-          "filename": "DST_RATNAPURA_23.geojson",
-          "ds_divisions": {
-            "Ratnapura": {
-              "district_name": "Ratnapura",
-              "ds_division_name": "Ratnapura",
-              "type": "ds_divisions",
-              "filename": "DS_RATNAPURA_300.geojson"
-            },
-            "Weligepola": {
-              "district_name": "Ratnapura",
-              "ds_division_name": "Weligepola",
-              "type": "ds_divisions",
-              "filename": "DS_WELIGEPOLA_301.geojson"
-            },
-            "Ayagama": {
-              "district_name": "Ratnapura",
-              "ds_division_name": "Ayagama",
-              "type": "ds_divisions",
-              "filename": "DS_AYAGAMA_318.geojson"
-            },
-            "Balangoda": {
-              "district_name": "Ratnapura",
-              "ds_division_name": "Balangoda",
-              "type": "ds_divisions",
-              "filename": "DS_BALANGODA_319.geojson"
-            },
-            "Eheliyagoda": {
-              "district_name": "Ratnapura",
-              "ds_division_name": "Eheliyagoda",
-              "type": "ds_divisions",
-              "filename": "DS_EHELIYAGODA_320.geojson"
-            },
-            "Elapatha": {
-              "district_name": "Ratnapura",
-              "ds_division_name": "Elapatha",
-              "type": "ds_divisions",
-              "filename": "DS_ELAPATHA_321.geojson"
-            },
-            "Embilipitiya": {
-              "district_name": "Ratnapura",
-              "ds_division_name": "Embilipitiya",
-              "type": "ds_divisions",
-              "filename": "DS_EMBILIPITIYA_322.geojson"
-            },
-            "Godakawela": {
-              "district_name": "Ratnapura",
-              "ds_division_name": "Godakawela",
-              "type": "ds_divisions",
-              "filename": "DS_GODAKAWELA_323.geojson"
-            },
-            "Imbulpe": {
-              "district_name": "Ratnapura",
-              "ds_division_name": "Imbulpe",
-              "type": "ds_divisions",
-              "filename": "DS_IMBULPE_324.geojson"
-            },
-            "Kahawattha": {
-              "district_name": "Ratnapura",
-              "ds_division_name": "Kahawattha",
-              "type": "ds_divisions",
-              "filename": "DS_KAHAWATTHA_325.geojson"
-            },
-            "Kalawana": {
-              "district_name": "Ratnapura",
-              "ds_division_name": "Kalawana",
-              "type": "ds_divisions",
-              "filename": "DS_KALAWANA_326.geojson"
-            },
-            "Kiriella": {
-              "district_name": "Ratnapura",
-              "ds_division_name": "Kiriella",
-              "type": "ds_divisions",
-              "filename": "DS_KIRIELLA_327.geojson"
-            },
-            "Kolonna": {
-              "district_name": "Ratnapura",
-              "ds_division_name": "Kolonna",
-              "type": "ds_divisions",
-              "filename": "DS_KOLONNA_328.geojson"
-            },
-            "Kuruvita": {
-              "district_name": "Ratnapura",
-              "ds_division_name": "Kuruvita",
-              "type": "ds_divisions",
-              "filename": "DS_KURUVITA_329.geojson"
-            },
-            "Nivithigala": {
-              "district_name": "Ratnapura",
-              "ds_division_name": "Nivithigala",
-              "type": "ds_divisions",
-              "filename": "DS_NIVITHIGALA_330.geojson"
-            },
-            "Opanayake": {
-              "district_name": "Ratnapura",
-              "ds_division_name": "Opanayake",
-              "type": "ds_divisions",
-              "filename": "DS_OPANAYAKE_331.geojson"
-            },
-            "Pelmadulla": {
-              "district_name": "Ratnapura",
-              "ds_division_name": "Pelmadulla",
-              "type": "ds_divisions",
-              "filename": "DS_PELMADULLA_332.geojson"
-            }
+        }
+      },
+      "Ratnapura": {
+        "district_name": "Ratnapura",
+        "province_name": "Sabaragamuwa",
+        "type": "district",
+        "filename": "DST_RATNAPURA_23.geojson",
+        "ds_divisions": {
+          "Ratnapura": {
+            "district_name": "Ratnapura",
+            "ds_division_name": "Ratnapura",
+            "type": "ds_divisions",
+            "filename": "DS_RATNAPURA_300.geojson"
+          },
+          "Weligepola": {
+            "district_name": "Ratnapura",
+            "ds_division_name": "Weligepola",
+            "type": "ds_divisions",
+            "filename": "DS_WELIGEPOLA_301.geojson"
+          },
+          "Ayagama": {
+            "district_name": "Ratnapura",
+            "ds_division_name": "Ayagama",
+            "type": "ds_divisions",
+            "filename": "DS_AYAGAMA_318.geojson"
+          },
+          "Balangoda": {
+            "district_name": "Ratnapura",
+            "ds_division_name": "Balangoda",
+            "type": "ds_divisions",
+            "filename": "DS_BALANGODA_319.geojson"
+          },
+          "Eheliyagoda": {
+            "district_name": "Ratnapura",
+            "ds_division_name": "Eheliyagoda",
+            "type": "ds_divisions",
+            "filename": "DS_EHELIYAGODA_320.geojson"
+          },
+          "Elapatha": {
+            "district_name": "Ratnapura",
+            "ds_division_name": "Elapatha",
+            "type": "ds_divisions",
+            "filename": "DS_ELAPATHA_321.geojson"
+          },
+          "Embilipitiya": {
+            "district_name": "Ratnapura",
+            "ds_division_name": "Embilipitiya",
+            "type": "ds_divisions",
+            "filename": "DS_EMBILIPITIYA_322.geojson"
+          },
+          "Godakawela": {
+            "district_name": "Ratnapura",
+            "ds_division_name": "Godakawela",
+            "type": "ds_divisions",
+            "filename": "DS_GODAKAWELA_323.geojson"
+          },
+          "Imbulpe": {
+            "district_name": "Ratnapura",
+            "ds_division_name": "Imbulpe",
+            "type": "ds_divisions",
+            "filename": "DS_IMBULPE_324.geojson"
+          },
+          "Kahawattha": {
+            "district_name": "Ratnapura",
+            "ds_division_name": "Kahawattha",
+            "type": "ds_divisions",
+            "filename": "DS_KAHAWATTHA_325.geojson"
+          },
+          "Kalawana": {
+            "district_name": "Ratnapura",
+            "ds_division_name": "Kalawana",
+            "type": "ds_divisions",
+            "filename": "DS_KALAWANA_326.geojson"
+          },
+          "Kiriella": {
+            "district_name": "Ratnapura",
+            "ds_division_name": "Kiriella",
+            "type": "ds_divisions",
+            "filename": "DS_KIRIELLA_327.geojson"
+          },
+          "Kolonna": {
+            "district_name": "Ratnapura",
+            "ds_division_name": "Kolonna",
+            "type": "ds_divisions",
+            "filename": "DS_KOLONNA_328.geojson"
+          },
+          "Kuruvita": {
+            "district_name": "Ratnapura",
+            "ds_division_name": "Kuruvita",
+            "type": "ds_divisions",
+            "filename": "DS_KURUVITA_329.geojson"
+          },
+          "Nivithigala": {
+            "district_name": "Ratnapura",
+            "ds_division_name": "Nivithigala",
+            "type": "ds_divisions",
+            "filename": "DS_NIVITHIGALA_330.geojson"
+          },
+          "Opanayake": {
+            "district_name": "Ratnapura",
+            "ds_division_name": "Opanayake",
+            "type": "ds_divisions",
+            "filename": "DS_OPANAYAKE_331.geojson"
+          },
+          "Pelmadulla": {
+            "district_name": "Ratnapura",
+            "ds_division_name": "Pelmadulla",
+            "type": "ds_divisions",
+            "filename": "DS_PELMADULLA_332.geojson"
           }
         }
       }
-    },
-    "Southern": {
-      "province_name": "Southern",
-      "type": "province",
-      "filename": "PROV_SOUTHERN_7.geojson",
-      "districts": {
-        "Galle": {
-          "district_name": "Galle",
-          "province_name": "Southern",
-          "type": "district",
-          "filename": "DST_GALLE_6.geojson",
-          "ds_divisions": {
-            "Akmeemana": {
-              "district_name": "Galle",
-              "ds_division_name": "Akmeemana",
-              "type": "ds_divisions",
-              "filename": "DS_AKMEEMANA_94.geojson"
-            },
-            "Ambalangoda": {
-              "district_name": "Galle",
-              "ds_division_name": "Ambalangoda",
-              "type": "ds_divisions",
-              "filename": "DS_AMBALANGODA_95.geojson"
-            },
-            "Baddegama": {
-              "district_name": "Galle",
-              "ds_division_name": "Baddegama",
-              "type": "ds_divisions",
-              "filename": "DS_BADDEGAMA_96.geojson"
-            },
-            "Balapitiya": {
-              "district_name": "Galle",
-              "ds_division_name": "Balapitiya",
-              "type": "ds_divisions",
-              "filename": "DS_BALAPITIYA_97.geojson"
-            },
-            "Bentota": {
-              "district_name": "Galle",
-              "ds_division_name": "Bentota",
-              "type": "ds_divisions",
-              "filename": "DS_BENTOTA_98.geojson"
-            },
-            "Bope-poddala": {
-              "district_name": "Galle",
-              "ds_division_name": "Bope-poddala",
-              "type": "ds_divisions",
-              "filename": "DS_BOPE-PODDALA_99.geojson"
-            },
-            "Elpitiya": {
-              "district_name": "Galle",
-              "ds_division_name": "Elpitiya",
-              "type": "ds_divisions",
-              "filename": "DS_ELPITIYA_100.geojson"
-            },
-            "Galle4gravets": {
-              "district_name": "Galle",
-              "ds_division_name": "Galle4gravets",
-              "type": "ds_divisions",
-              "filename": "DS_GALLE4GRAVETS_101.geojson"
-            },
-            "Gonapinuwala": {
-              "district_name": "Galle",
-              "ds_division_name": "Gonapinuwala",
-              "type": "ds_divisions",
-              "filename": "DS_GONAPINUWALA_102.geojson"
-            },
-            "Habaraduwa": {
-              "district_name": "Galle",
-              "ds_division_name": "Habaraduwa",
-              "type": "ds_divisions",
-              "filename": "DS_HABARADUWA_103.geojson"
-            },
-            "Hikkaduwa": {
-              "district_name": "Galle",
-              "ds_division_name": "Hikkaduwa",
-              "type": "ds_divisions",
-              "filename": "DS_HIKKADUWA_104.geojson"
-            },
-            "Imaduwa": {
-              "district_name": "Galle",
-              "ds_division_name": "Imaduwa",
-              "type": "ds_divisions",
-              "filename": "DS_IMADUWA_105.geojson"
-            },
-            "Karandeniya": {
-              "district_name": "Galle",
-              "ds_division_name": "Karandeniya",
-              "type": "ds_divisions",
-              "filename": "DS_KARANDENIYA_106.geojson"
-            },
-            "Nagoda": {
-              "district_name": "Galle",
-              "ds_division_name": "Nagoda",
-              "type": "ds_divisions",
-              "filename": "DS_NAGODA_107.geojson"
-            },
-            "Neluwa": {
-              "district_name": "Galle",
-              "ds_division_name": "Neluwa",
-              "type": "ds_divisions",
-              "filename": "DS_NELUWA_108.geojson"
-            },
-            "Niyagama": {
-              "district_name": "Galle",
-              "ds_division_name": "Niyagama",
-              "type": "ds_divisions",
-              "filename": "DS_NIYAGAMA_109.geojson"
-            },
-            "Thawalama": {
-              "district_name": "Galle",
-              "ds_division_name": "Thawalama",
-              "type": "ds_divisions",
-              "filename": "DS_THAWALAMA_110.geojson"
-            },
-            "Welivitiya-divitura": {
-              "district_name": "Galle",
-              "ds_division_name": "Welivitiya-divitura",
-              "type": "ds_divisions",
-              "filename": "DS_WELIVITIYA-DIVITURA_111.geojson"
-            },
-            "Yakkalamulla": {
-              "district_name": "Galle",
-              "ds_division_name": "Yakkalamulla",
-              "type": "ds_divisions",
-              "filename": "DS_YAKKALAMULLA_112.geojson"
-            }
+    }
+  },
+  "Southern": {
+    "province_name": "Southern",
+    "type": "province",
+    "filename": "PROV_SOUTHERN_7.geojson",
+    "districts": {
+      "Galle": {
+        "district_name": "Galle",
+        "province_name": "Southern",
+        "type": "district",
+        "filename": "DST_GALLE_6.geojson",
+        "ds_divisions": {
+          "Akmeemana": {
+            "district_name": "Galle",
+            "ds_division_name": "Akmeemana",
+            "type": "ds_divisions",
+            "filename": "DS_AKMEEMANA_94.geojson"
+          },
+          "Ambalangoda": {
+            "district_name": "Galle",
+            "ds_division_name": "Ambalangoda",
+            "type": "ds_divisions",
+            "filename": "DS_AMBALANGODA_95.geojson"
+          },
+          "Baddegama": {
+            "district_name": "Galle",
+            "ds_division_name": "Baddegama",
+            "type": "ds_divisions",
+            "filename": "DS_BADDEGAMA_96.geojson"
+          },
+          "Balapitiya": {
+            "district_name": "Galle",
+            "ds_division_name": "Balapitiya",
+            "type": "ds_divisions",
+            "filename": "DS_BALAPITIYA_97.geojson"
+          },
+          "Bentota": {
+            "district_name": "Galle",
+            "ds_division_name": "Bentota",
+            "type": "ds_divisions",
+            "filename": "DS_BENTOTA_98.geojson"
+          },
+          "Bope-poddala": {
+            "district_name": "Galle",
+            "ds_division_name": "Bope-poddala",
+            "type": "ds_divisions",
+            "filename": "DS_BOPE-PODDALA_99.geojson"
+          },
+          "Elpitiya": {
+            "district_name": "Galle",
+            "ds_division_name": "Elpitiya",
+            "type": "ds_divisions",
+            "filename": "DS_ELPITIYA_100.geojson"
+          },
+          "Galle4gravets": {
+            "district_name": "Galle",
+            "ds_division_name": "Galle4gravets",
+            "type": "ds_divisions",
+            "filename": "DS_GALLE4GRAVETS_101.geojson"
+          },
+          "Gonapinuwala": {
+            "district_name": "Galle",
+            "ds_division_name": "Gonapinuwala",
+            "type": "ds_divisions",
+            "filename": "DS_GONAPINUWALA_102.geojson"
+          },
+          "Habaraduwa": {
+            "district_name": "Galle",
+            "ds_division_name": "Habaraduwa",
+            "type": "ds_divisions",
+            "filename": "DS_HABARADUWA_103.geojson"
+          },
+          "Hikkaduwa": {
+            "district_name": "Galle",
+            "ds_division_name": "Hikkaduwa",
+            "type": "ds_divisions",
+            "filename": "DS_HIKKADUWA_104.geojson"
+          },
+          "Imaduwa": {
+            "district_name": "Galle",
+            "ds_division_name": "Imaduwa",
+            "type": "ds_divisions",
+            "filename": "DS_IMADUWA_105.geojson"
+          },
+          "Karandeniya": {
+            "district_name": "Galle",
+            "ds_division_name": "Karandeniya",
+            "type": "ds_divisions",
+            "filename": "DS_KARANDENIYA_106.geojson"
+          },
+          "Nagoda": {
+            "district_name": "Galle",
+            "ds_division_name": "Nagoda",
+            "type": "ds_divisions",
+            "filename": "DS_NAGODA_107.geojson"
+          },
+          "Neluwa": {
+            "district_name": "Galle",
+            "ds_division_name": "Neluwa",
+            "type": "ds_divisions",
+            "filename": "DS_NELUWA_108.geojson"
+          },
+          "Niyagama": {
+            "district_name": "Galle",
+            "ds_division_name": "Niyagama",
+            "type": "ds_divisions",
+            "filename": "DS_NIYAGAMA_109.geojson"
+          },
+          "Thawalama": {
+            "district_name": "Galle",
+            "ds_division_name": "Thawalama",
+            "type": "ds_divisions",
+            "filename": "DS_THAWALAMA_110.geojson"
+          },
+          "Welivitiya-divitura": {
+            "district_name": "Galle",
+            "ds_division_name": "Welivitiya-divitura",
+            "type": "ds_divisions",
+            "filename": "DS_WELIVITIYA-DIVITURA_111.geojson"
+          },
+          "Yakkalamulla": {
+            "district_name": "Galle",
+            "ds_division_name": "Yakkalamulla",
+            "type": "ds_divisions",
+            "filename": "DS_YAKKALAMULLA_112.geojson"
           }
-        },
-        "Hambantota": {
-          "district_name": "Hambantota",
-          "province_name": "Southern",
-          "type": "district",
-          "filename": "DST_HAMBANTOTA_8.geojson",
-          "ds_divisions": {
-            "Ambalantota": {
-              "district_name": "Hambantota",
-              "ds_division_name": "Ambalantota",
-              "type": "ds_divisions",
-              "filename": "DS_AMBALANTOTA_41.geojson"
-            },
-            "Angunakolapelessa": {
-              "district_name": "Hambantota",
-              "ds_division_name": "Angunakolapelessa",
-              "type": "ds_divisions",
-              "filename": "DS_ANGUNAKOLAPELESSA_42.geojson"
-            },
-            "Beliatta": {
-              "district_name": "Hambantota",
-              "ds_division_name": "Beliatta",
-              "type": "ds_divisions",
-              "filename": "DS_BELIATTA_43.geojson"
-            },
-            "Hambantota": {
-              "district_name": "Hambantota",
-              "ds_division_name": "Hambantota",
-              "type": "ds_divisions",
-              "filename": "DS_HAMBANTOTA_44.geojson"
-            },
-            "Katuwana": {
-              "district_name": "Hambantota",
-              "ds_division_name": "Katuwana",
-              "type": "ds_divisions",
-              "filename": "DS_KATUWANA_45.geojson"
-            },
-            "Lunugamwehera": {
-              "district_name": "Hambantota",
-              "ds_division_name": "Lunugamwehera",
-              "type": "ds_divisions",
-              "filename": "DS_LUNUGAMWEHERA_46.geojson"
-            },
-            "Okewela": {
-              "district_name": "Hambantota",
-              "ds_division_name": "Okewela",
-              "type": "ds_divisions",
-              "filename": "DS_OKEWELA_47.geojson"
-            },
-            "Sooriyawewa": {
-              "district_name": "Hambantota",
-              "ds_division_name": "Sooriyawewa",
-              "type": "ds_divisions",
-              "filename": "DS_SOORIYAWEWA_48.geojson"
-            },
-            "Tangalle": {
-              "district_name": "Hambantota",
-              "ds_division_name": "Tangalle",
-              "type": "ds_divisions",
-              "filename": "DS_TANGALLE_49.geojson"
-            },
-            "Thissamaharama": {
-              "district_name": "Hambantota",
-              "ds_division_name": "Thissamaharama",
-              "type": "ds_divisions",
-              "filename": "DS_THISSAMAHARAMA_50.geojson"
-            },
-            "Walasmulla": {
-              "district_name": "Hambantota",
-              "ds_division_name": "Walasmulla",
-              "type": "ds_divisions",
-              "filename": "DS_WALASMULLA_51.geojson"
-            },
-            "Weeraketiya": {
-              "district_name": "Hambantota",
-              "ds_division_name": "Weeraketiya",
-              "type": "ds_divisions",
-              "filename": "DS_WEERAKETIYA_52.geojson"
-            }
+        }
+      },
+      "Hambantota": {
+        "district_name": "Hambantota",
+        "province_name": "Southern",
+        "type": "district",
+        "filename": "DST_HAMBANTOTA_8.geojson",
+        "ds_divisions": {
+          "Ambalantota": {
+            "district_name": "Hambantota",
+            "ds_division_name": "Ambalantota",
+            "type": "ds_divisions",
+            "filename": "DS_AMBALANTOTA_41.geojson"
+          },
+          "Angunakolapelessa": {
+            "district_name": "Hambantota",
+            "ds_division_name": "Angunakolapelessa",
+            "type": "ds_divisions",
+            "filename": "DS_ANGUNAKOLAPELESSA_42.geojson"
+          },
+          "Beliatta": {
+            "district_name": "Hambantota",
+            "ds_division_name": "Beliatta",
+            "type": "ds_divisions",
+            "filename": "DS_BELIATTA_43.geojson"
+          },
+          "Hambantota": {
+            "district_name": "Hambantota",
+            "ds_division_name": "Hambantota",
+            "type": "ds_divisions",
+            "filename": "DS_HAMBANTOTA_44.geojson"
+          },
+          "Katuwana": {
+            "district_name": "Hambantota",
+            "ds_division_name": "Katuwana",
+            "type": "ds_divisions",
+            "filename": "DS_KATUWANA_45.geojson"
+          },
+          "Lunugamwehera": {
+            "district_name": "Hambantota",
+            "ds_division_name": "Lunugamwehera",
+            "type": "ds_divisions",
+            "filename": "DS_LUNUGAMWEHERA_46.geojson"
+          },
+          "Okewela": {
+            "district_name": "Hambantota",
+            "ds_division_name": "Okewela",
+            "type": "ds_divisions",
+            "filename": "DS_OKEWELA_47.geojson"
+          },
+          "Sooriyawewa": {
+            "district_name": "Hambantota",
+            "ds_division_name": "Sooriyawewa",
+            "type": "ds_divisions",
+            "filename": "DS_SOORIYAWEWA_48.geojson"
+          },
+          "Tangalle": {
+            "district_name": "Hambantota",
+            "ds_division_name": "Tangalle",
+            "type": "ds_divisions",
+            "filename": "DS_TANGALLE_49.geojson"
+          },
+          "Thissamaharama": {
+            "district_name": "Hambantota",
+            "ds_division_name": "Thissamaharama",
+            "type": "ds_divisions",
+            "filename": "DS_THISSAMAHARAMA_50.geojson"
+          },
+          "Walasmulla": {
+            "district_name": "Hambantota",
+            "ds_division_name": "Walasmulla",
+            "type": "ds_divisions",
+            "filename": "DS_WALASMULLA_51.geojson"
+          },
+          "Weeraketiya": {
+            "district_name": "Hambantota",
+            "ds_division_name": "Weeraketiya",
+            "type": "ds_divisions",
+            "filename": "DS_WEERAKETIYA_52.geojson"
           }
-        },
-        "Matara": {
-          "district_name": "Matara",
-          "province_name": "Southern",
-          "type": "district",
-          "filename": "DST_MATARA_17.geojson",
-          "ds_divisions": {
-            "Akuressa": {
-              "district_name": "Matara",
-              "ds_division_name": "Akuressa",
-              "type": "ds_divisions",
-              "filename": "DS_AKURESSA_227.geojson"
-            },
-            "Athuraliya": {
-              "district_name": "Matara",
-              "ds_division_name": "Athuraliya",
-              "type": "ds_divisions",
-              "filename": "DS_ATHURALIYA_241.geojson"
-            },
-            "Devinuwara": {
-              "district_name": "Matara",
-              "ds_division_name": "Devinuwara",
-              "type": "ds_divisions",
-              "filename": "DS_DEVINUWARA_242.geojson"
-            },
-            "Dikwella": {
-              "district_name": "Matara",
-              "ds_division_name": "Dikwella",
-              "type": "ds_divisions",
-              "filename": "DS_DIKWELLA_243.geojson"
-            },
-            "Hakmana": {
-              "district_name": "Matara",
-              "ds_division_name": "Hakmana",
-              "type": "ds_divisions",
-              "filename": "DS_HAKMANA_251.geojson"
-            },
-            "Kaburupitiya": {
-              "district_name": "Matara",
-              "ds_division_name": "Kaburupitiya",
-              "type": "ds_divisions",
-              "filename": "DS_KABURUPITIYA_252.geojson"
-            },
-            "Kirinda puhulwella": {
-              "district_name": "Matara",
-              "ds_division_name": "Kirinda puhulwella",
-              "type": "ds_divisions",
-              "filename": "DS_KIRINDA PUHULWELLA_257.geojson"
-            },
-            "Kotapola": {
-              "district_name": "Matara",
-              "ds_division_name": "Kotapola",
-              "type": "ds_divisions",
-              "filename": "DS_KOTAPOLA_258.geojson"
-            },
-            "Malimbada": {
-              "district_name": "Matara",
-              "ds_division_name": "Malimbada",
-              "type": "ds_divisions",
-              "filename": "DS_MALIMBADA_267.geojson"
-            },
-            "Matara four gravets": {
-              "district_name": "Matara",
-              "ds_division_name": "Matara four gravets",
-              "type": "ds_divisions",
-              "filename": "DS_MATARA FOUR GRAVETS_268.geojson"
-            },
-            "Mulatiyana": {
-              "district_name": "Matara",
-              "ds_division_name": "Mulatiyana",
-              "type": "ds_divisions",
-              "filename": "DS_MULATIYANA_269.geojson"
-            },
-            "Pasgoda": {
-              "district_name": "Matara",
-              "ds_division_name": "Pasgoda",
-              "type": "ds_divisions",
-              "filename": "DS_PASGODA_270.geojson"
-            },
-            "Pitabaddara": {
-              "district_name": "Matara",
-              "ds_division_name": "Pitabaddara",
-              "type": "ds_divisions",
-              "filename": "DS_PITABADDARA_271.geojson"
-            },
-            "Thihagoda": {
-              "district_name": "Matara",
-              "ds_division_name": "Thihagoda",
-              "type": "ds_divisions",
-              "filename": "DS_THIHAGODA_272.geojson"
-            },
-            "Weligama": {
-              "district_name": "Matara",
-              "ds_division_name": "Weligama",
-              "type": "ds_divisions",
-              "filename": "DS_WELIGAMA_273.geojson"
-            },
-            "Welipitiya": {
-              "district_name": "Matara",
-              "ds_division_name": "Welipitiya",
-              "type": "ds_divisions",
-              "filename": "DS_WELIPITIYA_274.geojson"
-            }
+        }
+      },
+      "Matara": {
+        "district_name": "Matara",
+        "province_name": "Southern",
+        "type": "district",
+        "filename": "DST_MATARA_17.geojson",
+        "ds_divisions": {
+          "Akuressa": {
+            "district_name": "Matara",
+            "ds_division_name": "Akuressa",
+            "type": "ds_divisions",
+            "filename": "DS_AKURESSA_227.geojson"
+          },
+          "Athuraliya": {
+            "district_name": "Matara",
+            "ds_division_name": "Athuraliya",
+            "type": "ds_divisions",
+            "filename": "DS_ATHURALIYA_241.geojson"
+          },
+          "Devinuwara": {
+            "district_name": "Matara",
+            "ds_division_name": "Devinuwara",
+            "type": "ds_divisions",
+            "filename": "DS_DEVINUWARA_242.geojson"
+          },
+          "Dikwella": {
+            "district_name": "Matara",
+            "ds_division_name": "Dikwella",
+            "type": "ds_divisions",
+            "filename": "DS_DIKWELLA_243.geojson"
+          },
+          "Hakmana": {
+            "district_name": "Matara",
+            "ds_division_name": "Hakmana",
+            "type": "ds_divisions",
+            "filename": "DS_HAKMANA_251.geojson"
+          },
+          "Kaburupitiya": {
+            "district_name": "Matara",
+            "ds_division_name": "Kaburupitiya",
+            "type": "ds_divisions",
+            "filename": "DS_KABURUPITIYA_252.geojson"
+          },
+          "Kirinda puhulwella": {
+            "district_name": "Matara",
+            "ds_division_name": "Kirinda puhulwella",
+            "type": "ds_divisions",
+            "filename": "DS_KIRINDA PUHULWELLA_257.geojson"
+          },
+          "Kotapola": {
+            "district_name": "Matara",
+            "ds_division_name": "Kotapola",
+            "type": "ds_divisions",
+            "filename": "DS_KOTAPOLA_258.geojson"
+          },
+          "Malimbada": {
+            "district_name": "Matara",
+            "ds_division_name": "Malimbada",
+            "type": "ds_divisions",
+            "filename": "DS_MALIMBADA_267.geojson"
+          },
+          "Matara four gravets": {
+            "district_name": "Matara",
+            "ds_division_name": "Matara four gravets",
+            "type": "ds_divisions",
+            "filename": "DS_MATARA FOUR GRAVETS_268.geojson"
+          },
+          "Mulatiyana": {
+            "district_name": "Matara",
+            "ds_division_name": "Mulatiyana",
+            "type": "ds_divisions",
+            "filename": "DS_MULATIYANA_269.geojson"
+          },
+          "Pasgoda": {
+            "district_name": "Matara",
+            "ds_division_name": "Pasgoda",
+            "type": "ds_divisions",
+            "filename": "DS_PASGODA_270.geojson"
+          },
+          "Pitabaddara": {
+            "district_name": "Matara",
+            "ds_division_name": "Pitabaddara",
+            "type": "ds_divisions",
+            "filename": "DS_PITABADDARA_271.geojson"
+          },
+          "Thihagoda": {
+            "district_name": "Matara",
+            "ds_division_name": "Thihagoda",
+            "type": "ds_divisions",
+            "filename": "DS_THIHAGODA_272.geojson"
+          },
+          "Weligama": {
+            "district_name": "Matara",
+            "ds_division_name": "Weligama",
+            "type": "ds_divisions",
+            "filename": "DS_WELIGAMA_273.geojson"
+          },
+          "Welipitiya": {
+            "district_name": "Matara",
+            "ds_division_name": "Welipitiya",
+            "type": "ds_divisions",
+            "filename": "DS_WELIPITIYA_274.geojson"
           }
         }
       }
-    },
-    "Uva": {
-      "province_name": "Uva",
-      "type": "province",
-      "filename": "PROV_UVA_8.geojson",
-      "districts": {
-        "Badulla": {
-          "district_name": "Badulla",
-          "province_name": "Uva",
-          "type": "district",
-          "filename": "DST_BADULLA_3.geojson",
-          "ds_divisions": {
-            "Badulla": {
-              "district_name": "Badulla",
-              "ds_division_name": "Badulla",
-              "type": "ds_divisions",
-              "filename": "DS_BADULLA_18.geojson"
-            },
-            "Bandarawela": {
-              "district_name": "Badulla",
-              "ds_division_name": "Bandarawela",
-              "type": "ds_divisions",
-              "filename": "DS_BANDARAWELA_19.geojson"
-            },
-            "Ella": {
-              "district_name": "Badulla",
-              "ds_division_name": "Ella",
-              "type": "ds_divisions",
-              "filename": "DS_ELLA_20.geojson"
-            },
-            "Haldummulla": {
-              "district_name": "Badulla",
-              "ds_division_name": "Haldummulla",
-              "type": "ds_divisions",
-              "filename": "DS_HALDUMMULLA_21.geojson"
-            },
-            "Hali-ela": {
-              "district_name": "Badulla",
-              "ds_division_name": "Hali-ela",
-              "type": "ds_divisions",
-              "filename": "DS_HALI-ELA_22.geojson"
-            },
-            "Haputale": {
-              "district_name": "Badulla",
-              "ds_division_name": "Haputale",
-              "type": "ds_divisions",
-              "filename": "DS_HAPUTALE_23.geojson"
-            },
-            "Kandeketiya": {
-              "district_name": "Badulla",
-              "ds_division_name": "Kandeketiya",
-              "type": "ds_divisions",
-              "filename": "DS_KANDEKETIYA_24.geojson"
-            },
-            "Lunugala": {
-              "district_name": "Badulla",
-              "ds_division_name": "Lunugala",
-              "type": "ds_divisions",
-              "filename": "DS_LUNUGALA_25.geojson"
-            },
-            "Mahiyanganaya": {
-              "district_name": "Badulla",
-              "ds_division_name": "Mahiyanganaya",
-              "type": "ds_divisions",
-              "filename": "DS_MAHIYANGANAYA_26.geojson"
-            },
-            "Meegahakiula": {
-              "district_name": "Badulla",
-              "ds_division_name": "Meegahakiula",
-              "type": "ds_divisions",
-              "filename": "DS_MEEGAHAKIULA_27.geojson"
-            },
-            "Passara": {
-              "district_name": "Badulla",
-              "ds_division_name": "Passara",
-              "type": "ds_divisions",
-              "filename": "DS_PASSARA_28.geojson"
-            },
-            "Rideemaliyadda": {
-              "district_name": "Badulla",
-              "ds_division_name": "Rideemaliyadda",
-              "type": "ds_divisions",
-              "filename": "DS_RIDEEMALIYADDA_29.geojson"
-            },
-            "Soranathota": {
-              "district_name": "Badulla",
-              "ds_division_name": "Soranathota",
-              "type": "ds_divisions",
-              "filename": "DS_SORANATHOTA_30.geojson"
-            },
-            "Uvaparanagama": {
-              "district_name": "Badulla",
-              "ds_division_name": "Uvaparanagama",
-              "type": "ds_divisions",
-              "filename": "DS_UVAPARANAGAMA_31.geojson"
-            },
-            "Welimada": {
-              "district_name": "Badulla",
-              "ds_division_name": "Welimada",
-              "type": "ds_divisions",
-              "filename": "DS_WELIMADA_32.geojson"
-            }
+    }
+  },
+  "Uva": {
+    "province_name": "Uva",
+    "type": "province",
+    "filename": "PROV_UVA_8.geojson",
+    "districts": {
+      "Badulla": {
+        "district_name": "Badulla",
+        "province_name": "Uva",
+        "type": "district",
+        "filename": "DST_BADULLA_3.geojson",
+        "ds_divisions": {
+          "Badulla": {
+            "district_name": "Badulla",
+            "ds_division_name": "Badulla",
+            "type": "ds_divisions",
+            "filename": "DS_BADULLA_18.geojson"
+          },
+          "Bandarawela": {
+            "district_name": "Badulla",
+            "ds_division_name": "Bandarawela",
+            "type": "ds_divisions",
+            "filename": "DS_BANDARAWELA_19.geojson"
+          },
+          "Ella": {
+            "district_name": "Badulla",
+            "ds_division_name": "Ella",
+            "type": "ds_divisions",
+            "filename": "DS_ELLA_20.geojson"
+          },
+          "Haldummulla": {
+            "district_name": "Badulla",
+            "ds_division_name": "Haldummulla",
+            "type": "ds_divisions",
+            "filename": "DS_HALDUMMULLA_21.geojson"
+          },
+          "Hali-ela": {
+            "district_name": "Badulla",
+            "ds_division_name": "Hali-ela",
+            "type": "ds_divisions",
+            "filename": "DS_HALI-ELA_22.geojson"
+          },
+          "Haputale": {
+            "district_name": "Badulla",
+            "ds_division_name": "Haputale",
+            "type": "ds_divisions",
+            "filename": "DS_HAPUTALE_23.geojson"
+          },
+          "Kandeketiya": {
+            "district_name": "Badulla",
+            "ds_division_name": "Kandeketiya",
+            "type": "ds_divisions",
+            "filename": "DS_KANDEKETIYA_24.geojson"
+          },
+          "Lunugala": {
+            "district_name": "Badulla",
+            "ds_division_name": "Lunugala",
+            "type": "ds_divisions",
+            "filename": "DS_LUNUGALA_25.geojson"
+          },
+          "Mahiyanganaya": {
+            "district_name": "Badulla",
+            "ds_division_name": "Mahiyanganaya",
+            "type": "ds_divisions",
+            "filename": "DS_MAHIYANGANAYA_26.geojson"
+          },
+          "Meegahakiula": {
+            "district_name": "Badulla",
+            "ds_division_name": "Meegahakiula",
+            "type": "ds_divisions",
+            "filename": "DS_MEEGAHAKIULA_27.geojson"
+          },
+          "Passara": {
+            "district_name": "Badulla",
+            "ds_division_name": "Passara",
+            "type": "ds_divisions",
+            "filename": "DS_PASSARA_28.geojson"
+          },
+          "Rideemaliyadda": {
+            "district_name": "Badulla",
+            "ds_division_name": "Rideemaliyadda",
+            "type": "ds_divisions",
+            "filename": "DS_RIDEEMALIYADDA_29.geojson"
+          },
+          "Soranathota": {
+            "district_name": "Badulla",
+            "ds_division_name": "Soranathota",
+            "type": "ds_divisions",
+            "filename": "DS_SORANATHOTA_30.geojson"
+          },
+          "Uvaparanagama": {
+            "district_name": "Badulla",
+            "ds_division_name": "Uvaparanagama",
+            "type": "ds_divisions",
+            "filename": "DS_UVAPARANAGAMA_31.geojson"
+          },
+          "Welimada": {
+            "district_name": "Badulla",
+            "ds_division_name": "Welimada",
+            "type": "ds_divisions",
+            "filename": "DS_WELIMADA_32.geojson"
           }
-        },
-        "Monaragala": {
-          "district_name": "Monaragala",
-          "province_name": "Uva",
-          "type": "district",
-          "filename": "DST_MONARAGALA_18.geojson",
-          "ds_divisions": {
-            "Thanamalwila": {
-              "district_name": "Monaragala",
-              "ds_division_name": "Thanamalwila",
-              "type": "ds_divisions",
-              "filename": "DS_THANAMALWILA_244.geojson"
-            },
-            "Wellawaya": {
-              "district_name": "Monaragala",
-              "ds_division_name": "Wellawaya",
-              "type": "ds_divisions",
-              "filename": "DS_WELLAWAYA_245.geojson"
-            },
-            "Badalkumbura": {
-              "district_name": "Monaragala",
-              "ds_division_name": "Badalkumbura",
-              "type": "ds_divisions",
-              "filename": "DS_BADALKUMBURA_275.geojson"
-            },
-            "Bibile": {
-              "district_name": "Monaragala",
-              "ds_division_name": "Bibile",
-              "type": "ds_divisions",
-              "filename": "DS_BIBILE_276.geojson"
-            },
-            "Buttala": {
-              "district_name": "Monaragala",
-              "ds_division_name": "Buttala",
-              "type": "ds_divisions",
-              "filename": "DS_BUTTALA_277.geojson"
-            },
-            "Katharagama": {
-              "district_name": "Monaragala",
-              "ds_division_name": "Katharagama",
-              "type": "ds_divisions",
-              "filename": "DS_KATHARAGAMA_278.geojson"
-            },
-            "Madulla": {
-              "district_name": "Monaragala",
-              "ds_division_name": "Madulla",
-              "type": "ds_divisions",
-              "filename": "DS_MADULLA_279.geojson"
-            },
-            "Medagama": {
-              "district_name": "Monaragala",
-              "ds_division_name": "Medagama",
-              "type": "ds_divisions",
-              "filename": "DS_MEDAGAMA_280.geojson"
-            },
-            "Monaragala": {
-              "district_name": "Monaragala",
-              "ds_division_name": "Monaragala",
-              "type": "ds_divisions",
-              "filename": "DS_MONARAGALA_281.geojson"
-            },
-            "Sevanagala": {
-              "district_name": "Monaragala",
-              "ds_division_name": "Sevanagala",
-              "type": "ds_divisions",
-              "filename": "DS_SEVANAGALA_282.geojson"
-            },
-            "Siyambalanduwa": {
-              "district_name": "Monaragala",
-              "ds_division_name": "Siyambalanduwa",
-              "type": "ds_divisions",
-              "filename": "DS_SIYAMBALANDUWA_283.geojson"
-            }
+        }
+      },
+      "Monaragala": {
+        "district_name": "Monaragala",
+        "province_name": "Uva",
+        "type": "district",
+        "filename": "DST_MONARAGALA_18.geojson",
+        "ds_divisions": {
+          "Thanamalwila": {
+            "district_name": "Monaragala",
+            "ds_division_name": "Thanamalwila",
+            "type": "ds_divisions",
+            "filename": "DS_THANAMALWILA_244.geojson"
+          },
+          "Wellawaya": {
+            "district_name": "Monaragala",
+            "ds_division_name": "Wellawaya",
+            "type": "ds_divisions",
+            "filename": "DS_WELLAWAYA_245.geojson"
+          },
+          "Badalkumbura": {
+            "district_name": "Monaragala",
+            "ds_division_name": "Badalkumbura",
+            "type": "ds_divisions",
+            "filename": "DS_BADALKUMBURA_275.geojson"
+          },
+          "Bibile": {
+            "district_name": "Monaragala",
+            "ds_division_name": "Bibile",
+            "type": "ds_divisions",
+            "filename": "DS_BIBILE_276.geojson"
+          },
+          "Buttala": {
+            "district_name": "Monaragala",
+            "ds_division_name": "Buttala",
+            "type": "ds_divisions",
+            "filename": "DS_BUTTALA_277.geojson"
+          },
+          "Katharagama": {
+            "district_name": "Monaragala",
+            "ds_division_name": "Katharagama",
+            "type": "ds_divisions",
+            "filename": "DS_KATHARAGAMA_278.geojson"
+          },
+          "Madulla": {
+            "district_name": "Monaragala",
+            "ds_division_name": "Madulla",
+            "type": "ds_divisions",
+            "filename": "DS_MADULLA_279.geojson"
+          },
+          "Medagama": {
+            "district_name": "Monaragala",
+            "ds_division_name": "Medagama",
+            "type": "ds_divisions",
+            "filename": "DS_MEDAGAMA_280.geojson"
+          },
+          "Monaragala": {
+            "district_name": "Monaragala",
+            "ds_division_name": "Monaragala",
+            "type": "ds_divisions",
+            "filename": "DS_MONARAGALA_281.geojson"
+          },
+          "Sevanagala": {
+            "district_name": "Monaragala",
+            "ds_division_name": "Sevanagala",
+            "type": "ds_divisions",
+            "filename": "DS_SEVANAGALA_282.geojson"
+          },
+          "Siyambalanduwa": {
+            "district_name": "Monaragala",
+            "ds_division_name": "Siyambalanduwa",
+            "type": "ds_divisions",
+            "filename": "DS_SIYAMBALANDUWA_283.geojson"
           }
         }
       }
-    },
-    "Western": {
-      "province_name": "Western",
-      "type": "province",
-      "filename": "PROV_WESTERN_9.geojson",
-      "districts": {
-        "Colombo": {
-          "district_name": "Colombo",
-          "province_name": "Western",
-          "type": "district",
-          "filename": "DST_COLOMBO_5.geojson",
-          "ds_divisions": {
-            "Colombo": {
-              "district_name": "Colombo",
-              "ds_division_name": "Colombo",
-              "type": "ds_divisions",
-              "filename": "DS_COLOMBO_92.geojson"
-            },
-            "Thimbirigasyaya": {
-              "district_name": "Colombo",
-              "ds_division_name": "Thimbirigasyaya",
-              "type": "ds_divisions",
-              "filename": "DS_THIMBIRIGASYAYA_93.geojson"
-            },
-            "Dehiwala": {
-              "district_name": "Colombo",
-              "ds_division_name": "Dehiwala",
-              "type": "ds_divisions",
-              "filename": "DS_DEHIWALA_120.geojson"
-            },
-            "Homagama": {
-              "district_name": "Colombo",
-              "ds_division_name": "Homagama",
-              "type": "ds_divisions",
-              "filename": "DS_HOMAGAMA_121.geojson"
-            },
-            "Kaduwela": {
-              "district_name": "Colombo",
-              "ds_division_name": "Kaduwela",
-              "type": "ds_divisions",
-              "filename": "DS_KADUWELA_122.geojson"
-            },
-            "Kesbewa": {
-              "district_name": "Colombo",
-              "ds_division_name": "Kesbewa",
-              "type": "ds_divisions",
-              "filename": "DS_KESBEWA_123.geojson"
-            },
-            "Kolonnawa": {
-              "district_name": "Colombo",
-              "ds_division_name": "Kolonnawa",
-              "type": "ds_divisions",
-              "filename": "DS_KOLONNAWA_124.geojson"
-            },
-            "Maharagama": {
-              "district_name": "Colombo",
-              "ds_division_name": "Maharagama",
-              "type": "ds_divisions",
-              "filename": "DS_MAHARAGAMA_125.geojson"
-            },
-            "Moratuwa": {
-              "district_name": "Colombo",
-              "ds_division_name": "Moratuwa",
-              "type": "ds_divisions",
-              "filename": "DS_MORATUWA_126.geojson"
-            },
-            "Padukka": {
-              "district_name": "Colombo",
-              "ds_division_name": "Padukka",
-              "type": "ds_divisions",
-              "filename": "DS_PADUKKA_127.geojson"
-            },
-            "Ratmalana": {
-              "district_name": "Colombo",
-              "ds_division_name": "Ratmalana",
-              "type": "ds_divisions",
-              "filename": "DS_RATMALANA_128.geojson"
-            },
-            "Seethawaka": {
-              "district_name": "Colombo",
-              "ds_division_name": "Seethawaka",
-              "type": "ds_divisions",
-              "filename": "DS_SEETHAWAKA_129.geojson"
-            },
-            "Sri jayawardanapura kotte": {
-              "district_name": "Colombo",
-              "ds_division_name": "Sri jayawardanapura kotte",
-              "type": "ds_divisions",
-              "filename": "DS_SRI JAYAWARDANAPURA KOTTE_130.geojson"
-            }
+    }
+  },
+  "Western": {
+    "province_name": "Western",
+    "type": "province",
+    "filename": "PROV_WESTERN_9.geojson",
+    "districts": {
+      "Colombo": {
+        "district_name": "Colombo",
+        "province_name": "Western",
+        "type": "district",
+        "filename": "DST_COLOMBO_5.geojson",
+        "ds_divisions": {
+          "Colombo": {
+            "district_name": "Colombo",
+            "ds_division_name": "Colombo",
+            "type": "ds_divisions",
+            "filename": "DS_COLOMBO_92.geojson"
+          },
+          "Thimbirigasyaya": {
+            "district_name": "Colombo",
+            "ds_division_name": "Thimbirigasyaya",
+            "type": "ds_divisions",
+            "filename": "DS_THIMBIRIGASYAYA_93.geojson"
+          },
+          "Dehiwala": {
+            "district_name": "Colombo",
+            "ds_division_name": "Dehiwala",
+            "type": "ds_divisions",
+            "filename": "DS_DEHIWALA_120.geojson"
+          },
+          "Homagama": {
+            "district_name": "Colombo",
+            "ds_division_name": "Homagama",
+            "type": "ds_divisions",
+            "filename": "DS_HOMAGAMA_121.geojson"
+          },
+          "Kaduwela": {
+            "district_name": "Colombo",
+            "ds_division_name": "Kaduwela",
+            "type": "ds_divisions",
+            "filename": "DS_KADUWELA_122.geojson"
+          },
+          "Kesbewa": {
+            "district_name": "Colombo",
+            "ds_division_name": "Kesbewa",
+            "type": "ds_divisions",
+            "filename": "DS_KESBEWA_123.geojson"
+          },
+          "Kolonnawa": {
+            "district_name": "Colombo",
+            "ds_division_name": "Kolonnawa",
+            "type": "ds_divisions",
+            "filename": "DS_KOLONNAWA_124.geojson"
+          },
+          "Maharagama": {
+            "district_name": "Colombo",
+            "ds_division_name": "Maharagama",
+            "type": "ds_divisions",
+            "filename": "DS_MAHARAGAMA_125.geojson"
+          },
+          "Moratuwa": {
+            "district_name": "Colombo",
+            "ds_division_name": "Moratuwa",
+            "type": "ds_divisions",
+            "filename": "DS_MORATUWA_126.geojson"
+          },
+          "Padukka": {
+            "district_name": "Colombo",
+            "ds_division_name": "Padukka",
+            "type": "ds_divisions",
+            "filename": "DS_PADUKKA_127.geojson"
+          },
+          "Ratmalana": {
+            "district_name": "Colombo",
+            "ds_division_name": "Ratmalana",
+            "type": "ds_divisions",
+            "filename": "DS_RATMALANA_128.geojson"
+          },
+          "Seethawaka": {
+            "district_name": "Colombo",
+            "ds_division_name": "Seethawaka",
+            "type": "ds_divisions",
+            "filename": "DS_SEETHAWAKA_129.geojson"
+          },
+          "Sri jayawardanapura kotte": {
+            "district_name": "Colombo",
+            "ds_division_name": "Sri jayawardanapura kotte",
+            "type": "ds_divisions",
+            "filename": "DS_SRI JAYAWARDANAPURA KOTTE_130.geojson"
           }
-        },
-        "Gampaha": {
-          "district_name": "Gampaha",
-          "province_name": "Western",
-          "type": "district",
-          "filename": "DST_GAMPAHA_7.geojson",
-          "ds_divisions": {
-            "Kelaniya": {
-              "district_name": "Gampaha",
-              "ds_division_name": "Kelaniya",
-              "type": "ds_divisions",
-              "filename": "DS_KELANIYA_34.geojson"
-            },
-            "Mahara": {
-              "district_name": "Gampaha",
-              "ds_division_name": "Mahara",
-              "type": "ds_divisions",
-              "filename": "DS_MAHARA_35.geojson"
-            },
-            "Minuwangoda": {
-              "district_name": "Gampaha",
-              "ds_division_name": "Minuwangoda",
-              "type": "ds_divisions",
-              "filename": "DS_MINUWANGODA_36.geojson"
-            },
-            "Mirigama": {
-              "district_name": "Gampaha",
-              "ds_division_name": "Mirigama",
-              "type": "ds_divisions",
-              "filename": "DS_MIRIGAMA_37.geojson"
-            },
-            "Negombo": {
-              "district_name": "Gampaha",
-              "ds_division_name": "Negombo",
-              "type": "ds_divisions",
-              "filename": "DS_NEGOMBO_38.geojson"
-            },
-            "Water area(lagoon)": {
-              "district_name": "Gampaha",
-              "ds_division_name": "Water area(lagoon)",
-              "type": "ds_divisions",
-              "filename": "DS_WATER AREA(LAGOON)_39.geojson"
-            },
-            "Wattala": {
-              "district_name": "Gampaha",
-              "ds_division_name": "Wattala",
-              "type": "ds_divisions",
-              "filename": "DS_WATTALA_40.geojson"
-            },
-            "Attanagalla": {
-              "district_name": "Gampaha",
-              "ds_division_name": "Attanagalla",
-              "type": "ds_divisions",
-              "filename": "DS_ATTANAGALLA_113.geojson"
-            },
-            "Biyagama": {
-              "district_name": "Gampaha",
-              "ds_division_name": "Biyagama",
-              "type": "ds_divisions",
-              "filename": "DS_BIYAGAMA_114.geojson"
-            },
-            "Divulapitiya": {
-              "district_name": "Gampaha",
-              "ds_division_name": "Divulapitiya",
-              "type": "ds_divisions",
-              "filename": "DS_DIVULAPITIYA_115.geojson"
-            },
-            "Dompe": {
-              "district_name": "Gampaha",
-              "ds_division_name": "Dompe",
-              "type": "ds_divisions",
-              "filename": "DS_DOMPE_116.geojson"
-            },
-            "Gampaha": {
-              "district_name": "Gampaha",
-              "ds_division_name": "Gampaha",
-              "type": "ds_divisions",
-              "filename": "DS_GAMPAHA_117.geojson"
-            },
-            "Ja ela": {
-              "district_name": "Gampaha",
-              "ds_division_name": "Ja ela",
-              "type": "ds_divisions",
-              "filename": "DS_JA ELA_118.geojson"
-            },
-            "Katana": {
-              "district_name": "Gampaha",
-              "ds_division_name": "Katana",
-              "type": "ds_divisions",
-              "filename": "DS_KATANA_119.geojson"
-            }
+        }
+      },
+      "Gampaha": {
+        "district_name": "Gampaha",
+        "province_name": "Western",
+        "type": "district",
+        "filename": "DST_GAMPAHA_7.geojson",
+        "ds_divisions": {
+          "Kelaniya": {
+            "district_name": "Gampaha",
+            "ds_division_name": "Kelaniya",
+            "type": "ds_divisions",
+            "filename": "DS_KELANIYA_34.geojson"
+          },
+          "Mahara": {
+            "district_name": "Gampaha",
+            "ds_division_name": "Mahara",
+            "type": "ds_divisions",
+            "filename": "DS_MAHARA_35.geojson"
+          },
+          "Minuwangoda": {
+            "district_name": "Gampaha",
+            "ds_division_name": "Minuwangoda",
+            "type": "ds_divisions",
+            "filename": "DS_MINUWANGODA_36.geojson"
+          },
+          "Mirigama": {
+            "district_name": "Gampaha",
+            "ds_division_name": "Mirigama",
+            "type": "ds_divisions",
+            "filename": "DS_MIRIGAMA_37.geojson"
+          },
+          "Negombo": {
+            "district_name": "Gampaha",
+            "ds_division_name": "Negombo",
+            "type": "ds_divisions",
+            "filename": "DS_NEGOMBO_38.geojson"
+          },
+          "Water area(lagoon)": {
+            "district_name": "Gampaha",
+            "ds_division_name": "Water area(lagoon)",
+            "type": "ds_divisions",
+            "filename": "DS_WATER AREA(LAGOON)_39.geojson"
+          },
+          "Wattala": {
+            "district_name": "Gampaha",
+            "ds_division_name": "Wattala",
+            "type": "ds_divisions",
+            "filename": "DS_WATTALA_40.geojson"
+          },
+          "Attanagalla": {
+            "district_name": "Gampaha",
+            "ds_division_name": "Attanagalla",
+            "type": "ds_divisions",
+            "filename": "DS_ATTANAGALLA_113.geojson"
+          },
+          "Biyagama": {
+            "district_name": "Gampaha",
+            "ds_division_name": "Biyagama",
+            "type": "ds_divisions",
+            "filename": "DS_BIYAGAMA_114.geojson"
+          },
+          "Divulapitiya": {
+            "district_name": "Gampaha",
+            "ds_division_name": "Divulapitiya",
+            "type": "ds_divisions",
+            "filename": "DS_DIVULAPITIYA_115.geojson"
+          },
+          "Dompe": {
+            "district_name": "Gampaha",
+            "ds_division_name": "Dompe",
+            "type": "ds_divisions",
+            "filename": "DS_DOMPE_116.geojson"
+          },
+          "Gampaha": {
+            "district_name": "Gampaha",
+            "ds_division_name": "Gampaha",
+            "type": "ds_divisions",
+            "filename": "DS_GAMPAHA_117.geojson"
+          },
+          "Ja ela": {
+            "district_name": "Gampaha",
+            "ds_division_name": "Ja ela",
+            "type": "ds_divisions",
+            "filename": "DS_JA ELA_118.geojson"
+          },
+          "Katana": {
+            "district_name": "Gampaha",
+            "ds_division_name": "Katana",
+            "type": "ds_divisions",
+            "filename": "DS_KATANA_119.geojson"
           }
-        },
-        "Kalutara": {
-          "district_name": "Kalutara",
-          "province_name": "Western",
-          "type": "district",
-          "filename": "DST_KALUTARA_10.geojson",
-          "ds_divisions": {
-            "Agalawatta": {
-              "district_name": "Kalutara",
-              "ds_division_name": "Agalawatta",
-              "type": "ds_divisions",
-              "filename": "DS_AGALAWATTA_145.geojson"
-            },
-            "Bandaragama": {
-              "district_name": "Kalutara",
-              "ds_division_name": "Bandaragama",
-              "type": "ds_divisions",
-              "filename": "DS_BANDARAGAMA_146.geojson"
-            },
-            "Beruwala": {
-              "district_name": "Kalutara",
-              "ds_division_name": "Beruwala",
-              "type": "ds_divisions",
-              "filename": "DS_BERUWALA_147.geojson"
-            },
-            "Bulathsinhala": {
-              "district_name": "Kalutara",
-              "ds_division_name": "Bulathsinhala",
-              "type": "ds_divisions",
-              "filename": "DS_BULATHSINHALA_148.geojson"
-            },
-            "Dodangoda": {
-              "district_name": "Kalutara",
-              "ds_division_name": "Dodangoda",
-              "type": "ds_divisions",
-              "filename": "DS_DODANGODA_149.geojson"
-            },
-            "Horana": {
-              "district_name": "Kalutara",
-              "ds_division_name": "Horana",
-              "type": "ds_divisions",
-              "filename": "DS_HORANA_150.geojson"
-            },
-            "Ingiriya": {
-              "district_name": "Kalutara",
-              "ds_division_name": "Ingiriya",
-              "type": "ds_divisions",
-              "filename": "DS_INGIRIYA_151.geojson"
-            },
-            "Kalutara": {
-              "district_name": "Kalutara",
-              "ds_division_name": "Kalutara",
-              "type": "ds_divisions",
-              "filename": "DS_KALUTARA_152.geojson"
-            },
-            "Madurawala": {
-              "district_name": "Kalutara",
-              "ds_division_name": "Madurawala",
-              "type": "ds_divisions",
-              "filename": "DS_MADURAWALA_153.geojson"
-            },
-            "Matugama": {
-              "district_name": "Kalutara",
-              "ds_division_name": "Matugama",
-              "type": "ds_divisions",
-              "filename": "DS_MATUGAMA_154.geojson"
-            },
-            "Millaniya": {
-              "district_name": "Kalutara",
-              "ds_division_name": "Millaniya",
-              "type": "ds_divisions",
-              "filename": "DS_MILLANIYA_155.geojson"
-            },
-            "Palindanuwara": {
-              "district_name": "Kalutara",
-              "ds_division_name": "Palindanuwara",
-              "type": "ds_divisions",
-              "filename": "DS_PALINDANUWARA_156.geojson"
-            },
-            "Panadura": {
-              "district_name": "Kalutara",
-              "ds_division_name": "Panadura",
-              "type": "ds_divisions",
-              "filename": "DS_PANADURA_157.geojson"
-            },
-            "Walallawita": {
-              "district_name": "Kalutara",
-              "ds_division_name": "Walallawita",
-              "type": "ds_divisions",
-              "filename": "DS_WALALLAWITA_158.geojson"
-            }
+        }
+      },
+      "Kalutara": {
+        "district_name": "Kalutara",
+        "province_name": "Western",
+        "type": "district",
+        "filename": "DST_KALUTARA_10.geojson",
+        "ds_divisions": {
+          "Agalawatta": {
+            "district_name": "Kalutara",
+            "ds_division_name": "Agalawatta",
+            "type": "ds_divisions",
+            "filename": "DS_AGALAWATTA_145.geojson"
+          },
+          "Bandaragama": {
+            "district_name": "Kalutara",
+            "ds_division_name": "Bandaragama",
+            "type": "ds_divisions",
+            "filename": "DS_BANDARAGAMA_146.geojson"
+          },
+          "Beruwala": {
+            "district_name": "Kalutara",
+            "ds_division_name": "Beruwala",
+            "type": "ds_divisions",
+            "filename": "DS_BERUWALA_147.geojson"
+          },
+          "Bulathsinhala": {
+            "district_name": "Kalutara",
+            "ds_division_name": "Bulathsinhala",
+            "type": "ds_divisions",
+            "filename": "DS_BULATHSINHALA_148.geojson"
+          },
+          "Dodangoda": {
+            "district_name": "Kalutara",
+            "ds_division_name": "Dodangoda",
+            "type": "ds_divisions",
+            "filename": "DS_DODANGODA_149.geojson"
+          },
+          "Horana": {
+            "district_name": "Kalutara",
+            "ds_division_name": "Horana",
+            "type": "ds_divisions",
+            "filename": "DS_HORANA_150.geojson"
+          },
+          "Ingiriya": {
+            "district_name": "Kalutara",
+            "ds_division_name": "Ingiriya",
+            "type": "ds_divisions",
+            "filename": "DS_INGIRIYA_151.geojson"
+          },
+          "Kalutara": {
+            "district_name": "Kalutara",
+            "ds_division_name": "Kalutara",
+            "type": "ds_divisions",
+            "filename": "DS_KALUTARA_152.geojson"
+          },
+          "Madurawala": {
+            "district_name": "Kalutara",
+            "ds_division_name": "Madurawala",
+            "type": "ds_divisions",
+            "filename": "DS_MADURAWALA_153.geojson"
+          },
+          "Matugama": {
+            "district_name": "Kalutara",
+            "ds_division_name": "Matugama",
+            "type": "ds_divisions",
+            "filename": "DS_MATUGAMA_154.geojson"
+          },
+          "Millaniya": {
+            "district_name": "Kalutara",
+            "ds_division_name": "Millaniya",
+            "type": "ds_divisions",
+            "filename": "DS_MILLANIYA_155.geojson"
+          },
+          "Palindanuwara": {
+            "district_name": "Kalutara",
+            "ds_division_name": "Palindanuwara",
+            "type": "ds_divisions",
+            "filename": "DS_PALINDANUWARA_156.geojson"
+          },
+          "Panadura": {
+            "district_name": "Kalutara",
+            "ds_division_name": "Panadura",
+            "type": "ds_divisions",
+            "filename": "DS_PANADURA_157.geojson"
+          },
+          "Walallawita": {
+            "district_name": "Kalutara",
+            "ds_division_name": "Walallawita",
+            "type": "ds_divisions",
+            "filename": "DS_WALALLAWITA_158.geojson"
           }
         }
       }
