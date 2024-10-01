@@ -21,8 +21,9 @@ const DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 const Map: React.FC = () => {
-  const [geoJsonUrl, setGeoJsonUrl] = useState<string>("");
+  const [geoJsonUrls, setGeoJsonUrls] = useState<string[]>([""]);
   const [geoJsonData, setGeoJsonData] = useState<GeoJSONResponse | null>(null);
+  const [loading, setLoading] = useState<boolean>(false);
   const [color, setColor] = useState<string>("#3388ff");
   const [opacity, setOpacity] = useState<number>(0.5);
 
@@ -47,48 +48,104 @@ const Map: React.FC = () => {
     return url;
   };
 
-  const rawGeoJsonUrl = transformGitHubUrl(geoJsonUrl);
-  console.log(rawGeoJsonUrl);
   const fetchGeoJson = async () => {
-    if (!geoJsonUrl) return;
+    setLoading(true);
+    setGeoJsonData(null);
 
     try {
-      const response = await axios.get<GeoJSONResponse>(
-        `https://corsproxy.io/?${rawGeoJsonUrl}`
+      const fetchedData = await Promise.all(
+        geoJsonUrls.map(async (url) => {
+          if (!url) return null;
+          const rawUrl = transformGitHubUrl(url);
+          const response = await axios.get<GeoJSONResponse>(
+            `https://corsproxy.io/?${rawUrl}`
+          );
+          return response.data;
+        })
       );
-      setGeoJsonData(response.data);
+
+      const combinedFeatures = fetchedData
+        .filter((data): data is GeoJSONResponse => data !== null)
+        .flatMap((data) => data.features);
+
+      setGeoJsonData({ type: "FeatureCollection", features: combinedFeatures });
     } catch (error) {
       console.error("Error fetching GeoJSON data:", error);
       setGeoJsonData(null);
+    } finally {
+      setLoading(false);
     }
   };
 
   useEffect(() => {
-    fetchGeoJson();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [geoJsonUrl]);
+    if (geoJsonUrls.length > 0) {
+      fetchGeoJson();
+    }
+  }, [geoJsonUrls]);
 
   const geoJsonStyle = {
     color: color,
     fillColor: color,
     fillOpacity: opacity,
+    weight: 1,
   };
 
   return (
     <div>
-      <div className='p-4 bg-gray-100 space-y-4 '>
+      <MapContainer
+        center={[7.8731, 80.7718]}
+        zoom={8}
+        style={{ height: "70vh", width: "100%" }}>
+        <LayersControl>
+          {Object.values(baseLayerConfig).map(
+            ({ url, attribution, key, type }) => (
+              <BaseLayer key={key} name={key} checked={key === "OpenStreetMap"}>
+                {type === "glStyle" ? (
+                  <MapLibreTileLayer url={url} attribution={attribution} />
+                ) : (
+                  <TileLayer url={url} attribution={attribution} />
+                )}
+              </BaseLayer>
+            )
+          )}
+        </LayersControl>
+
+        {geoJsonData && <GeoJSON data={geoJsonData} style={geoJsonStyle} />}
+      </MapContainer>
+      {loading && (
+        <div className='flex justify-center items-center'>
+          <span className='loading loading-bars loading-md'></span>
+        </div>
+      )}
+
+      <div className='p-4 bg-gray-100 space-y-4'>
         <label className='block'>
-          <span className='text-gray-700 '>GeoJSON URL:</span>
-          <input
-            type='text'
-            className='mt-1 block w-full px-4 py-2 input input-bordered input-infoc max-w-xs'
-            value={geoJsonUrl}
-            onChange={(e) => setGeoJsonUrl(e.target.value)}
-            placeholder='Enter GeoJSON URL'
-          />
+          <span className='text-gray-700'>GeoJSON URLs:</span>
+          {geoJsonUrls.map((url, index) => (
+            <div key={index} className='flex items-center space-x-2'>
+              <input
+                type='text'
+                className='mt-1 block w-full px-4 py-2 input input-bordered input-infoc max-w-xs'
+                value={url}
+                onChange={(e) => {
+                  const newUrls = [...geoJsonUrls];
+                  newUrls[index] = e.target.value;
+                  setGeoJsonUrls(newUrls);
+                }}
+                placeholder='Enter GeoJSON URL'
+              />
+              {index === geoJsonUrls.length - 1 && (
+                <button
+                  onClick={() => setGeoJsonUrls([...geoJsonUrls, ""])}
+                  className='btn btn-primary'>
+                  Add URL
+                </button>
+              )}
+            </div>
+          ))}
         </label>
         <label className='block w-fit'>
-          <span className='text-gray-700'>Example url : </span>
+          <span className='text-gray-700'>Example url:</span>
           <a
             href='https://github.com/itscharukadeshan/map_srilanka_data/blob/main/v1/administrative/geo_json/ds_divisions/ds_colombo_92.geojson'
             target='_blank'
@@ -98,12 +155,12 @@ const Map: React.FC = () => {
           </a>
         </label>
         <label className='block w-fit'>
-          <span className='text-gray-700 font-mono font-bold'>Repo url :</span>
+          <span className='text-gray-700 font-mono font-bold'>Repo url:</span>
           <a
             href='https://github.com/itscharukadeshan/map_srilanka_data/tree/main/v1'
             target='_blank'
             rel='noopener noreferrer'
-            className='text-blue-500 underline ml-2 font-mono font-bold '>
+            className='text-blue-500 underline ml-2 font-mono font-bold'>
             https://github.com/itscharukadeshan/map_srilanka_data/tree/main/v1
           </a>
         </label>
@@ -130,27 +187,6 @@ const Map: React.FC = () => {
           <span className='text-gray-500'>{opacity}</span>
         </label>
       </div>
-
-      <MapContainer
-        center={[7.8731, 80.7718]}
-        zoom={8}
-        style={{ height: "80vh", width: "100%" }}>
-        <LayersControl>
-          {Object.values(baseLayerConfig).map(
-            ({ url, attribution, key, type }) => (
-              <BaseLayer key={key} name={key} checked={key === "OpenStreetMap"}>
-                {type === "glStyle" ? (
-                  <MapLibreTileLayer url={url} attribution={attribution} />
-                ) : (
-                  <TileLayer url={url} attribution={attribution} />
-                )}
-              </BaseLayer>
-            )
-          )}
-        </LayersControl>
-
-        {geoJsonData && <GeoJSON data={geoJsonData} style={geoJsonStyle} />}
-      </MapContainer>
     </div>
   );
 };
