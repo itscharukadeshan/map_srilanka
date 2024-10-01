@@ -76,18 +76,37 @@ const Map: React.FC = () => {
 
   return (
     <div>
-      <div className='p-4 bg-gray-100 space-y-4'>
+      <div className='p-4 bg-gray-100 space-y-4 '>
         <label className='block'>
-          <span className='text-gray-700'>GeoJSON URL:</span>
+          <span className='text-gray-700 '>GeoJSON URL:</span>
           <input
             type='text'
-            className='mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring focus:ring-blue-500 focus:border-blue-500'
+            className='mt-1 block w-full px-4 py-2 input input-bordered input-infoc max-w-xs'
             value={geoJsonUrl}
             onChange={(e) => setGeoJsonUrl(e.target.value)}
             placeholder='Enter GeoJSON URL'
           />
         </label>
-
+        <label className='block w-fit'>
+          <span className='text-gray-700'>Example url : </span>
+          <a
+            href='https://github.com/itscharukadeshan/map_srilanka_data/blob/main/v1/administrative/geo_json/ds_divisions/ds_colombo_92.geojson'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-blue-500 underline ml-2'>
+            https://github.com/itscharukadeshan/map_srilanka_data/blob/main/v1/administrative/geo_json/ds_divisions/ds_colombo_92.geojson
+          </a>
+        </label>
+        <label className='block w-fit'>
+          <span className='text-gray-700 font-mono font-bold'>Repo url :</span>
+          <a
+            href='https://github.com/itscharukadeshan/map_srilanka_data/tree/main/v1'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-blue-500 underline ml-2 font-mono font-bold '>
+            https://github.com/itscharukadeshan/map_srilanka_data/tree/main/v1
+          </a>
+        </label>
         <label className='block w-28'>
           <span className='text-gray-700'>Color:</span>
           <input
@@ -97,7 +116,6 @@ const Map: React.FC = () => {
             onChange={(e) => setColor(e.target.value)}
           />
         </label>
-
         <label className='block w-28'>
           <span className='text-gray-700'>Opacity:</span>
           <input
