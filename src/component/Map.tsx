@@ -20,16 +20,16 @@ const DefaultIcon = L.icon({
 });
 L.Marker.prototype.options.icon = DefaultIcon;
 
-interface GeoJSONResponse {
-  type: string;
-  features: any[];
-}
-
 const Map: React.FC = () => {
   const [geoJsonUrl, setGeoJsonUrl] = useState<string>("");
   const [geoJsonData, setGeoJsonData] = useState<GeoJSONResponse | null>(null);
   const [color, setColor] = useState<string>("#3388ff");
   const [opacity, setOpacity] = useState<number>(0.5);
+
+  type GeoJSONResponse = {
+    type: "FeatureCollection";
+    features: GeoJSON.Feature<GeoJSON.Geometry, unknown>[];
+  };
 
   const extractPath = (url: string): string | null => {
     const match = url.match(/\/v1\/(.+)\.geojson$/);
