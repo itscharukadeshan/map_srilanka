@@ -29,7 +29,7 @@ const Map: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(false);
   const [color, setColor] = useState<string>("#3388ff");
   const [opacity, setOpacity] = useState<number>(0.5);
-  const [sidebarVisible, setSidebarVisible] = useState<boolean>(true);
+  const [sidebarVisible, setSidebarVisible] = useState<boolean>(false);
 
   type GeoJSONResponse = {
     type: "FeatureCollection";
@@ -97,6 +97,14 @@ const Map: React.FC = () => {
   const toggleSidebar = () => {
     setSidebarVisible(!sidebarVisible);
   };
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setSidebarVisible(true);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <div>
