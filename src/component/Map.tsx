@@ -31,23 +31,30 @@ const Map: React.FC = () => {
     features: GeoJSON.Feature<GeoJSON.Geometry, unknown>[];
   };
 
-  const extractPath = (url: string): string | null => {
-    const match = url.match(/\/v1\/(.+)\.geojson$/);
-    return match ? `/v1/${match[1]}` : null;
+  const transformGitHubUrl = (url: string) => {
+    const baseRepoUrl =
+      "https://github.com/itscharukadeshan/map_srilanka_data/blob/";
+
+    if (url.startsWith(baseRepoUrl)) {
+      return url
+        .replace(
+          "https://github.com/itscharukadeshan/map_srilanka_data/blob/",
+          "https://raw.githubusercontent.com/itscharukadeshan/map_srilanka_data/"
+        )
+        .replace("github.com", "raw.githubusercontent.com");
+    }
+
+    return url;
   };
 
+  const rawGeoJsonUrl = transformGitHubUrl(geoJsonUrl);
+  console.log(rawGeoJsonUrl);
   const fetchGeoJson = async () => {
     if (!geoJsonUrl) return;
 
-    const extractedPath = extractPath(geoJsonUrl);
-    if (!extractedPath) {
-      console.error("Invalid URL format");
-      return;
-    }
-
     try {
       const response = await axios.get<GeoJSONResponse>(
-        `https://mapsrilankaapi.vercel.app/api/fetchData?filePath=${extractedPath}`
+        `https://corsproxy.io/?${rawGeoJsonUrl}`
       );
       setGeoJsonData(response.data);
     } catch (error) {
