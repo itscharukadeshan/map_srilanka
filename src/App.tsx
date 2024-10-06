@@ -20,7 +20,7 @@ const App = () => {
         <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
 
         <main
-          className={`flex-1 bg-gray-100 relative transition-all duration-300 ${
+          className={`flex-1 bg-gray-900 relative  transition-all duration-300 ${
             isSidebarOpen ? "ml-64" : "ml-0"
           }`}>
           <Map />
