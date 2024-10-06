@@ -2,7 +2,7 @@
 
 import { useState, ChangeEvent } from "react";
 import Fuse from "fuse.js";
-import administrativeData from "../data/search/administrative.json";
+import administrativeData from "../../data/search/administrative.json";
 
 // Type for the administrative data objects
 interface Administrative {
