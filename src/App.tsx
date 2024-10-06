@@ -1,18 +1,33 @@
 /** @format */
-import NavBar from "./component/layout/NavBar";
 
+import { useState } from "react";
+import NavBar from "./component/layout/NavBar";
+import Sidebar from "./component/layout/SideBar";
 import Map from "./component/map/Map";
 
-export default function App() {
+const App = () => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
+
   return (
     <div className='h-screen flex flex-col'>
-      <NavBar />
+      <NavBar toggleSidebar={toggleSidebar} />
 
       <div className='flex flex-1'>
-        <main className='flex-1 bg-gray-100 relative '>
+        <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
+
+        <main
+          className={`flex-1 bg-gray-100 relative transition-all duration-300 ${
+            isSidebarOpen ? "ml-64" : "ml-0"
+          }`}>
           <Map />
         </main>
       </div>
     </div>
   );
-}
+};
+
+export default App;
