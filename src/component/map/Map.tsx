@@ -22,10 +22,11 @@ const DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 const geoJsonLayers = {
-  amparaDistrict: {
-    url: "https://corsproxy.io/?https://github.com/itscharukadeshan/map_srilanka_data/raw/refs/heads/main/v1/administrative/geo_json/district/dst_ampara_1.geojson",
+  Hambantotha: {
+    url: "https://corsproxy.io/?https://github.com/itscharukadeshan/map_srilanka_data/raw/refs/heads/main/v1/administrative/geo_json/gn_divisions/southern/hambantota/ambalantota_combined.geojson",
     color: "#FF0000",
-    opacity: 0.7,
+    opacity: 0.4,
+    weight: 1,
   },
 };
 

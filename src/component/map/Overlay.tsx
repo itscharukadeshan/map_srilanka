@@ -30,6 +30,7 @@ interface OverlayLayer {
   url: string;
   color: string;
   opacity: number;
+  strokeWidth?: number;
 }
 
 interface OverlaysProps {
@@ -64,7 +65,7 @@ const Overlays: React.FC<OverlaysProps> = ({ layers }) => {
 
   return (
     <>
-      {Object.entries(layers).map(([name, { color, opacity }]) => (
+      {Object.entries(layers).map(([name, { color, opacity, strokeWidth }]) => (
         <LayersControl.Overlay key={name} name={name}>
           {geoJSONData[name] && (
             <GeoJSON
@@ -72,6 +73,7 @@ const Overlays: React.FC<OverlaysProps> = ({ layers }) => {
               style={{
                 color,
                 opacity,
+                weight: strokeWidth || 1,
               }}
             />
           )}
