@@ -8,6 +8,7 @@ import L from "leaflet";
 
 import baseLayerConfig from "../../utils/baseLayerConfig";
 import MapLibreTileLayer from "./MapLibreTileLayer";
+import Overlays from "./Overlay";
 
 const { BaseLayer } = LayersControl;
 
@@ -19,6 +20,14 @@ const DefaultIcon = L.icon({
   shadowUrl: iconShadow,
 });
 L.Marker.prototype.options.icon = DefaultIcon;
+
+const geoJsonLayers = {
+  amparaDistrict: {
+    url: "https://corsproxy.io/?https://github.com/itscharukadeshan/map_srilanka_data/raw/refs/heads/main/v1/administrative/geo_json/district/dst_ampara_1.geojson",
+    color: "#FF0000",
+    opacity: 0.7,
+  },
+};
 
 const Map: React.FC = () => {
   return (
@@ -38,6 +47,7 @@ const Map: React.FC = () => {
             </BaseLayer>
           )
         )}
+        <Overlays layers={geoJsonLayers} />
       </LayersControl>
     </MapContainer>
   );
