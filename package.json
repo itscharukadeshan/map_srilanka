@@ -12,6 +12,7 @@
   "dependencies": {
     "@maplibre/maplibre-gl-leaflet": "^0.0.22",
     "@types/geojson": "^7946.0.14",
+    "@uidotdev/usehooks": "^2.4.1",
     "axios": "^1.7.7",
     "esri-leaflet": "^3.0.12",
     "fuse.js": "^7.0.0",

@@ -1,8 +1,10 @@
 /** @format */
 
 import React, { useEffect, useState } from "react";
+import { useLocalStorage } from "@uidotdev/usehooks";
 import { LayersControl, GeoJSON } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
+
 import { fetchGeoJSONData } from "../../services/geojsonService";
 
 interface Geometry {
@@ -42,11 +44,21 @@ const Overlays: React.FC<OverlaysProps> = ({ layers }) => {
     [key: string]: FeatureCollection;
   }>({});
 
+  const [storedData, setStoredData] = useLocalStorage<{
+    [key: string]: FeatureCollection;
+  }>("geoJSONData", {});
+
   useEffect(() => {
     const fetchData = async () => {
       const dataPromises = Object.entries(layers).map(
         async ([name, { url }]) => {
+          if (storedData[name]) {
+            return { name, data: storedData[name] };
+          }
+
           const data: FeatureCollection = await fetchGeoJSONData(url);
+
+          setStoredData((prev) => ({ ...prev, [name]: data }));
           return { name, data };
         }
       );
@@ -61,7 +73,7 @@ const Overlays: React.FC<OverlaysProps> = ({ layers }) => {
     };
 
     fetchData();
-  }, [layers]);
+  }, [layers, storedData, setStoredData]);
 
   return (
     <>
