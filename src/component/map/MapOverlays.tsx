@@ -108,8 +108,8 @@ const MapOverlays: React.FC = () => {
                   data={geoJsonData[result.name]}
                   style={{
                     color: result.color,
-                    opacity: result.opacity,
                     weight: result.stroke,
+                    fillOpacity: result.opacity,
                   }}
                 />
               )
