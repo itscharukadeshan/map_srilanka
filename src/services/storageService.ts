@@ -12,6 +12,7 @@ export interface SearchResultUpdated {
   color: string;
   opacity: number;
   stroke: number;
+  visibility: boolean;
 }
 
 const getRandomColor = (): string => {
@@ -34,6 +35,7 @@ export const saveSearchResult = (result: SearchResult) => {
     color: getRandomColor(),
     opacity: 0.5,
     stroke: 1,
+    visibility: true,
   };
 
   resultsArray.push(extendedResult);
@@ -48,4 +50,15 @@ export const getSearchResults = (): SearchResult[] => {
 
 export const clearSearchResults = () => {
   localStorage.removeItem("searchResults");
+};
+
+export const removeSearchResultByName = (name: string) => {
+  const existingResults = localStorage.getItem("searchResults");
+  const resultsArray: SearchResultUpdated[] = existingResults
+    ? JSON.parse(existingResults)
+    : [];
+
+  const updatedResults = resultsArray.filter((result) => result.name !== name);
+
+  localStorage.setItem("searchResults", JSON.stringify(updatedResults));
 };
