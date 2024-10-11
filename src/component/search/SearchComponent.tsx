@@ -2,7 +2,7 @@
 
 import { useState, ChangeEvent } from "react";
 import Fuse from "fuse.js";
-import administrativeData from "../../data/search/administrative_update.json";
+import administrativeData from "../../data/search/administrative_updated_compact.json";
 import createResultObject from "../../services/generateRawUrl";
 
 interface Administrative {
