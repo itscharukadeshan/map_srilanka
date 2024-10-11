@@ -1,10 +1,10 @@
 /** @format */
 
-import { useState, ChangeEvent, KeyboardEvent } from "react";
+import { useState, useEffect, ChangeEvent, KeyboardEvent } from "react";
 import Fuse from "fuse.js";
 import { SearchX } from "lucide-react";
-import administrativeData from "../../data/search/administrative_updated_compact.json";
 import createResultObject from "../../services/generateRawUrl";
+import { useAdministrativeData } from "../../services/administrativeService";
 
 interface Administrative {
   filename: string;
@@ -25,6 +25,13 @@ const SearchComponent = () => {
   const [query, setQuery] = useState<string>("");
   const [suggestions, setSuggestions] = useState<Administrative[]>([]);
   const [highlightedIndex, setHighlightedIndex] = useState<number>(-1);
+
+  const { administrativeData, fetchAdministrativeData } =
+    useAdministrativeData();
+
+  useEffect(() => {
+    fetchAdministrativeData();
+  }, [fetchAdministrativeData]);
 
   const fuse = new Fuse(administrativeData as Administrative[], fuseOptions);
 
@@ -91,7 +98,7 @@ const SearchComponent = () => {
   };
 
   return (
-    <div className='search-container w-56 pl-2'>
+    <div className='search-container w-56 p-2'>
       <div className='flex'>
         <input
           type='text'
@@ -105,16 +112,16 @@ const SearchComponent = () => {
         <button
           onClick={clearInput}
           aria-label='Clear Search Input'
-          className=' btn btn-warning mx-2 '>
+          className='btn btn-warning mx-2 '>
           <SearchX />
         </button>
       </div>
-      <ul className='suggestions-list mt-2'>
+      <ul className='suggestions-list mt-2 p-2'>
         {suggestions.map((item, index) => (
           <li
             key={index}
-            className={`p-2 border-b cursor-pointer ${
-              highlightedIndex === index ? "bg-gray-200" : ""
+            className={`py-2 cursor-pointer ${
+              highlightedIndex === index ? "bg-slate-600 bg-opacity-50" : ""
             }`}
             onMouseEnter={() => setHighlightedIndex(index)}
             onClick={() => {
