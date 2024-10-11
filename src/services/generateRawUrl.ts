@@ -66,8 +66,7 @@ const createResultObject = (item: Administrative) => {
   const convertToRawUrl = (githubUrl: string): string => {
     const rawUrl = githubUrl
       .replace("https://github.com/", "https://raw.githubusercontent.com/")
-      .replace("/blob/", "/")
-      .replace("/refs/heads/", "/");
+      .replace("/blob/", "/refs/heads/");
 
     return `https://corsproxy.io/?${rawUrl}`;
   };
