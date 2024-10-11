@@ -1,0 +1,47 @@
+[
+  {
+    "type": "province",
+    "province_name": "central",
+    "filename": "prov_central_1.geojson"
+  },
+  {
+    "type": "province",
+    "province_name": "eastern",
+    "filename": "prov_eastern_2.geojson"
+  },
+  {
+    "type": "province",
+    "province_name": "north central",
+    "filename": "prov_north central_3.geojson"
+  },
+  {
+    "type": "province",
+    "province_name": "north_western",
+    "filename": "prov_north_western_4.geojson"
+  },
+  {
+    "type": "province",
+    "province_name": "northern",
+    "filename": "prov_northern_5.geojson"
+  },
+  {
+    "type": "province",
+    "province_name": "sabaragamuwa",
+    "filename": "prov_sabaragamuwa_6.geojson"
+  },
+  {
+    "type": "province",
+    "province_name": "southern",
+    "filename": "prov_southern_7.geojson"
+  },
+  {
+    "type": "province",
+    "province_name": "uva",
+    "filename": "prov_uva_8.geojson"
+  },
+  {
+    "type": "province",
+    "province_name": "western",
+    "filename": "prov_western_9.geojson"
+  }
+]

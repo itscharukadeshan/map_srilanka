@@ -1,0 +1,2326 @@
+[
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "addalaichenai",
+    "district_name": "ampara",
+    "province_name": "eastern",
+    "filename": "ds_addalaichenai_1.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "akkaraipattu",
+    "district_name": "ampara",
+    "province_name": "eastern",
+    "filename": "ds_akkaraipattu_2.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "alayadivembu",
+    "district_name": "ampara",
+    "province_name": "eastern",
+    "filename": "ds_alayadivembu_3.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "ampara",
+    "district_name": "ampara",
+    "province_name": "eastern",
+    "filename": "ds_ampara_4.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "damana",
+    "district_name": "ampara",
+    "province_name": "eastern",
+    "filename": "ds_damana_5.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "dehiattakandiya",
+    "district_name": "ampara",
+    "province_name": "eastern",
+    "filename": "ds_dehiattakandiya_6.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "irakkamam",
+    "district_name": "ampara",
+    "province_name": "eastern",
+    "filename": "ds_irakkamam_7.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kalmunai",
+    "district_name": "ampara",
+    "province_name": "eastern",
+    "filename": "ds_kalmunai_8.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "nuwaragam palatha east",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_nuwaragam palatha east_9.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "padaviya",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_padaviya_10.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "palagala",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_palagala_11.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "palugaswewa",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_palugaswewa_12.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "rajanganaya",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_rajanganaya_13.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "rambewa",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_rambewa_14.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "thalawa",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_thalawa_15.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "thambuththegama",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_thambuththegama_16.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "thirappane",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_thirappane_17.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "badulla",
+    "district_name": "badulla",
+    "province_name": "uva",
+    "filename": "ds_badulla_18.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "bandarawela",
+    "district_name": "badulla",
+    "province_name": "uva",
+    "filename": "ds_bandarawela_19.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "ella",
+    "district_name": "badulla",
+    "province_name": "uva",
+    "filename": "ds_ella_20.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "haldummulla",
+    "district_name": "badulla",
+    "province_name": "uva",
+    "filename": "ds_haldummulla_21.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "hali-ela",
+    "district_name": "badulla",
+    "province_name": "uva",
+    "filename": "ds_hali-ela_22.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "haputale",
+    "district_name": "badulla",
+    "province_name": "uva",
+    "filename": "ds_haputale_23.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kandeketiya",
+    "district_name": "badulla",
+    "province_name": "uva",
+    "filename": "ds_kandeketiya_24.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "lunugala",
+    "district_name": "badulla",
+    "province_name": "uva",
+    "filename": "ds_lunugala_25.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "mahiyanganaya",
+    "district_name": "badulla",
+    "province_name": "uva",
+    "filename": "ds_mahiyanganaya_26.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "meegahakiula",
+    "district_name": "badulla",
+    "province_name": "uva",
+    "filename": "ds_meegahakiula_27.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "passara",
+    "district_name": "badulla",
+    "province_name": "uva",
+    "filename": "ds_passara_28.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "rideemaliyadda",
+    "district_name": "badulla",
+    "province_name": "uva",
+    "filename": "ds_rideemaliyadda_29.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "soranathota",
+    "district_name": "badulla",
+    "province_name": "uva",
+    "filename": "ds_soranathota_30.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "uvaparanagama",
+    "district_name": "badulla",
+    "province_name": "uva",
+    "filename": "ds_uvaparanagama_31.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "welimada",
+    "district_name": "badulla",
+    "province_name": "uva",
+    "filename": "ds_welimada_32.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "eravur pattu",
+    "district_name": "batticaloa",
+    "province_name": "eastern",
+    "filename": "ds_eravur pattu_33.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kelaniya",
+    "district_name": "gampaha",
+    "province_name": "western",
+    "filename": "ds_kelaniya_34.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "mahara",
+    "district_name": "gampaha",
+    "province_name": "western",
+    "filename": "ds_mahara_35.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "minuwangoda",
+    "district_name": "gampaha",
+    "province_name": "western",
+    "filename": "ds_minuwangoda_36.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "mirigama",
+    "district_name": "gampaha",
+    "province_name": "western",
+    "filename": "ds_mirigama_37.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "negombo",
+    "district_name": "gampaha",
+    "province_name": "western",
+    "filename": "ds_negombo_38.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "water area(lagoon)",
+    "district_name": "gampaha",
+    "province_name": "western",
+    "filename": "ds_water area(lagoon)_39.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "wattala",
+    "district_name": "gampaha",
+    "province_name": "western",
+    "filename": "ds_wattala_40.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "ambalantota",
+    "district_name": "hambantota",
+    "province_name": "southern",
+    "filename": "ds_ambalantota_41.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "angunakolapelessa",
+    "district_name": "hambantota",
+    "province_name": "southern",
+    "filename": "ds_angunakolapelessa_42.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "beliatta",
+    "district_name": "hambantota",
+    "province_name": "southern",
+    "filename": "ds_beliatta_43.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "hambantota",
+    "district_name": "hambantota",
+    "province_name": "southern",
+    "filename": "ds_hambantota_44.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "katuwana",
+    "district_name": "hambantota",
+    "province_name": "southern",
+    "filename": "ds_katuwana_45.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "lunugamwehera",
+    "district_name": "hambantota",
+    "province_name": "southern",
+    "filename": "ds_lunugamwehera_46.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "okewela",
+    "district_name": "hambantota",
+    "province_name": "southern",
+    "filename": "ds_okewela_47.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "sooriyawewa",
+    "district_name": "hambantota",
+    "province_name": "southern",
+    "filename": "ds_sooriyawewa_48.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "tangalle",
+    "district_name": "hambantota",
+    "province_name": "southern",
+    "filename": "ds_tangalle_49.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "thissamaharama",
+    "district_name": "hambantota",
+    "province_name": "southern",
+    "filename": "ds_thissamaharama_50.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "walasmulla",
+    "district_name": "hambantota",
+    "province_name": "southern",
+    "filename": "ds_walasmulla_51.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "weeraketiya",
+    "district_name": "hambantota",
+    "province_name": "southern",
+    "filename": "ds_weeraketiya_52.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "delft",
+    "district_name": "jaffna",
+    "province_name": "northern",
+    "filename": "ds_delft_53.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "karaitivu",
+    "district_name": "ampara",
+    "province_name": "eastern",
+    "filename": "ds_karaitivu_54.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "lahugala",
+    "district_name": "ampara",
+    "province_name": "eastern",
+    "filename": "ds_lahugala_55.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "mahaoya",
+    "district_name": "ampara",
+    "province_name": "eastern",
+    "filename": "ds_mahaoya_56.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "navithanveli",
+    "district_name": "ampara",
+    "province_name": "eastern",
+    "filename": "ds_navithanveli_57.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "nintavur",
+    "district_name": "ampara",
+    "province_name": "eastern",
+    "filename": "ds_nintavur_58.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "padiyathalawa",
+    "district_name": "ampara",
+    "province_name": "eastern",
+    "filename": "ds_padiyathalawa_59.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "pottuvil",
+    "district_name": "ampara",
+    "province_name": "eastern",
+    "filename": "ds_pottuvil_60.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "sainthamaruthu",
+    "district_name": "ampara",
+    "province_name": "eastern",
+    "filename": "ds_sainthamaruthu_61.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "sammanthurai",
+    "district_name": "ampara",
+    "province_name": "eastern",
+    "filename": "ds_sammanthurai_62.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "tirukkovil",
+    "district_name": "ampara",
+    "province_name": "eastern",
+    "filename": "ds_tirukkovil_63.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "uhana",
+    "district_name": "ampara",
+    "province_name": "eastern",
+    "filename": "ds_uhana_64.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "galenbidunuwewa",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_galenbidunuwewa_65.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "galnewa",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_galnewa_66.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "horowpathana",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_horowpathana_67.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "ipalogama",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_ipalogama_68.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kahatagasdigiliya",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_kahatagasdigiliya_69.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kebithigollewa",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_kebithigollewa_70.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kekirawa",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_kekirawa_71.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "mahawilachchiya",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_mahawilachchiya_72.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "medawachchiya",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_medawachchiya_73.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "mihinthale",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_mihinthale_74.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "nachchaduwa",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_nachchaduwa_75.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "nochchiyagama",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_nochchiyagama_76.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "nuwaragam palatha central",
+    "district_name": "anuradhapura",
+    "province_name": "north central",
+    "filename": "ds_nuwaragam palatha central_77.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "eravur town",
+    "district_name": "batticaloa",
+    "province_name": "eastern",
+    "filename": "ds_eravur town_78.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kattankudy",
+    "district_name": "batticaloa",
+    "province_name": "eastern",
+    "filename": "ds_kattankudy_79.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "koralai pattu",
+    "district_name": "batticaloa",
+    "province_name": "eastern",
+    "filename": "ds_koralai pattu_80.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "koralai pattu central",
+    "district_name": "batticaloa",
+    "province_name": "eastern",
+    "filename": "ds_koralai pattu central_81.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "koralai pattu north",
+    "district_name": "batticaloa",
+    "province_name": "eastern",
+    "filename": "ds_koralai pattu north_82.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "koralai pattu south",
+    "district_name": "batticaloa",
+    "province_name": "eastern",
+    "filename": "ds_koralai pattu south_83.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "koralai pattu west",
+    "district_name": "batticaloa",
+    "province_name": "eastern",
+    "filename": "ds_koralai pattu west_84.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "manmunai north",
+    "district_name": "batticaloa",
+    "province_name": "eastern",
+    "filename": "ds_manmunai north_85.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "manmunai pattu",
+    "district_name": "batticaloa",
+    "province_name": "eastern",
+    "filename": "ds_manmunai pattu_86.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "manmunai south & eruvil pattu",
+    "district_name": "batticaloa",
+    "province_name": "eastern",
+    "filename": "ds_manmunai south & eruvil pattu_87.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "manmunai south west",
+    "district_name": "batticaloa",
+    "province_name": "eastern",
+    "filename": "ds_manmunai south west_88.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "manmunai west",
+    "district_name": "batticaloa",
+    "province_name": "eastern",
+    "filename": "ds_manmunai west_89.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "porativu pattu",
+    "district_name": "batticaloa",
+    "province_name": "eastern",
+    "filename": "ds_porativu pattu_90.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "water area",
+    "district_name": "batticaloa",
+    "province_name": "eastern",
+    "filename": "ds_water area_91.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "colombo",
+    "district_name": "colombo",
+    "province_name": "western",
+    "filename": "ds_colombo_92.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "thimbirigasyaya",
+    "district_name": "colombo",
+    "province_name": "western",
+    "filename": "ds_thimbirigasyaya_93.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "akmeemana",
+    "district_name": "galle",
+    "province_name": "southern",
+    "filename": "ds_akmeemana_94.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "ambalangoda",
+    "district_name": "galle",
+    "province_name": "southern",
+    "filename": "ds_ambalangoda_95.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "baddegama",
+    "district_name": "galle",
+    "province_name": "southern",
+    "filename": "ds_baddegama_96.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "balapitiya",
+    "district_name": "galle",
+    "province_name": "southern",
+    "filename": "ds_balapitiya_97.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "bentota",
+    "district_name": "galle",
+    "province_name": "southern",
+    "filename": "ds_bentota_98.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "bope-poddala",
+    "district_name": "galle",
+    "province_name": "southern",
+    "filename": "ds_bope-poddala_99.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "elpitiya",
+    "district_name": "galle",
+    "province_name": "southern",
+    "filename": "ds_elpitiya_100.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "galle4gravets",
+    "district_name": "galle",
+    "province_name": "southern",
+    "filename": "ds_galle4gravets_101.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "gonapinuwala",
+    "district_name": "galle",
+    "province_name": "southern",
+    "filename": "ds_gonapinuwala_102.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "habaraduwa",
+    "district_name": "galle",
+    "province_name": "southern",
+    "filename": "ds_habaraduwa_103.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "hikkaduwa",
+    "district_name": "galle",
+    "province_name": "southern",
+    "filename": "ds_hikkaduwa_104.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "imaduwa",
+    "district_name": "galle",
+    "province_name": "southern",
+    "filename": "ds_imaduwa_105.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "karandeniya",
+    "district_name": "galle",
+    "province_name": "southern",
+    "filename": "ds_karandeniya_106.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "nagoda",
+    "district_name": "galle",
+    "province_name": "southern",
+    "filename": "ds_nagoda_107.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "neluwa",
+    "district_name": "galle",
+    "province_name": "southern",
+    "filename": "ds_neluwa_108.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "niyagama",
+    "district_name": "galle",
+    "province_name": "southern",
+    "filename": "ds_niyagama_109.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "thawalama",
+    "district_name": "galle",
+    "province_name": "southern",
+    "filename": "ds_thawalama_110.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "welivitiya-divitura",
+    "district_name": "galle",
+    "province_name": "southern",
+    "filename": "ds_welivitiya-divitura_111.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "yakkalamulla",
+    "district_name": "galle",
+    "province_name": "southern",
+    "filename": "ds_yakkalamulla_112.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "attanagalla",
+    "district_name": "gampaha",
+    "province_name": "western",
+    "filename": "ds_attanagalla_113.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "biyagama",
+    "district_name": "gampaha",
+    "province_name": "western",
+    "filename": "ds_biyagama_114.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "divulapitiya",
+    "district_name": "gampaha",
+    "province_name": "western",
+    "filename": "ds_divulapitiya_115.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "dompe",
+    "district_name": "gampaha",
+    "province_name": "western",
+    "filename": "ds_dompe_116.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "gampaha",
+    "district_name": "gampaha",
+    "province_name": "western",
+    "filename": "ds_gampaha_117.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "ja ela",
+    "district_name": "gampaha",
+    "province_name": "western",
+    "filename": "ds_ja ela_118.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "katana",
+    "district_name": "gampaha",
+    "province_name": "western",
+    "filename": "ds_katana_119.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "dehiwala",
+    "district_name": "colombo",
+    "province_name": "western",
+    "filename": "ds_dehiwala_120.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "homagama",
+    "district_name": "colombo",
+    "province_name": "western",
+    "filename": "ds_homagama_121.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kaduwela",
+    "district_name": "colombo",
+    "province_name": "western",
+    "filename": "ds_kaduwela_122.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kesbewa",
+    "district_name": "colombo",
+    "province_name": "western",
+    "filename": "ds_kesbewa_123.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kolonnawa",
+    "district_name": "colombo",
+    "province_name": "western",
+    "filename": "ds_kolonnawa_124.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "maharagama",
+    "district_name": "colombo",
+    "province_name": "western",
+    "filename": "ds_maharagama_125.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "moratuwa",
+    "district_name": "colombo",
+    "province_name": "western",
+    "filename": "ds_moratuwa_126.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "padukka",
+    "district_name": "colombo",
+    "province_name": "western",
+    "filename": "ds_padukka_127.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "ratmalana",
+    "district_name": "colombo",
+    "province_name": "western",
+    "filename": "ds_ratmalana_128.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "seethawaka",
+    "district_name": "colombo",
+    "province_name": "western",
+    "filename": "ds_seethawaka_129.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "sri jayawardanapura kotte",
+    "district_name": "colombo",
+    "province_name": "western",
+    "filename": "ds_sri jayawardanapura kotte_130.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "islands north(kayts)",
+    "district_name": "jaffna",
+    "province_name": "northern",
+    "filename": "ds_islands north(kayts)_131.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "islands south(velanai)",
+    "district_name": "jaffna",
+    "province_name": "northern",
+    "filename": "ds_islands south(velanai)_132.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "jaffna",
+    "district_name": "jaffna",
+    "province_name": "northern",
+    "filename": "ds_jaffna_133.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "karainagar",
+    "district_name": "jaffna",
+    "province_name": "northern",
+    "filename": "ds_karainagar_134.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "nallur",
+    "district_name": "jaffna",
+    "province_name": "northern",
+    "filename": "ds_nallur_135.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "thenmaradchi(chavakachcheri)",
+    "district_name": "jaffna",
+    "province_name": "northern",
+    "filename": "ds_thenmaradchi(chavakachcheri)_136.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "vadamaradchchi east",
+    "district_name": "jaffna",
+    "province_name": "northern",
+    "filename": "ds_vadamaradchchi east_137.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "vadamaradchchi south-west(karaveddy)",
+    "district_name": "jaffna",
+    "province_name": "northern",
+    "filename": "ds_vadamaradchchi south-west(karaveddy)_138.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "vadamaradchi north(point pedro)",
+    "district_name": "jaffna",
+    "province_name": "northern",
+    "filename": "ds_vadamaradchi north(point pedro)_139.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "valikamam east(kopay)",
+    "district_name": "jaffna",
+    "province_name": "northern",
+    "filename": "ds_valikamam east(kopay)_140.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "valikamam north(thllippalai)",
+    "district_name": "jaffna",
+    "province_name": "northern",
+    "filename": "ds_valikamam north(thllippalai)_141.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "valikamam south west(sandilipay)",
+    "district_name": "jaffna",
+    "province_name": "northern",
+    "filename": "ds_valikamam south west(sandilipay)_142.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "valikamam south(uduvil)",
+    "district_name": "jaffna",
+    "province_name": "northern",
+    "filename": "ds_valikamam south(uduvil)_143.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "valikamam west(chankanai)",
+    "district_name": "jaffna",
+    "province_name": "northern",
+    "filename": "ds_valikamam west(chankanai)_144.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "agalawatta",
+    "district_name": "kalutara",
+    "province_name": "western",
+    "filename": "ds_agalawatta_145.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "bandaragama",
+    "district_name": "kalutara",
+    "province_name": "western",
+    "filename": "ds_bandaragama_146.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "beruwala",
+    "district_name": "kalutara",
+    "province_name": "western",
+    "filename": "ds_beruwala_147.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "bulathsinhala",
+    "district_name": "kalutara",
+    "province_name": "western",
+    "filename": "ds_bulathsinhala_148.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "dodangoda",
+    "district_name": "kalutara",
+    "province_name": "western",
+    "filename": "ds_dodangoda_149.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "horana",
+    "district_name": "kalutara",
+    "province_name": "western",
+    "filename": "ds_horana_150.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "ingiriya",
+    "district_name": "kalutara",
+    "province_name": "western",
+    "filename": "ds_ingiriya_151.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kalutara",
+    "district_name": "kalutara",
+    "province_name": "western",
+    "filename": "ds_kalutara_152.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "madurawala",
+    "district_name": "kalutara",
+    "province_name": "western",
+    "filename": "ds_madurawala_153.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "matugama",
+    "district_name": "kalutara",
+    "province_name": "western",
+    "filename": "ds_matugama_154.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "millaniya",
+    "district_name": "kalutara",
+    "province_name": "western",
+    "filename": "ds_millaniya_155.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "palindanuwara",
+    "district_name": "kalutara",
+    "province_name": "western",
+    "filename": "ds_palindanuwara_156.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "panadura",
+    "district_name": "kalutara",
+    "province_name": "western",
+    "filename": "ds_panadura_157.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "walallawita",
+    "district_name": "kalutara",
+    "province_name": "western",
+    "filename": "ds_walallawita_158.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "akurana",
+    "district_name": "kandy",
+    "province_name": "central",
+    "filename": "ds_akurana_159.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "deltota",
+    "district_name": "kandy",
+    "province_name": "central",
+    "filename": "ds_deltota_160.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "doluwa",
+    "district_name": "kandy",
+    "province_name": "central",
+    "filename": "ds_doluwa_161.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "ganga ihala korale",
+    "district_name": "kandy",
+    "province_name": "central",
+    "filename": "ds_ganga ihala korale_162.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "gangawata korale",
+    "district_name": "kandy",
+    "province_name": "central",
+    "filename": "ds_gangawata korale_163.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "harispattuwa",
+    "district_name": "kandy",
+    "province_name": "central",
+    "filename": "ds_harispattuwa_164.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "hatharaliyadda",
+    "district_name": "kandy",
+    "province_name": "central",
+    "filename": "ds_hatharaliyadda_165.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kundasale",
+    "district_name": "kandy",
+    "province_name": "central",
+    "filename": "ds_kundasale_166.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "medadumbara",
+    "district_name": "kandy",
+    "province_name": "central",
+    "filename": "ds_medadumbara_167.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "minipe",
+    "district_name": "kandy",
+    "province_name": "central",
+    "filename": "ds_minipe_168.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "panvila",
+    "district_name": "kandy",
+    "province_name": "central",
+    "filename": "ds_panvila_169.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "pasbagekorale",
+    "district_name": "kandy",
+    "province_name": "central",
+    "filename": "ds_pasbagekorale_170.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "pathadumbara",
+    "district_name": "kandy",
+    "province_name": "central",
+    "filename": "ds_pathadumbara_171.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "pathahewaheta",
+    "district_name": "kandy",
+    "province_name": "central",
+    "filename": "ds_pathahewaheta_172.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "poojapitiya",
+    "district_name": "kandy",
+    "province_name": "central",
+    "filename": "ds_poojapitiya_173.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "tumpane",
+    "district_name": "kandy",
+    "province_name": "central",
+    "filename": "ds_tumpane_174.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "udapalatha",
+    "district_name": "kandy",
+    "province_name": "central",
+    "filename": "ds_udapalatha_175.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "yatiyantota",
+    "district_name": "kegalle",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_yatiyantota_176.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kandavalai",
+    "district_name": "kilinochchi",
+    "province_name": "northern",
+    "filename": "ds_kandavalai_177.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "karachchi",
+    "district_name": "kilinochchi",
+    "province_name": "northern",
+    "filename": "ds_karachchi_178.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "pachchilaipalli",
+    "district_name": "kilinochchi",
+    "province_name": "northern",
+    "filename": "ds_pachchilaipalli_179.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "poonakary",
+    "district_name": "kilinochchi",
+    "province_name": "northern",
+    "filename": "ds_poonakary_180.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "alawwa",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_alawwa_181.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "ambanpola",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_ambanpola_182.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "bamunakotuwa",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_bamunakotuwa_183.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "bingiriya",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_bingiriya_184.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "ehetuwewa",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_ehetuwewa_185.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "galgamuwa",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_galgamuwa_186.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "ganewatta",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_ganewatta_187.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "giribawa",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_giribawa_188.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "ibbagamuwa",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_ibbagamuwa_189.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kobeigane",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_kobeigane_190.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kotawehera",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_kotawehera_191.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kuliyapitiya east",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_kuliyapitiya east_192.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kuliyapitiya west",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_kuliyapitiya west_193.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kurunegala",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_kurunegala_194.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "maho",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_maho_195.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "mallawapitiya",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_mallawapitiya_196.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "maspotha",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_maspotha_197.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "mawathagama",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_mawathagama_198.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "narammala",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_narammala_199.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "nikaweratiya",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_nikaweratiya_200.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "panduwasnuwara east",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_panduwasnuwara east_201.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "panduwasnuwara west",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_panduwasnuwara west_202.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "pannala",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_pannala_203.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "polgahawela",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_polgahawela_204.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "polpitigama",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_polpitigama_205.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "rasnayakapura",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_rasnayakapura_206.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "rideegama",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_rideegama_207.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "udubaddawa",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_udubaddawa_208.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "wariyapola",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_wariyapola_209.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "weerabugedara",
+    "district_name": "kurunegala",
+    "province_name": "north_western",
+    "filename": "ds_weerabugedara_210.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "madhu",
+    "district_name": "mannar",
+    "province_name": "northern",
+    "filename": "ds_madhu_211.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "mannar town",
+    "district_name": "mannar",
+    "province_name": "northern",
+    "filename": "ds_mannar town_212.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "manthai west",
+    "district_name": "mannar",
+    "province_name": "northern",
+    "filename": "ds_manthai west_213.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "musali",
+    "district_name": "mannar",
+    "province_name": "northern",
+    "filename": "ds_musali_214.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "nanaddan",
+    "district_name": "mannar",
+    "province_name": "northern",
+    "filename": "ds_nanaddan_215.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "ambanganga",
+    "district_name": "matale",
+    "province_name": "central",
+    "filename": "ds_ambanganga_216.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "dambulla",
+    "district_name": "matale",
+    "province_name": "central",
+    "filename": "ds_dambulla_217.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "galewela",
+    "district_name": "matale",
+    "province_name": "central",
+    "filename": "ds_galewela_218.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "laggala",
+    "district_name": "matale",
+    "province_name": "central",
+    "filename": "ds_laggala_219.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "matale",
+    "district_name": "matale",
+    "province_name": "central",
+    "filename": "ds_matale_220.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "naula",
+    "district_name": "matale",
+    "province_name": "central",
+    "filename": "ds_naula_221.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "pallepola",
+    "district_name": "matale",
+    "province_name": "central",
+    "filename": "ds_pallepola_222.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "rattota",
+    "district_name": "matale",
+    "province_name": "central",
+    "filename": "ds_rattota_223.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "ukuwela",
+    "district_name": "matale",
+    "province_name": "central",
+    "filename": "ds_ukuwela_224.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "wilgamuwa",
+    "district_name": "matale",
+    "province_name": "central",
+    "filename": "ds_wilgamuwa_225.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "yatawatta",
+    "district_name": "matale",
+    "province_name": "central",
+    "filename": "ds_yatawatta_226.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "akuressa",
+    "district_name": "matara",
+    "province_name": "southern",
+    "filename": "ds_akuressa_227.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "ududumbara",
+    "district_name": "kandy",
+    "province_name": "central",
+    "filename": "ds_ududumbara_228.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "udunuwara",
+    "district_name": "kandy",
+    "province_name": "central",
+    "filename": "ds_udunuwara_229.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "yatinuwara",
+    "district_name": "kandy",
+    "province_name": "central",
+    "filename": "ds_yatinuwara_230.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "aranayake",
+    "district_name": "kegalle",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_aranayake_231.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "bulathkohipitiya",
+    "district_name": "kegalle",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_bulathkohipitiya_232.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "dehiowita",
+    "district_name": "kegalle",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_dehiowita_233.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "deraniyagala",
+    "district_name": "kegalle",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_deraniyagala_234.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "galigamuwa",
+    "district_name": "kegalle",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_galigamuwa_235.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kegalle",
+    "district_name": "kegalle",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_kegalle_236.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "mawanella",
+    "district_name": "kegalle",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_mawanella_237.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "rambukkana",
+    "district_name": "kegalle",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_rambukkana_238.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "ruwanwella",
+    "district_name": "kegalle",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_ruwanwella_239.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "warakapola",
+    "district_name": "kegalle",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_warakapola_240.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "athuraliya",
+    "district_name": "matara",
+    "province_name": "southern",
+    "filename": "ds_athuraliya_241.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "devinuwara",
+    "district_name": "matara",
+    "province_name": "southern",
+    "filename": "ds_devinuwara_242.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "dikwella",
+    "district_name": "matara",
+    "province_name": "southern",
+    "filename": "ds_dikwella_243.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "thanamalwila",
+    "district_name": "monaragala",
+    "province_name": "uva",
+    "filename": "ds_thanamalwila_244.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "wellawaya",
+    "district_name": "monaragala",
+    "province_name": "uva",
+    "filename": "ds_wellawaya_245.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "manthai east",
+    "district_name": "mullaitivu",
+    "province_name": "northern",
+    "filename": "ds_manthai east_246.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "maritimepattu",
+    "district_name": "mullaitivu",
+    "province_name": "northern",
+    "filename": "ds_maritimepattu_247.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "oddusuddan",
+    "district_name": "mullaitivu",
+    "province_name": "northern",
+    "filename": "ds_oddusuddan_248.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "puthukkudiyiruppu",
+    "district_name": "mullaitivu",
+    "province_name": "northern",
+    "filename": "ds_puthukkudiyiruppu_249.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "thunukkai",
+    "district_name": "mullaitivu",
+    "province_name": "northern",
+    "filename": "ds_thunukkai_250.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "hakmana",
+    "district_name": "matara",
+    "province_name": "southern",
+    "filename": "ds_hakmana_251.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kaburupitiya",
+    "district_name": "matara",
+    "province_name": "southern",
+    "filename": "ds_kaburupitiya_252.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "welioya",
+    "district_name": "mullaitivu",
+    "province_name": "northern",
+    "filename": "ds_welioya_253.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "ambagamuwa",
+    "district_name": "nuwara eliya",
+    "province_name": "central",
+    "filename": "ds_ambagamuwa_254.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "hanguranketa",
+    "district_name": "nuwara eliya",
+    "province_name": "central",
+    "filename": "ds_hanguranketa_255.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kothmale",
+    "district_name": "nuwara eliya",
+    "province_name": "central",
+    "filename": "ds_kothmale_256.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kirinda puhulwella",
+    "district_name": "matara",
+    "province_name": "southern",
+    "filename": "ds_kirinda puhulwella_257.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kotapola",
+    "district_name": "matara",
+    "province_name": "southern",
+    "filename": "ds_kotapola_258.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "nuwara eliya",
+    "district_name": "nuwara eliya",
+    "province_name": "central",
+    "filename": "ds_nuwara eliya_259.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "walapane",
+    "district_name": "nuwara eliya",
+    "province_name": "central",
+    "filename": "ds_walapane_260.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "dimbulagala",
+    "district_name": "polonnaruwa",
+    "province_name": "north central",
+    "filename": "ds_dimbulagala_261.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "elahera",
+    "district_name": "polonnaruwa",
+    "province_name": "north central",
+    "filename": "ds_elahera_262.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "higurakgoda",
+    "district_name": "polonnaruwa",
+    "province_name": "north central",
+    "filename": "ds_higurakgoda_263.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "lankapura",
+    "district_name": "polonnaruwa",
+    "province_name": "north central",
+    "filename": "ds_lankapura_264.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "medirigiriya",
+    "district_name": "polonnaruwa",
+    "province_name": "north central",
+    "filename": "ds_medirigiriya_265.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "thamankaduwa",
+    "district_name": "polonnaruwa",
+    "province_name": "north central",
+    "filename": "ds_thamankaduwa_266.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "malimbada",
+    "district_name": "matara",
+    "province_name": "southern",
+    "filename": "ds_malimbada_267.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "matara four gravets",
+    "district_name": "matara",
+    "province_name": "southern",
+    "filename": "ds_matara four gravets_268.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "mulatiyana",
+    "district_name": "matara",
+    "province_name": "southern",
+    "filename": "ds_mulatiyana_269.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "pasgoda",
+    "district_name": "matara",
+    "province_name": "southern",
+    "filename": "ds_pasgoda_270.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "pitabaddara",
+    "district_name": "matara",
+    "province_name": "southern",
+    "filename": "ds_pitabaddara_271.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "thihagoda",
+    "district_name": "matara",
+    "province_name": "southern",
+    "filename": "ds_thihagoda_272.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "weligama",
+    "district_name": "matara",
+    "province_name": "southern",
+    "filename": "ds_weligama_273.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "welipitiya",
+    "district_name": "matara",
+    "province_name": "southern",
+    "filename": "ds_welipitiya_274.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "badalkumbura",
+    "district_name": "monaragala",
+    "province_name": "uva",
+    "filename": "ds_badalkumbura_275.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "bibile",
+    "district_name": "monaragala",
+    "province_name": "uva",
+    "filename": "ds_bibile_276.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "buttala",
+    "district_name": "monaragala",
+    "province_name": "uva",
+    "filename": "ds_buttala_277.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "katharagama",
+    "district_name": "monaragala",
+    "province_name": "uva",
+    "filename": "ds_katharagama_278.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "madulla",
+    "district_name": "monaragala",
+    "province_name": "uva",
+    "filename": "ds_madulla_279.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "medagama",
+    "district_name": "monaragala",
+    "province_name": "uva",
+    "filename": "ds_medagama_280.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "monaragala",
+    "district_name": "monaragala",
+    "province_name": "uva",
+    "filename": "ds_monaragala_281.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "sevanagala",
+    "district_name": "monaragala",
+    "province_name": "uva",
+    "filename": "ds_sevanagala_282.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "siyambalanduwa",
+    "district_name": "monaragala",
+    "province_name": "uva",
+    "filename": "ds_siyambalanduwa_283.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "welikanda",
+    "district_name": "polonnaruwa",
+    "province_name": "north central",
+    "filename": "ds_welikanda_284.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "anamaduwa",
+    "district_name": "puttalam",
+    "province_name": "north_western",
+    "filename": "ds_anamaduwa_285.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "arachchikattuwa",
+    "district_name": "puttalam",
+    "province_name": "north_western",
+    "filename": "ds_arachchikattuwa_286.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "chilaw",
+    "district_name": "puttalam",
+    "province_name": "north_western",
+    "filename": "ds_chilaw_287.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "dankotuwa",
+    "district_name": "puttalam",
+    "province_name": "north_western",
+    "filename": "ds_dankotuwa_288.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kalpitiya",
+    "district_name": "puttalam",
+    "province_name": "north_western",
+    "filename": "ds_kalpitiya_289.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "karuwalagaswewa",
+    "district_name": "puttalam",
+    "province_name": "north_western",
+    "filename": "ds_karuwalagaswewa_290.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "madampe",
+    "district_name": "puttalam",
+    "province_name": "north_western",
+    "filename": "ds_madampe_291.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "mahakumbukkadawala",
+    "district_name": "puttalam",
+    "province_name": "north_western",
+    "filename": "ds_mahakumbukkadawala_292.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "mahawewa",
+    "district_name": "puttalam",
+    "province_name": "north_western",
+    "filename": "ds_mahawewa_293.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "mundel",
+    "district_name": "puttalam",
+    "province_name": "north_western",
+    "filename": "ds_mundel_294.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "nattandiya",
+    "district_name": "puttalam",
+    "province_name": "north_western",
+    "filename": "ds_nattandiya_295.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "nawagattegama",
+    "district_name": "puttalam",
+    "province_name": "north_western",
+    "filename": "ds_nawagattegama_296.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "pallama",
+    "district_name": "puttalam",
+    "province_name": "north_western",
+    "filename": "ds_pallama_297.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "puttalam",
+    "district_name": "puttalam",
+    "province_name": "north_western",
+    "filename": "ds_puttalam_298.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "vanathavilluwa",
+    "district_name": "puttalam",
+    "province_name": "north_western",
+    "filename": "ds_vanathavilluwa_299.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "ratnapura",
+    "district_name": "ratnapura",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_ratnapura_300.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "weligepola",
+    "district_name": "ratnapura",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_weligepola_301.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "gomarankadawala",
+    "district_name": "trincomalee",
+    "province_name": "eastern",
+    "filename": "ds_gomarankadawala_302.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kantale",
+    "district_name": "trincomalee",
+    "province_name": "eastern",
+    "filename": "ds_kantale_303.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kinniya",
+    "district_name": "trincomalee",
+    "province_name": "eastern",
+    "filename": "ds_kinniya_304.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kuchchaweli",
+    "district_name": "trincomalee",
+    "province_name": "eastern",
+    "filename": "ds_kuchchaweli_305.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "morawewa",
+    "district_name": "trincomalee",
+    "province_name": "eastern",
+    "filename": "ds_morawewa_306.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "muthur",
+    "district_name": "trincomalee",
+    "province_name": "eastern",
+    "filename": "ds_muthur_307.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "padavi sri pura",
+    "district_name": "trincomalee",
+    "province_name": "eastern",
+    "filename": "ds_padavi sri pura_308.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "seruvila",
+    "district_name": "trincomalee",
+    "province_name": "eastern",
+    "filename": "ds_seruvila_309.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "thambalagamuwa",
+    "district_name": "trincomalee",
+    "province_name": "eastern",
+    "filename": "ds_thambalagamuwa_310.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "town & gravets",
+    "district_name": "trincomalee",
+    "province_name": "eastern",
+    "filename": "ds_town & gravets_311.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "verugal",
+    "district_name": "trincomalee",
+    "province_name": "eastern",
+    "filename": "ds_verugal_312.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "vavuniya",
+    "district_name": "vavuniya",
+    "province_name": "northern",
+    "filename": "ds_vavuniya_313.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "vavuniya north",
+    "district_name": "vavuniya",
+    "province_name": "northern",
+    "filename": "ds_vavuniya north_314.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "vavuniya south",
+    "district_name": "vavuniya",
+    "province_name": "northern",
+    "filename": "ds_vavuniya south_315.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "vengalacheddikulam",
+    "district_name": "vavuniya",
+    "province_name": "northern",
+    "filename": "ds_vengalacheddikulam_316.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "wennappuwa",
+    "district_name": "puttalam",
+    "province_name": "north_western",
+    "filename": "ds_wennappuwa_317.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "ayagama",
+    "district_name": "ratnapura",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_ayagama_318.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "balangoda",
+    "district_name": "ratnapura",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_balangoda_319.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "eheliyagoda",
+    "district_name": "ratnapura",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_eheliyagoda_320.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "elapatha",
+    "district_name": "ratnapura",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_elapatha_321.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "embilipitiya",
+    "district_name": "ratnapura",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_embilipitiya_322.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "godakawela",
+    "district_name": "ratnapura",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_godakawela_323.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "imbulpe",
+    "district_name": "ratnapura",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_imbulpe_324.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kahawattha",
+    "district_name": "ratnapura",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_kahawattha_325.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kalawana",
+    "district_name": "ratnapura",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_kalawana_326.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kiriella",
+    "district_name": "ratnapura",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_kiriella_327.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kolonna",
+    "district_name": "ratnapura",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_kolonna_328.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "kuruvita",
+    "district_name": "ratnapura",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_kuruvita_329.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "nivithigala",
+    "district_name": "ratnapura",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_nivithigala_330.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "opanayake",
+    "district_name": "ratnapura",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_opanayake_331.geojson"
+  },
+  {
+    "type": "ds_divisions",
+    "ds_division_name": "pelmadulla",
+    "district_name": "ratnapura",
+    "province_name": "sabaragamuwa",
+    "filename": "ds_pelmadulla_332.geojson"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "type": "district",
+    "province_name": "eastern",
+    "district_name": "ampara",
+    "filename": "dst_ampara_1.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "north central",
+    "district_name": "anuradhapura",
+    "filename": "dst_anuradhapura_2.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "uva",
+    "district_name": "badulla",
+    "filename": "dst_badulla_3.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "eastern",
+    "district_name": "batticaloa",
+    "filename": "dst_batticaloa_4.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "western",
+    "district_name": "colombo",
+    "filename": "dst_colombo_5.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "southern",
+    "district_name": "galle",
+    "filename": "dst_galle_6.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "western",
+    "district_name": "gampaha",
+    "filename": "dst_gampaha_7.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "southern",
+    "district_name": "hambantota",
+    "filename": "dst_hambantota_8.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "northern",
+    "district_name": "jaffna",
+    "filename": "dst_jaffna_9.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "western",
+    "district_name": "kalutara",
+    "filename": "dst_kalutara_10.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "central",
+    "district_name": "kandy",
+    "filename": "dst_kandy_11.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "sabaragamuwa",
+    "district_name": "kegalle",
+    "filename": "dst_kegalle_12.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "northern",
+    "district_name": "kilinochchi",
+    "filename": "dst_kilinochchi_13.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "north_western",
+    "district_name": "kurunegala",
+    "filename": "dst_kurunegala_14.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "northern",
+    "district_name": "mannar",
+    "filename": "dst_mannar_15.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "central",
+    "district_name": "matale",
+    "filename": "dst_matale_16.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "southern",
+    "district_name": "matara",
+    "filename": "dst_matara_17.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "uva",
+    "district_name": "monaragala",
+    "filename": "dst_monaragala_18.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "northern",
+    "district_name": "mullaitivu",
+    "filename": "dst_mullaitivu_19.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "central",
+    "district_name": "nuwara eliya",
+    "filename": "dst_nuwara eliya_20.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "north central",
+    "district_name": "polonnaruwa",
+    "filename": "dst_polonnaruwa_21.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "north_western",
+    "district_name": "puttalam",
+    "filename": "dst_puttalam_22.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "sabaragamuwa",
+    "district_name": "ratnapura",
+    "filename": "dst_ratnapura_23.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "eastern",
+    "district_name": "trincomalee",
+    "filename": "dst_trincomalee_24.geojson"
+  },
+  {
+    "type": "district",
+    "province_name": "northern",
+    "district_name": "vavuniya",
+    "filename": "dst_vavuniya_25.geojson"
+  }
+]
