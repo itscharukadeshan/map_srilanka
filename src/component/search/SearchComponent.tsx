@@ -69,15 +69,21 @@ const SearchComponent = () => {
     setHighlightedIndex(-1);
   };
 
+  let label = "badge badge-outline";
+
   const getLabel = (type: string) => {
     switch (type) {
       case "province":
+        label = "badge badge-primary badge-outline";
         return "Province";
       case "district":
+        label = "badge badge-secondary badge-outline";
         return "District";
       case "ds_divisions":
+        label = "badge badge-accent badge-outline";
         return "DS Division";
       case "gn_divisions":
+        label = "badge badge-warning badge-outline";
         return "GN Division";
       default:
         return "Unknown Type";
@@ -85,7 +91,7 @@ const SearchComponent = () => {
   };
 
   return (
-    <div className='search-container w-56 pl-5'>
+    <div className='search-container w-56 pl-2'>
       <div className='flex'>
         <input
           type='text'
@@ -118,7 +124,7 @@ const SearchComponent = () => {
               }
             }}>
             <strong>{item.search_query}</strong> <br />
-            <span className='text-sm text-gray-600'>{getLabel(item.type)}</span>
+            <span className={label}>{getLabel(item.type)}</span>
           </li>
         ))}
       </ul>
