@@ -1,5 +1,7 @@
 /** @format */
 
+import SearchComponent from "../search/SearchComponent";
+
 interface SidebarProps {
   isOpen: boolean;
   toggleSidebar: () => void;
@@ -15,6 +17,7 @@ const Sidebar = ({ isOpen, toggleSidebar }: SidebarProps) => {
         <button
           onClick={toggleSidebar}
           className='md:hidden p-2 bg-gray-900 btn-outline rounded'></button>
+        <SearchComponent />
         <ul></ul>
       </div>
     </div>

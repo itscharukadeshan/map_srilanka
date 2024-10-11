@@ -42,7 +42,7 @@ const SearchComponent = () => {
   };
 
   return (
-    <div className='search-container'>
+    <div className='search-container w-56'>
       <input
         type='text'
         value={query}
