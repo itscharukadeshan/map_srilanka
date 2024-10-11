@@ -36,7 +36,7 @@ function NavBar({ toggleSidebar, isSidebarOpen }: NavBarProps) {
         </label>
       </div>
       <div className='flex-1'>
-        <a className='btn btn-ghost text-xl'>Map Srilanka</a>
+        <a className='btn btn-ghost text-xl'>Map Srilanka - (Beta)</a>
       </div>
       <div className='flex-none'>
         <button className='btn btn-square btn-ghost'></button>
