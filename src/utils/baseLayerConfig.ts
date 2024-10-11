@@ -23,6 +23,13 @@ const baseLayerConfig: { [key: string]: BaseLayer } = {
     key: "OpenStreetMap",
     type: "raster",
   },
+  Esri_Satellite: {
+    url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+    attribution:
+      " &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community",
+    key: "Esri Satellite",
+    type: "raster",
+  },
 
   humanitarian: {
     url: "https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png",
@@ -44,6 +51,13 @@ const baseLayerConfig: { [key: string]: BaseLayer } = {
     attribution:
       'Map data: &copy; <a href="http://www.govdata.de/dl-de/by-2-0">dl-de/by-2-0</a>',
     key: "Top Plus Grey",
+    type: "raster",
+  },
+  CartoDB_PositronNoLabels: {
+    url: "https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png",
+    attribution:
+      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    key: "Carto Positron",
     type: "raster",
   },
   Carto_DB_Dark_NoLabels: {
