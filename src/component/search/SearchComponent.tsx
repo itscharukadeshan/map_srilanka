@@ -21,7 +21,6 @@ const fuseOptions = {
   keys: ["search_query"],
   threshold: 0.3,
   ignoreLocation: true,
-  ignoreFieldNorm: true,
 };
 
 const SearchComponent = () => {
