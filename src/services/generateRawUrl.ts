@@ -36,7 +36,7 @@ const generateRawUrl = (item: Administrative): string | null => {
 
     case "district":
       if (item.province_name && item.district_name) {
-        url = `${BASE_URL}/district/${item.province_name}/${item.district_name}_combined.geojson`;
+        url = `${BASE_URL}/district/${item.filename}`;
       }
       break;
 
