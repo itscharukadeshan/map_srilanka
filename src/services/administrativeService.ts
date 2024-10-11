@@ -21,7 +21,7 @@ export const useAdministrativeData = () => {
     if (administrativeData.length === 0) {
       try {
         const response = await fetch(
-          "/src/data/search/administrative_updated_compact.json"
+          "https://corsproxy.io/?https://raw.githubusercontent.com/itscharukadeshan/map_srilanka/refs/heads/main/src/data/search/administrative_updated_compact.json"
         );
         if (!response.ok) {
           throw new Error("Network response was not ok");
