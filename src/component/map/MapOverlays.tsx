@@ -61,13 +61,12 @@ const MapOverlays: React.FC = () => {
                             return ring.map((coord: number[]) => [
                               coord[1],
                               coord[0],
-                            ]); // [lat, lng]
+                            ]);
                           })
                           .flat();
                       }
                     );
                   } else if (feature.geometry.type === "Polygon") {
-                    // Handle Polygon geometry if present
                     return feature.geometry.coordinates.flatMap(
                       (ring: number[][]) => {
                         return ring.map((coord: number[]) => [

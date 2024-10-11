@@ -1,5 +1,7 @@
 /** @format */
 
+import chroma from "chroma-js";
+
 export interface SearchResult {
   name: string;
   type: string;
@@ -15,13 +17,12 @@ export interface SearchResultUpdated {
   visibility: boolean;
 }
 
-const getRandomColor = (): string => {
-  const letters = "0123456789ABCDEF";
-  let color = "#";
-  for (let i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
-  }
-  return color;
+const getRandomColor = (opacity: number = 1): string => {
+  const colors = chroma.brewer.Set3;
+
+  const randomColor = colors[Math.floor(Math.random() * colors.length)];
+
+  return chroma(randomColor).alpha(opacity).css();
 };
 
 export const saveSearchResult = (result: SearchResult) => {
@@ -30,9 +31,11 @@ export const saveSearchResult = (result: SearchResult) => {
     ? JSON.parse(existingResults)
     : [];
 
+  console.log(getRandomColor(1));
+
   const extendedResult: SearchResultUpdated = {
     ...result,
-    color: getRandomColor(),
+    color: getRandomColor(1),
     opacity: 0.5,
     stroke: 1,
     visibility: true,
