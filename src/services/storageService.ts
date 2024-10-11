@@ -36,7 +36,7 @@ export const saveSearchResult = (result: SearchResult) => {
   const extendedResult: SearchResultUpdated = {
     ...result,
     color: getRandomColor(1),
-    opacity: 0.5,
+    opacity: 0.9,
     stroke: 1,
     visibility: true,
   };
