@@ -63,10 +63,21 @@ const createResultObject = (item: Administrative) => {
   const cleanName = nameParts.slice(1, -1).join("_");
   const finalName = `${cleanName} ${item.type.replace("_", " ")}`;
 
+  const convertToRawUrl = (githubUrl: string): string => {
+    const rawUrl = githubUrl
+      .replace("https://github.com/", "https://raw.githubusercontent.com/")
+      .replace("/blob/", "/")
+      .replace("/refs/heads/", "/");
+
+    return `https://corsproxy.io/?${rawUrl}`;
+  };
+
+  const updatedUrl = convertToRawUrl(url);
+
   return {
     name: finalName,
     type: item.type,
-    url: url,
+    url: updatedUrl,
   };
 };
 

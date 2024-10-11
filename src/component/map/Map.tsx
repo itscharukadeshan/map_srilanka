@@ -8,6 +8,7 @@ import L from "leaflet";
 
 import baseLayerConfig from "../../utils/baseLayerConfig";
 import MapLibreTileLayer from "./MapLibreTileLayer";
+import MapOverlays from "./MapOverlays";
 
 const { BaseLayer } = LayersControl;
 
@@ -38,6 +39,8 @@ const Map: React.FC = () => {
             </BaseLayer>
           )
         )}
+
+        <MapOverlays />
       </LayersControl>
     </MapContainer>
   );

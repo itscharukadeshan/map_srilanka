@@ -43,7 +43,7 @@ export const saveSearchResult = (result: SearchResult) => {
   localStorage.setItem("searchResults", JSON.stringify(resultsArray));
 };
 
-export const getSearchResults = (): SearchResult[] => {
+export const getSearchResults = (): SearchResultUpdated[] => {
   const existingResults = localStorage.getItem("searchResults");
   return existingResults ? JSON.parse(existingResults) : [];
 };
