@@ -5,6 +5,7 @@ import Fuse from "fuse.js";
 import { SearchX } from "lucide-react";
 import createResultObject from "../../services/generateRawUrl";
 import { useAdministrativeData } from "../../services/administrativeService";
+import { saveSearchResult } from "../../services/storageService";
 
 interface Administrative {
   filename: string;
@@ -61,7 +62,7 @@ const SearchComponent = () => {
         if (selectedItem) {
           const result = createResultObject(selectedItem);
           if (result) {
-            console.log(result);
+            saveSearchResult(result);
           }
         }
       }
@@ -127,7 +128,7 @@ const SearchComponent = () => {
             onClick={() => {
               const result = createResultObject(item);
               if (result) {
-                console.log(result);
+                saveSearchResult(result);
               }
             }}>
             <strong>{item.search_query}</strong> <br />
