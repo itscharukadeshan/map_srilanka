@@ -1,14 +1,23 @@
 /** @format */
 
-function NavBar({ toggleSidebar }: { toggleSidebar: () => void }) {
+interface NavBarProps {
+  toggleSidebar: () => void;
+  isSidebarOpen: boolean;
+}
+
+function NavBar({ toggleSidebar, isSidebarOpen }: NavBarProps) {
   return (
     <div className='navbar bg-base-100'>
       <div className='flex-none'>
         <label className='btn btn-circle swap swap-rotate'>
-          <input onClick={toggleSidebar} type='checkbox' />
+          <input
+            onClick={toggleSidebar}
+            type='checkbox'
+            checked={isSidebarOpen}
+          />
 
           <svg
-            className='swap-off fill-current'
+            className={`swap-off fill-current ${isSidebarOpen ? "hidden" : ""}`}
             xmlns='http://www.w3.org/2000/svg'
             width='32'
             height='32'
@@ -17,7 +26,7 @@ function NavBar({ toggleSidebar }: { toggleSidebar: () => void }) {
           </svg>
 
           <svg
-            className='swap-on fill-current'
+            className={`swap-on fill-current ${isSidebarOpen ? "" : "hidden"}`}
             xmlns='http://www.w3.org/2000/svg'
             width='32'
             height='32'

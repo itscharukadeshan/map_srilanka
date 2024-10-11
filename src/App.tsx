@@ -1,20 +1,27 @@
 /** @format */
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import NavBar from "./component/layout/NavBar";
 import Sidebar from "./component/layout/SideBar";
 import Map from "./component/map/Map";
 
 const App = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-
   const toggleSidebar = () => {
-    setIsSidebarOpen(!isSidebarOpen);
+    setIsSidebarOpen((prev) => !prev);
   };
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsSidebarOpen(true);
+    }, 200);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <div className='h-screen flex flex-col'>
-      <NavBar toggleSidebar={toggleSidebar} />
+      <NavBar toggleSidebar={toggleSidebar} isSidebarOpen={isSidebarOpen} />
 
       <div className='flex flex-1'>
         <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
