@@ -129,6 +129,7 @@ const SearchComponent = () => {
               const result = createResultObject(item);
               if (result) {
                 saveSearchResult(result);
+                window.location.reload();
               }
             }}>
             <strong>{item.search_query}</strong> <br />
