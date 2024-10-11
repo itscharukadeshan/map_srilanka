@@ -50,6 +50,7 @@ export const getSearchResults = (): SearchResultUpdated[] => {
 
 export const clearSearchResults = () => {
   localStorage.removeItem("searchResults");
+  window.location.reload();
 };
 
 export const removeSearchResultByName = (name: string) => {
