@@ -2,9 +2,8 @@
 
 import { useState, ChangeEvent } from "react";
 import Fuse from "fuse.js";
-import administrativeData from "../../data/search/administrative.json";
+import administrativeData from "../../data/search/administrative_update.json";
 
-// Type for the administrative data objects
 interface Administrative {
   filename: string;
   gnd_name?: string;
@@ -15,7 +14,6 @@ interface Administrative {
   search_query: string;
 }
 
-// Type for Fuse.js options
 const fuseOptions = {
   keys: ["search_query"],
   threshold: 0.3,
@@ -41,6 +39,21 @@ const SearchComponent = () => {
     }
   };
 
+  const getLabel = (type: string) => {
+    switch (type) {
+      case "province":
+        return "Province";
+      case "district":
+        return "District";
+      case "ds_divisions":
+        return "DS Division";
+      case "gn_divisions":
+        return "GN Division";
+      default:
+        return "Unknown Type";
+    }
+  };
+
   return (
     <div className='search-container w-56'>
       <input
@@ -53,7 +66,10 @@ const SearchComponent = () => {
       <ul className='suggestions-list mt-2'>
         {suggestions.map((item, index) => (
           <li key={index} className='p-2 border-b'>
-            <strong>{item.search_query}</strong>
+            <strong>{item.search_query}</strong> <br />
+            <span className='badge-primary badge-outline'>
+              {getLabel(item.type)}
+            </span>
           </li>
         ))}
       </ul>
