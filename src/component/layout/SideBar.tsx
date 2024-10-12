@@ -2,6 +2,7 @@
 
 import SearchComponent from "../search/SearchComponent";
 import { clearSearchResults } from "../../services/storageService";
+import { FileMinus } from "lucide-react";
 
 interface SidebarProps {
   isOpen: boolean;
@@ -19,11 +20,11 @@ const Sidebar = ({ isOpen, toggleSidebar }: SidebarProps) => {
           onClick={toggleSidebar}
           className='md:hidden p-2 bg-gray-900 btn-outline rounded'></button>
         <SearchComponent />
-        <ul className='w-64'>
+        <ul className='w-max flex flex-col gap-4 absolute md:bottom-36 '>
           <button
             onClick={clearSearchResults}
-            className='btn btn-ghost btn-outline'>
-            Clear Map Overlay
+            className='btn btn-ghost btn-outline btn-warning'>
+            <FileMinus /> Clear Map Overlay
           </button>
         </ul>
       </div>

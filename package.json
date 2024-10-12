@@ -17,6 +17,7 @@
     "chroma-js": "^3.1.1",
     "esri-leaflet": "^3.0.12",
     "fuse.js": "^7.0.0",
+    "html-to-image": "^1.11.11",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.451.0",
     "react": "^18.3.1",
