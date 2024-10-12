@@ -10,11 +10,11 @@ const ScreenshotButton: React.FC = () => {
     const mapContainer: HTMLElement | null =
       document.querySelector(".leaflet-container");
 
+    setLoading(true);
     if (!mapContainer) {
+      setLoading(false);
       return;
     } else {
-      setLoading(true);
-
       htmlToImage
         .toPng(mapContainer)
         .then((dataUrl: string) => {
