@@ -16,11 +16,18 @@ interface BaseLayer {
 //   }
 // );
 const baseLayerConfig: { [key: string]: BaseLayer } = {
-  openStreetMap: {
-    url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+  CartoDB_PositronNoLabels: {
+    url: "https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png",
     attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors',
-    key: "OpenStreetMap",
+      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    key: "Carto Positron",
+    type: "raster",
+  },
+  Carto_DB_Dark_NoLabels: {
+    url: "https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png",
+    attribution:
+      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    key: "Carto Dark",
     type: "raster",
   },
   Esri_Satellite: {
@@ -28,6 +35,20 @@ const baseLayerConfig: { [key: string]: BaseLayer } = {
     attribution:
       " &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community",
     key: "Esri Satellite",
+    type: "raster",
+  },
+  openStreetMap: {
+    url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    attribution:
+      '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors',
+    key: "OpenStreetMap",
+    type: "raster",
+  },
+  Carto_DB_Voyager_No_Labels: {
+    url: "https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png",
+    attribution:
+      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    key: "Carto Voyager",
     type: "raster",
   },
 
@@ -51,27 +72,6 @@ const baseLayerConfig: { [key: string]: BaseLayer } = {
     attribution:
       'Map data: &copy; <a href="http://www.govdata.de/dl-de/by-2-0">dl-de/by-2-0</a>',
     key: "Top Plus Grey",
-    type: "raster",
-  },
-  CartoDB_PositronNoLabels: {
-    url: "https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png",
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    key: "Carto Positron",
-    type: "raster",
-  },
-  Carto_DB_Dark_NoLabels: {
-    url: "https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png",
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    key: "Carto Dark",
-    type: "raster",
-  },
-  Carto_DB_Voyager_No_Labels: {
-    url: "https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png",
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    key: "Carto Voyager",
     type: "raster",
   },
   OSM_Bright: {
