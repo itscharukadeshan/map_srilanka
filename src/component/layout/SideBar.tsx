@@ -1,6 +1,8 @@
 /** @format */
 
 import SearchComponent from "../search/SearchComponent";
+import ScreenshotButton from "../map/ScreenshotButton";
+
 import { clearSearchResults } from "../../services/storageService";
 import { FileMinus } from "lucide-react";
 
@@ -21,6 +23,7 @@ const Sidebar = ({ isOpen, toggleSidebar }: SidebarProps) => {
           className='md:hidden p-2 bg-gray-900 btn-outline rounded'></button>
         <SearchComponent />
         <ul className='w-max flex flex-col gap-4 absolute md:bottom-36 '>
+          <ScreenshotButton />
           <button
             onClick={clearSearchResults}
             className='btn btn-ghost btn-outline btn-warning'>

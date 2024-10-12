@@ -1,26 +1,28 @@
 /** @format */
+import React from "react";
 import * as htmlToImage from "html-to-image";
 import { FileDown } from "lucide-react";
 
-interface ScreenshotButtonProps {
-  mapRef: React.RefObject<HTMLDivElement>;
-}
-
-const ScreenshotButton: React.FC<ScreenshotButtonProps> = ({ mapRef }) => {
+const ScreenshotButton: React.FC = () => {
   const takeScreenshot = () => {
-    if (!mapRef.current) return;
+    const mapContainer: HTMLElement | null =
+      document.querySelector(".leaflet-container");
 
-    htmlToImage
-      .toPng(mapRef.current)
-      .then((dataUrl: string) => {
-        const link = document.createElement("a");
-        link.href = dataUrl;
-        link.download = "map-screenshot.png";
-        link.click();
-      })
-      .catch((error: Error) => {
-        console.error("Error taking screenshot:", error);
-      });
+    if (!mapContainer) {
+      return;
+    } else {
+      htmlToImage
+        .toPng(mapContainer)
+        .then((dataUrl: string) => {
+          const link = document.createElement("a");
+          link.href = dataUrl;
+          link.download = "map-screenshot.png";
+          link.click();
+        })
+        .catch((error: Error) => {
+          console.error("Error taking screenshot:", error);
+        });
+    }
   };
 
   return (
