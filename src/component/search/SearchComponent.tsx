@@ -2,7 +2,7 @@
 
 import { useState, useEffect, ChangeEvent, KeyboardEvent } from "react";
 import Fuse from "fuse.js";
-import { SearchX } from "lucide-react";
+import { MessageSquareX } from "lucide-react";
 import createResultObject from "../../services/generateRawUrl";
 import { useAdministrativeData } from "../../services/administrativeService";
 import { saveSearchResult } from "../../services/storageService";
@@ -100,22 +100,22 @@ const SearchComponent = () => {
   };
 
   return (
-    <div className='search-container w-56 p-2'>
-      <div className='flex'>
+    <div className='search-container w-56 m-1'>
+      <div className='flex flex-row items-center justify-center align-middle'>
         <input
           type='text'
           value={query}
           onChange={handleSearch}
           onKeyDown={handleKeyDown}
           placeholder='Search...'
-          className='border p-2 rounded w-full'
+          className='border p-2 rounded-md input w-full flex-2'
           aria-label='Search Input'
         />
         <button
           onClick={clearInput}
           aria-label='Clear Search Input'
-          className='btn btn-warning mx-2 '>
-          <SearchX />
+          className='btn btn-sm btn-ghost flex-1'>
+          <MessageSquareX />
         </button>
       </div>
       <ul className='suggestions-list mt-2 p-2'>
