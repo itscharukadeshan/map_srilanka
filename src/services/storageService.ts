@@ -18,8 +18,25 @@ export interface SearchResultUpdated {
 }
 
 const getRandomColor = (opacity: number = 1): string => {
-  const colors = chroma.scale(["#ef8a62", "#67a9cf"]).mode("lch").colors(6);
-  const randomColor = colors[Math.floor(Math.random() * colors.length)];
+  const colors = chroma.scale(["#ef8a62", "#67a9cf"]).mode("lch").colors(12);
+
+  const existingResults = localStorage.getItem("searchResults");
+  const usedColors: string[] = existingResults
+    ? JSON.parse(existingResults).map((res: SearchResultUpdated) =>
+        chroma(res.color).hex()
+      )
+    : [];
+
+  const availableColors = colors.filter(
+    (color) => !usedColors.includes(chroma(color).hex())
+  );
+
+  if (availableColors.length === 0) {
+    usedColors.length = 0;
+  }
+
+  const randomColor =
+    availableColors[Math.floor(Math.random() * availableColors.length)];
 
   return chroma(randomColor).alpha(opacity).css();
 };
@@ -33,7 +50,7 @@ export const saveSearchResult = (result: SearchResult) => {
   const extendedResult: SearchResultUpdated = {
     ...result,
     color: getRandomColor(1),
-    opacity: 0.7,
+    opacity: 0.4,
     stroke: 1,
     visibility: true,
   };
