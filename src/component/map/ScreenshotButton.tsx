@@ -29,7 +29,7 @@ const ScreenshotButton: React.FC = () => {
     <button
       className='btn btn-ghost btn-outline btn-success'
       onClick={takeScreenshot}>
-      <FileDown /> Take Screenshot
+      <FileDown />
     </button>
   );
 };

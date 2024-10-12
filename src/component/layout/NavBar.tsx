@@ -1,5 +1,7 @@
 /** @format */
 
+import ScreenshotButton from "../map/ScreenshotButton";
+
 interface NavBarProps {
   toggleSidebar: () => void;
   isSidebarOpen: boolean;
@@ -38,8 +40,8 @@ function NavBar({ toggleSidebar, isSidebarOpen }: NavBarProps) {
       <div className='flex-1'>
         <a className='btn btn-ghost text-xl'>Map Srilanka - (Beta)</a>
       </div>
-      <div className='flex-none'>
-        <button className='btn btn-square btn-ghost'></button>
+      <div className='flex-none px-2'>
+        <ScreenshotButton />
       </div>
     </div>
   );
