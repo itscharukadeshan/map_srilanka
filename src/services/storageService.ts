@@ -18,8 +18,7 @@ export interface SearchResultUpdated {
 }
 
 const getRandomColor = (opacity: number = 1): string => {
-  const colors = chroma.brewer.Set3;
-
+  const colors = chroma.scale(["#ef8a62", "#67a9cf"]).mode("lch").colors(6);
   const randomColor = colors[Math.floor(Math.random() * colors.length)];
 
   return chroma(randomColor).alpha(opacity).css();
@@ -31,13 +30,11 @@ export const saveSearchResult = (result: SearchResult) => {
     ? JSON.parse(existingResults)
     : [];
 
-  console.log(getRandomColor(1));
-
   const extendedResult: SearchResultUpdated = {
     ...result,
     color: getRandomColor(1),
-    opacity: 0.5,
-    stroke: 2,
+    opacity: 0.7,
+    stroke: 1,
     visibility: true,
   };
 
