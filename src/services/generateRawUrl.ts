@@ -61,7 +61,9 @@ const createResultObject = (item: Administrative) => {
 
   const nameParts = item.filename.split("_");
   const cleanName = nameParts.slice(1, -1).join("_");
-  const finalName = `${cleanName} ${item.type.replace("_", " ")}`;
+  const finalName = `${cleanName} ${item.type
+    .replace(/_divisions$/, "_division")
+    .replace("_", " ")}`;
 
   const convertToRawUrl = (githubUrl: string): string => {
     const rawUrl = githubUrl
