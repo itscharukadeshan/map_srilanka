@@ -11,7 +11,7 @@ interface Administrative {
 }
 
 const BASE_URL =
-  "https://github.com/itscharukadeshan/map_srilanka_data/tree/Refactor/v1/administrative";
+  "https://github.com/itscharukadeshan/map_srilanka_data/tree/main/v1/administrative";
 
 const generateRawUrl = (item: Administrative): string | null => {
   let url = "";
