@@ -17,7 +17,7 @@ const generateRawUrl = (item: Administrative): string | null => {
   let url = "";
 
   switch (item.type) {
-    case "gn_divisions":
+    case "gn_division":
       if (
         item.province_name &&
         item.district_name &&
@@ -28,7 +28,7 @@ const generateRawUrl = (item: Administrative): string | null => {
       }
       break;
 
-    case "ds_divisions":
+    case "ds_division":
       if (item.province_name && item.district_name && item.ds_division_name) {
         url = `${BASE_URL}/ds_division/${item.province_name}/${item.district_name}/${item.filename}`;
       }
@@ -36,7 +36,7 @@ const generateRawUrl = (item: Administrative): string | null => {
 
     case "district":
       if (item.province_name && item.district_name) {
-        url = `${BASE_URL}/district/${item.province_name}/${item.district_name}/${item.filename}`;
+        url = `${BASE_URL}/district/${item.province_name}/${item.filename}`;
       }
       break;
 
@@ -59,11 +59,7 @@ const createResultObject = (item: Administrative) => {
     return null;
   }
 
-  const nameParts = item.filename.split("_");
-  const cleanName = nameParts.slice(1, -1).join("_");
-  const finalName = `${cleanName} ${item.type
-    .replace(/_divisions$/, "_division")
-    .replace("_", " ")}`;
+  const finalName = item.type;
 
   const convertToRawUrl = (githubUrl: string): string => {
     const rawUrl = githubUrl
@@ -74,6 +70,7 @@ const createResultObject = (item: Administrative) => {
   };
 
   const updatedUrl = convertToRawUrl(url);
+  console.log(updatedUrl);
 
   return {
     name: finalName,

@@ -88,10 +88,10 @@ const SearchComponent = () => {
       case "district":
         label = "badge badge-secondary badge-outline";
         return "District";
-      case "ds_divisions":
+      case "ds_division":
         label = "badge badge-accent badge-outline";
         return "DS Division";
-      case "gn_divisions":
+      case "gn_division":
         label = "badge badge-warning badge-outline";
         return "GN Division";
       default:
