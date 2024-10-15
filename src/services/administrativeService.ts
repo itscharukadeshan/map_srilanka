@@ -17,6 +17,7 @@ export const useAdministrativeData = () => {
     Administrative[]
   >("administrativeData", []);
 
+  // NEED to update data on temp-out to remove spaces
   const fetchAdministrativeData = async () => {
     if (administrativeData.length === 0) {
       try {
