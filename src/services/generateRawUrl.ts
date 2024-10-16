@@ -59,7 +59,7 @@ const createResultObject = (item: Administrative) => {
     return null;
   }
 
-  const finalName = item.type;
+  const finalName = item.search_query.split(",")[0].trim();
 
   const convertToRawUrl = (githubUrl: string): string => {
     const rawUrl = githubUrl
