@@ -1,4 +1,5 @@
 /** @format */
+
 import React, { useState } from "react";
 import * as htmlToImage from "html-to-image";
 import { FileDown } from "lucide-react";
@@ -16,7 +17,7 @@ const ScreenshotButton: React.FC = () => {
       return;
     } else {
       htmlToImage
-        .toPng(mapContainer)
+        .toPng(mapContainer, { pixelRatio: 3 })
         .then((dataUrl: string) => {
           const randomNum = Math.floor(Math.random() * 10000);
           const link = document.createElement("a");
