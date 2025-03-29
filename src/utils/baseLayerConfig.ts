@@ -15,7 +15,39 @@ interface BaseLayer {
 //       'Map data: &copy; <a href="http://www.govdata.de/dl-de/by-2-0">dl-de/by-2-0</a>',
 //   }
 // );
+
+const site_Attribution = ` | </a> Overlays from <a href="https://gisapps.nsdi.gov.lk/server/rest/services">NSDI Sri Lanka</a> <a href="https://github.com/itscharukadeshan/map_srilanka_data">| Map Srilanka Data</a>`;
+
 const baseLayerConfig: { [key: string]: BaseLayer } = {
+  OFM_Liberty: {
+    url: `https://tiles.openfreemap.org/styles/liberty`,
+
+    attribution: `&copy; <a href="https://openfreemap.org/" target="_blank" rel="noopener noreferrer">OpenFreeMap</a> contributors${site_Attribution}`,
+
+    key: "OFM Liberty",
+
+    type: "glStyle",
+  },
+
+  OFM_Positron: {
+    url: `https://tiles.openfreemap.org/styles/positron`,
+
+    attribution: `&copy; <a href="https://openfreemap.org/" target="_blank" rel="noopener noreferrer">OpenFreeMap</a> contributors${site_Attribution}`,
+
+    key: "OFM Positron",
+
+    type: "glStyle",
+  },
+
+  OFM_Bright: {
+    url: `https://tiles.openfreemap.org/styles/bright`,
+
+    attribution: `&copy; <a href="https://openfreemap.org/" target="_blank" rel="noopener noreferrer">OpenFreeMap</a> contributors${site_Attribution}`,
+
+    key: "OFM Bright",
+
+    type: "glStyle",
+  },
   CartoDB_PositronNoLabels: {
     url: "https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png",
     attribution:

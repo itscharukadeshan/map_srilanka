@@ -30,7 +30,7 @@ const Map: React.FC = () => {
       <LayersControl>
         {Object.values(baseLayerConfig).map(
           ({ url, attribution, key, type }) => (
-            <BaseLayer key={key} name={key} checked={key === "Carto Positron"}>
+            <BaseLayer key={key} name={key} checked={key === "OFM Liberty"}>
               {type === "glStyle" ? (
                 <MapLibreTileLayer url={url} attribution={attribution} />
               ) : (
