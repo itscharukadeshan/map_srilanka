@@ -11,7 +11,7 @@ interface Administrative {
 }
 
 const BASE_URL =
-  "https://github.com/itscharukadeshan/map_srilanka_data/blob/main/v1/administrative/geo_json";
+  "https://github.com/itscharukadeshan/map_srilanka_data/blob/main/v1/administrative";
 
 const generateRawUrl = (item: Administrative): string | null => {
   let url = "";
@@ -24,19 +24,19 @@ const generateRawUrl = (item: Administrative): string | null => {
         item.ds_division_name &&
         item.gnd_name
       ) {
-        url = `${BASE_URL}/gn_divisions/${item.province_name}/${item.district_name}/${item.ds_division_name}/${item.filename}`;
+        url = `${BASE_URL}/gn_division/${item.province_name}/${item.district_name}/${item.ds_division_name}/${item.filename}`;
       }
       break;
 
     case "ds_divisions":
       if (item.province_name && item.district_name && item.ds_division_name) {
-        url = `${BASE_URL}/ds_divisions/${item.filename}`;
+        url = `${BASE_URL}/ds_division/${item.province_name}/${item.district_name}/${item.filename}`;
       }
       break;
 
     case "district":
       if (item.province_name && item.district_name) {
-        url = `${BASE_URL}/district/${item.filename}`;
+        url = `${BASE_URL}/district/${item.province_name}/${item.filename}`;
       }
       break;
 
@@ -70,10 +70,12 @@ const createResultObject = (item: Administrative) => {
       .replace("https://github.com/", "https://raw.githubusercontent.com/")
       .replace("/blob/", "/refs/heads/");
 
-    return `https://corsproxy.io/?${rawUrl}`;
+    return `${rawUrl}`;
   };
 
   const updatedUrl = convertToRawUrl(url);
+
+  console.log(updatedUrl);
 
   return {
     name: finalName,
