@@ -14,7 +14,7 @@ import {
 import { useAdministrativeData, getIndexFromCache } from "../../services/administrativeService";
 import { useOverlayStore } from "../../store/useOverlayStore";
 import createResultObject from "../../services/generateRawUrl";
-import { gnFolderStatus } from "../../data/gnCoverage";
+import { gnFolderStatus, loadCoverage } from "../../data/gnCoverage";
 import {
   buildHierarchy,
   entryKey,
@@ -23,7 +23,7 @@ import {
   type DsNode,
   type ProvinceNode,
 } from "../../utils/hierarchy";
-import { bulkAddEntries } from "../../utils/bulkAdd";
+import { bulkAddEntries, bulkAddDs } from "../../utils/bulkAdd";
 import { badgeClassFor, labelFor } from "../../utils/badges";
 import BatchProgress from "../map/BatchProgress";
 
@@ -44,7 +44,9 @@ export default function BrowseTab() {
 
   useEffect(() => {
     fetchAdministrativeData();
-    // localStorage quota can reject the 3.9MB index — fall back to Cache Storage copy
+    // coverage truth lives in the data repo; defaults assume full coverage
+    loadCoverage();
+    // localStorage quota can reject the index — fall back to Cache Storage copy
     if (administrativeData.length === 0) {
       getIndexFromCache().then((d) => {
         if (d && d.length > 0) setCachedIndex(d as AdminEntry[]);
@@ -200,7 +202,7 @@ export default function BrowseTab() {
 }
 
 function cap(s: string): string {
-  return s.replace(/\b\w/g, (c) => c.toUpperCase());
+  return s.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
 /* ---------- province / district level ---------- */
@@ -331,7 +333,9 @@ function DsLevel({
               <button
                 onClick={() => {
                   if (coverage !== "ok") return;
-                  bulkAddEntries(x.gns);
+                  // one combined download, split locally; falls back to per-file
+                  if (x.entry) void bulkAddDs(x.entry, x.gns);
+                  else bulkAddEntries(x.gns);
                 }}
                 disabled={coverage !== "ok"}
                 title={coverage === "ok" ? `Load all ${x.gns.length} GNDs` : "No GN files upstream"}
@@ -386,7 +390,10 @@ function GnLevel({
           {selCount === keys.length ? "Unmark all" : "Mark all"}
         </button>
         <button
-          onClick={() => bulkAddEntries(ds.gns)}
+          onClick={() => {
+            if (ds.entry) void bulkAddDs(ds.entry, ds.gns);
+            else bulkAddEntries(ds.gns);
+          }}
           disabled={coverage !== "ok"}
           className="h-7 px-2.5 rounded-lg bg-slate-900 dark:bg-slate-100 text-white dark:text-slate-900 text-[12px] font-semibold disabled:opacity-30 inline-flex items-center gap-1">
           <MapPin className="w-3 h-3" /> Load all

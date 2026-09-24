@@ -3,6 +3,7 @@ import { persist } from "zustand/middleware";
 import { pickDistinctColor } from "../utils/palette";
 import { dropCached } from "../services/geoCache";
 import { DATA_FALLBACK, DATA_PRIMARY } from "../services/dataHosts";
+import type { GeoJSONFeatureCollection } from "../types/geoJsonTypes";
 
 export interface OverlayItem {
   id: string;
@@ -15,12 +16,18 @@ export interface OverlayItem {
   visible: boolean;
   /** map badge: permanent name label pinned at the polygon center */
   showLabel: boolean;
+  /**
+   * Pre-fetched geometry (e.g. a GN feature split from its DS combined
+   * rollup). Transient: never persisted, MapOverlays falls back to `url`.
+   */
+  inline?: GeoJSONFeatureCollection;
 }
 
 export interface SearchResultInput {
   name: string;
   type: string;
   url: string;
+  inline?: GeoJSONFeatureCollection;
 }
 
 export type OverlayStatus = "loading" | "ready" | "error";
@@ -116,6 +123,7 @@ export const useOverlayStore = create<OverlayState>()(
           stroke: 1.5,
           visible: true,
           showLabel: true,
+          inline: input.inline,
         };
         set({
           overlays: [...overlays, item],
@@ -145,6 +153,7 @@ export const useOverlayStore = create<OverlayState>()(
             stroke: 1.5,
             visible: true,
             showLabel: true,
+            inline: input.inline,
           });
         }
         if (fresh.length > 0) set({ overlays: [...get().overlays, ...fresh] });
@@ -232,21 +241,40 @@ export const useOverlayStore = create<OverlayState>()(
     }),
     {
       name: "mapsl-overlays-v1",
-      version: 2,
-      // v1→v2: normalize pre-CDN raw.githubusercontent URLs to the CDN host
+      version: 3,
+      // v2→v3: strip transient inline geometry (never persist it — it can be
+      // MBs) and repair pre-index spaced URLs (upstream renamed spaces to _)
       migrate: (persisted: unknown) => {
         const s = persisted as { overlays?: OverlayItem[] };
         if (s && Array.isArray(s.overlays)) {
-          s.overlays = s.overlays.map((o) =>
-            o.url.startsWith(DATA_FALLBACK)
-              ? { ...o, id: DATA_PRIMARY + o.url.slice(DATA_FALLBACK.length), url: DATA_PRIMARY + o.url.slice(DATA_FALLBACK.length) }
-              : o
-          );
+          s.overlays = s.overlays.map((o) => {
+            let url = o.url;
+            if (url.startsWith(DATA_FALLBACK)) {
+              url = DATA_PRIMARY + url.slice(DATA_FALLBACK.length);
+            }
+            if (
+              (url.startsWith(DATA_PRIMARY) || url.startsWith(DATA_FALLBACK)) &&
+              url.includes(" ")
+            ) {
+              url = url.replace(/ /g, "_");
+            }
+            const { inline: _drop, ...rest } = o;
+            void _drop;
+            return { ...rest, id: url, url };
+          });
         }
         return persisted as OverlayState;
       },
-      // focusedId/focusSeq are transient — never persist a stale zoom request
-      partialize: (s) => ({ overlays: s.overlays }) as OverlayState,
+      // focusedId/focusSeq are transient — never persist a stale zoom request;
+      // inline geometry is transient too (refetch from url after reload)
+      partialize: (s) =>
+        ({
+          overlays: s.overlays.map((o) => {
+            const { inline: _drop, ...rest } = o;
+            void _drop;
+            return rest;
+          }),
+        }) as OverlayState,
     }
   )
 );

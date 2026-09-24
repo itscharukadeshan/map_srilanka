@@ -1,5 +1,5 @@
 /** @format */
-import { DATA_PRIMARY } from "./dataHosts";
+import { DATA_PRIMARY, DATA_V1_ROOT } from "./dataHosts";
 
 interface Administrative {
   filename: string;
@@ -9,11 +9,22 @@ interface Administrative {
   province_name?: string;
   district_name?: string;
   search_query: string;
+  /** data-repo index v1: explicit path from the v1 root (already URL-encoded) */
+  url?: string;
+  /** DS entries: single-file rollup of all its GN divisions */
+  combined_url?: string | null;
+  bbox?: [number, number, number, number] | null;
 }
 
 const BASE_URL = `${DATA_PRIMARY}`;
 
 const generateRawUrl = (item: Administrative): string | null => {
+  // forest has an index but no map UI yet — never build a layer URL for it
+  if (item.type === "forest") return null;
+  // new index carries the exact upstream path — no client-side path building
+  if (item.url) return `${DATA_V1_ROOT}/${item.url}`;
+
+  // legacy entries (pre-index): build the path from names as before
   let url = "";
   // data repo stores underscores; index filenames may contain spaces
   const safeFilename = item.filename.replace(/ /g, "_");
@@ -71,6 +82,8 @@ const createResultObject = (item: Administrative) => {
     name: finalName,
     type: item.type,
     url,
+    combined_url: item.combined_url ?? null,
+    bbox: item.bbox ?? null,
   };
 };
 

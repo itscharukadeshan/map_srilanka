@@ -8,6 +8,11 @@ export interface AdminEntry {
   province_name?: string;
   district_name?: string;
   search_query: string;
+  /** data-repo index v1: exact upstream path (URL-encoded, from the v1 root) */
+  url?: string;
+  /** DS entries: single-file rollup of all its GN divisions */
+  combined_url?: string | null;
+  bbox?: [number, number, number, number] | null;
 }
 
 export interface DsNode {
@@ -33,8 +38,8 @@ export interface ProvinceNode {
 
 const byName = (a: { name: string }, b: { name: string }) => a.name.localeCompare(b.name);
 
-export function entryKey(e: Pick<AdminEntry, "type" | "filename">): string {
-  return `${e.type}|${e.filename}`;
+export function entryKey(e: Pick<AdminEntry, "type" | "filename" | "url">): string {
+  return `${e.type}|${e.url ?? e.filename}`;
 }
 
 export function displayName(e: AdminEntry): string {

@@ -23,7 +23,7 @@ async function poolMap<T, R>(items: T[], limit: number, fn: (t: T) => Promise<R>
   return out;
 }
 
-import { INDEX_URL } from "../services/administrativeService";
+import { INDEX_ADMIN_URL } from "../services/dataHosts";
 
 async function readIndex(): Promise<AdminEntry[]> {
   try {
@@ -39,7 +39,7 @@ async function readIndex(): Promise<AdminEntry[]> {
   try {
     if ("caches" in window) {
       const store = await caches.open("mapsl-meta-v1");
-      const hit = await store.match(INDEX_URL);
+      const hit = await store.match(INDEX_ADMIN_URL);
       if (hit) {
         const parsed = await hit.json();
         if (Array.isArray(parsed)) return parsed;

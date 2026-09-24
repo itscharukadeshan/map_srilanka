@@ -75,7 +75,8 @@ export default function MapOverlays() {
       const want = retrySeq[ov.id] ?? 0;
       const key = `${ov.id}#${want}`;
       try {
-        const fc = await getGeoJSON(ov.url);
+        // combined-split layers arrive with geometry; otherwise fetch by URL
+        const fc = ov.inline ?? (await getGeoJSON(ov.url));
         if (cancelled) return;
         setData((p) => ({ ...p, [ov.id]: fc }));
         setStatus(ov.id, "ready");

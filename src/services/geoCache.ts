@@ -73,6 +73,12 @@ export function dropCached(url: string) {
   memory.delete(url);
 }
 
+/** Seed the memory cache with already-fetched data (e.g. GN features split
+ *  from a DS combined rollup) so their layer URLs resolve without network. */
+export function primeCache(url: string, data: GeoJSONFeatureCollection) {
+  memory.set(url, Promise.resolve(data));
+}
+
 export function isCached(url: string): boolean {
   return memory.has(url);
 }
