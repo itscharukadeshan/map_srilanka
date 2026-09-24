@@ -1,4 +1,5 @@
 /** @format */
+import { DATA_PRIMARY } from "./dataHosts";
 
 interface Administrative {
   filename: string;
@@ -10,11 +11,12 @@ interface Administrative {
   search_query: string;
 }
 
-const BASE_URL =
-  "https://github.com/itscharukadeshan/map_srilanka_data/blob/main/v1/administrative";
+const BASE_URL = `${DATA_PRIMARY}`;
 
 const generateRawUrl = (item: Administrative): string | null => {
   let url = "";
+  // data repo stores underscores; index filenames may contain spaces
+  const safeFilename = item.filename.replace(/ /g, "_");
 
   switch (item.type) {
     case "gn_divisions":
@@ -24,25 +26,25 @@ const generateRawUrl = (item: Administrative): string | null => {
         item.ds_division_name &&
         item.gnd_name
       ) {
-        url = `${BASE_URL}/gn_division/${item.province_name}/${item.district_name}/${item.ds_division_name}/${item.filename}`;
+        url = `${BASE_URL}/gn_division/${item.province_name}/${item.district_name}/${item.ds_division_name}/${safeFilename}`;
       }
       break;
 
     case "ds_divisions":
       if (item.province_name && item.district_name && item.ds_division_name) {
-        url = `${BASE_URL}/ds_division/${item.province_name}/${item.district_name}/${item.filename}`;
+        url = `${BASE_URL}/ds_division/${item.province_name}/${item.district_name}/${safeFilename}`;
       }
       break;
 
     case "district":
       if (item.province_name && item.district_name) {
-        url = `${BASE_URL}/district/${item.province_name}/${item.filename}`;
+        url = `${BASE_URL}/district/${item.province_name}/${safeFilename}`;
       }
       break;
 
     case "province":
       if (item.province_name) {
-        url = `${BASE_URL}/province/${item.filename}`;
+        url = `${BASE_URL}/province/${safeFilename}`;
       }
       break;
 
@@ -65,22 +67,10 @@ const createResultObject = (item: Administrative) => {
     .replace(/_divisions$/, "_division")
     .replace("_", " ")}`;
 
-  const convertToRawUrl = (githubUrl: string): string => {
-    const rawUrl = githubUrl
-      .replace("https://github.com/", "https://raw.githubusercontent.com/")
-      .replace("/blob/", "/refs/heads/");
-
-    return `${rawUrl}`;
-  };
-
-  const updatedUrl = convertToRawUrl(url);
-
-  console.log(updatedUrl);
-
   return {
     name: finalName,
     type: item.type,
-    url: updatedUrl,
+    url,
   };
 };
 

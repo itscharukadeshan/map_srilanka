@@ -1,177 +1,123 @@
 /** @format */
-import STADIA_MAPS_API_KEY from "../config";
+// Free XYZ raster tiles need NO api key. Stadia "premium" styles unlock when the
+// user pastes their own key in Basemaps → API key (BYOK, stored locally).
+// Vector (MapLibre) styles are intentionally not used: html-to-image cannot
+// capture WebGL canvases, which produced blank exports.
 
-interface BaseLayer {
+export type BaseCategory = "Streets" | "Light" | "Dark" | "Satellite" | "Terrain" | "Premium";
+
+export interface BaseLayer {
   url: string;
   attribution: string;
   key: string;
-  type: "raster" | "glStyle" | "vector";
+  label: string;
+  category: BaseCategory;
+  description: string;
+  /** real tile thumbnail (z9 over Sri Lanka); {STADIA_KEY} for premium */
+  thumb: string;
+  /** set for layers that need a user-provided key */
+  requiresKey?: "stadia";
 }
-// var TopPlusOpen_Grey = L.tileLayer(
-//   "http://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web_grau/default/WEBMERCATOR/{z}/{y}/{x}.png",
-//   {
-//     maxZoom: 18,
-//     attribution:
-//       'Map data: &copy; <a href="http://www.govdata.de/dl-de/by-2-0">dl-de/by-2-0</a>',
-//   }
-// );
 
-const site_Attribution = ` | </a> Overlays from <a href="https://gisapps.nsdi.gov.lk/server/rest/services">NSDI Sri Lanka</a> <a href="https://github.com/itscharukadeshan/map_srilanka_data">| Map Srilanka Data</a>`;
+export const STADIA_KEY_PLACEHOLDER = "{STADIA_KEY}";
 
-const baseLayerConfig: { [key: string]: BaseLayer } = {
-  OFM_Liberty: {
-    url: `https://tiles.openfreemap.org/styles/liberty`,
+const siteAttribution = ` | Overlays: <a href="https://gisapps.nsdi.gov.lk/server/rest/services">NSDI Sri Lanka</a> <a href="https://github.com/itscharukadeshan/map_srilanka_data">| Map Sri Lanka Data</a>`;
 
-    attribution: `&copy; <a href="https://openfreemap.org/" target="_blank" rel="noopener noreferrer">OpenFreeMap</a> contributors${site_Attribution}`,
+// Tile 370/244 @ z9 covers central Sri Lanka (7.87N, 80.77E)
+function thumbFor(url: string): string {
+  return url
+    .replace("{s}", "a")
+    .replace("{r}", "")
+    .replace("{z}", "9")
+    .replace("{x}", "370")
+    .replace("{y}", "244");
+}
 
-    key: "OFM Liberty",
+function make(
+  key: string,
+  label: string,
+  category: BaseCategory,
+  description: string,
+  url: string,
+  attribution: string,
+  requiresKey?: "stadia"
+): BaseLayer {
+  return { key, label, category, description, url, attribution, thumb: thumbFor(url), requiresKey };
+}
 
-    type: "glStyle",
-  },
+const OSM_ATTR =
+  '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors';
+const CARTO_ATTR = `${OSM_ATTR} &copy; <a href="https://carto.com/attributions">CARTO</a>`;
+const ESRI_ATTR =
+  "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community";
+const STADIA_ATTR = "&copy; <a href=\"https://stadiamaps.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Stadia Maps</a> &copy; <a href=\"https://www.stamen.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Stamen</a> &copy; OpenMapTiles &copy; OpenStreetMap contributors";
 
-  OFM_Positron: {
-    url: `https://tiles.openfreemap.org/styles/positron`,
+const free: BaseLayer[] = [
+  make("Carto Light", "Light", "Light", "Clean light streets, best for overlays + export",
+    "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", CARTO_ATTR),
+  make("Carto Voyager", "Voyager", "Streets", "Detailed streets with labels",
+    "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", CARTO_ATTR),
+  make("OpenStreetMap", "OSM", "Streets", "Classic OSM standard style",
+    "https://tile.openstreetmap.org/{z}/{x}/{y}.png", OSM_ATTR),
+  make("Humanitarian", "HOT", "Streets", "HOT style, place names + roads",
+    "https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png", OSM_ATTR),
+  make("Esri Streets", "Esri Streets", "Streets", "Esri world street map",
+    "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", ESRI_ATTR),
+  make("Carto Dark", "Dark", "Dark", "Dark streets for low-light work",
+    "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", CARTO_ATTR),
+  make("Esri Dark Gray", "Gray Dark", "Dark", "Muted dark reference map",
+    "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}", ESRI_ATTR),
+  make("Esri Satellite", "Satellite", "Satellite", "High-res world imagery",
+    "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", ESRI_ATTR),
+  make("Esri Topo", "Topo (Esri)", "Terrain", "Topographic reference with relief",
+    "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}", ESRI_ATTR),
+  make("Open Topo Map", "Topo (OTM)", "Terrain", "Contours + hillshade, great for terrain",
+    "https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", OSM_ATTR),
+  make("CycloOSM", "Cycle", "Terrain", "Cycle + foot paths, detailed landcover",
+    "https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png", OSM_ATTR),
+  make("Esri Gray", "Gray Light", "Light", "Neutral light reference map",
+    "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}", ESRI_ATTR),
+];
 
-    attribution: `&copy; <a href="https://openfreemap.org/" target="_blank" rel="noopener noreferrer">OpenFreeMap</a> contributors${site_Attribution}`,
+const premium: BaseLayer[] = [
+  make("Stadia Bright", "Bright", "Premium", "Stadia OSM Bright raster — crisp infographic base",
+    `https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png?api_key=${STADIA_KEY_PLACEHOLDER}`, STADIA_ATTR, "stadia"),
+  make("Stadia Smooth", "Smooth", "Premium", "Minimal light style, ideal under overlays",
+    `https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png?api_key=${STADIA_KEY_PLACEHOLDER}`, STADIA_ATTR, "stadia"),
+  make("Stadia Dark", "Smooth Dark", "Premium", "Minimal dark style for presentations",
+    `https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png?api_key=${STADIA_KEY_PLACEHOLDER}`, STADIA_ATTR, "stadia"),
+  make("Stamen Watercolor", "Watercolor", "Premium", "Artistic watercolor — poster-style visuals",
+    `https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}{r}.jpg?api_key=${STADIA_KEY_PLACEHOLDER}`, STADIA_ATTR, "stadia"),
+  make("Stamen Toner", "Toner", "Premium", "High-contrast B&W — print diagrams",
+    `https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.png?api_key=${STADIA_KEY_PLACEHOLDER}`, STADIA_ATTR, "stadia"),
+];
 
-    key: "OFM Positron",
+const layers: BaseLayer[] = [...free, ...premium];
 
-    type: "glStyle",
-  },
+const baseLayerConfig: Record<string, BaseLayer> = Object.fromEntries(
+  layers.map((l) => [l.key.replace(/\s+/g, "_"), l])
+);
 
-  OFM_Bright: {
-    url: `https://tiles.openfreemap.org/styles/bright`,
+export const allBaseLayers = layers;
+export const freeBaseLayers = free;
+export const premiumBaseLayers = premium;
+export const baseCategories: BaseCategory[] = ["Streets", "Light", "Dark", "Satellite", "Terrain", "Premium"];
 
-    attribution: `&copy; <a href="https://openfreemap.org/" target="_blank" rel="noopener noreferrer">OpenFreeMap</a> contributors${site_Attribution}`,
+/** Startup basemap — derived from the free list so a key-requiring layer can never become the default. */
+export const DEFAULT_BASE_KEY = free.find((l) => l.key === "OpenStreetMap")?.key ?? free[0].key;
 
-    key: "OFM Bright",
+export function findBaseLayer(key: string): BaseLayer {
+  return layers.find((l) => l.key === key) ?? layers[0];
+}
 
-    type: "glStyle",
-  },
-  CartoDB_PositronNoLabels: {
-    url: "https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png",
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    key: "Carto Positron",
-    type: "raster",
-  },
-  Carto_DB_Dark_NoLabels: {
-    url: "https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png",
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    key: "Carto Dark",
-    type: "raster",
-  },
-  Esri_Satellite: {
-    url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-    attribution:
-      " &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community",
-    key: "Esri Satellite",
-    type: "raster",
-  },
-  Carto_DB_Voyager_No_Labels: {
-    url: "https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png",
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    key: "Carto Voyager",
-    type: "raster",
-  },
-  openStreetMap: {
-    url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors',
-    key: "OpenStreetMap",
-    type: "raster",
-  },
+/** Substitute the user's key into premium URLs. Empty key → unusable URL (guarded by UI). */
+export function resolveBaseUrl(layer: BaseLayer, stadiaKey: string): string {
+  return layer.url.split(STADIA_KEY_PLACEHOLDER).join(stadiaKey);
+}
 
-  humanitarian: {
-    url: "https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png",
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors',
-    key: "Humanitarian",
-    type: "raster",
-  },
-
-  openTopoMap: {
-    url: "https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png",
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors',
-    key: "Open Topo Map",
-    type: "raster",
-  },
-  TopPlusOpen_Grey: {
-    url: "http://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web_grau/default/WEBMERCATOR/{z}/{y}/{x}.png",
-    attribution:
-      'Map data: &copy; <a href="http://www.govdata.de/dl-de/by-2-0">dl-de/by-2-0</a>',
-    key: "Top Plus Grey",
-    type: "raster",
-  },
-  OSM_Bright: {
-    url: `https://tiles.stadiamaps.com/styles/osm_bright.json?api_key=${STADIA_MAPS_API_KEY}`,
-    attribution:
-      "&copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap contributors",
-    key: "OSM Bright",
-    type: "glStyle",
-  },
-  OSM_France: {
-    url: "https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png",
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors',
-    key: "OSM France",
-    type: "raster",
-  },
-
-  StadiaSatellite: {
-    url: `https://tiles.stadiamaps.com/styles/alidade_satellite.json?api_key=${STADIA_MAPS_API_KEY}`,
-    attribution:
-      "copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap contributors",
-    key: "Stadia Satellite",
-    type: "glStyle",
-  },
-  StadiaAlidadeSmoothDark: {
-    url: `https://tiles.stadiamaps.com/styles/alidade_smooth_dark.json?api_key=${STADIA_MAPS_API_KEY}`,
-    attribution:
-      "&copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap contributors",
-    key: "Stadia Smooth Dark",
-    type: "glStyle",
-  },
-  StadiaAlidadeSmooth: {
-    url: `https://tiles.stadiamaps.com/styles/alidade_smooth.json?api_key=${STADIA_MAPS_API_KEY}`,
-    attribution:
-      "&copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap contributors",
-    key: "Stadia Smooth",
-    type: "glStyle",
-  },
-
-  StadiaStamenToner: {
-    url: `https://tiles.stadiamaps.com/styles/stamen_toner.json?api_key=${STADIA_MAPS_API_KEY}`,
-    attribution:
-      "&copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap contributors",
-    key: "Stadia Toner",
-    type: "glStyle",
-  },
-  StamenTerrain: {
-    url: `https://tiles.stadiamaps.com/styles/stamen_terrain.json?api_key=${STADIA_MAPS_API_KEY}`,
-    attribution:
-      "&copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap contributors",
-    key: "Stamen Terrain",
-    type: "glStyle",
-  },
-
-  StamenWatercolor: {
-    url: `https://tiles.stadiamaps.com/styles/stamen_watercolor.json?api_key=${STADIA_MAPS_API_KEY}`,
-    attribution:
-      "&copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap contributors",
-    key: "Stamen Watercolor",
-    type: "glStyle",
-  },
-  StamenTerrainBackground: {
-    url: `https://tiles.stadiamaps.com/styles/stamen_terrain_background.json?api_key=${STADIA_MAPS_API_KEY}`,
-    attribution:
-      "&copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap contributors",
-    key: "Stamen Terrain Background",
-    type: "glStyle",
-  },
-};
+export function resolveThumb(layer: BaseLayer, stadiaKey: string): string {
+  return layer.thumb.split(STADIA_KEY_PLACEHOLDER).join(stadiaKey);
+}
 
 export default baseLayerConfig;
+export { siteAttribution };

@@ -1,6 +1,8 @@
 /** @format */
+// Legacy compatibility layer. New code should use `useOverlayStore` directly.
+// Kept so old localStorage key "searchResults" keeps working and old imports don't break.
 
-import chroma from "chroma-js";
+import { useOverlayStore } from "../store/useOverlayStore";
 
 export interface SearchResult {
   name: string;
@@ -15,68 +17,31 @@ export interface SearchResultUpdated {
   opacity: number;
   stroke: number;
   visibility: boolean;
+  showLabel: boolean;
 }
 
-const getRandomColor = (opacity: number = 1): string => {
-  const colors = chroma.scale(["#ef8a62", "#67a9cf"]).mode("lch").colors(12);
-
-  const existingResults = localStorage.getItem("searchResults");
-  const usedColors: string[] = existingResults
-    ? JSON.parse(existingResults).map((res: SearchResultUpdated) =>
-        chroma(res.color).hex()
-      )
-    : [];
-
-  const availableColors = colors.filter(
-    (color) => !usedColors.includes(chroma(color).hex())
-  );
-
-  if (availableColors.length === 0) {
-    usedColors.length = 0;
-  }
-
-  const randomColor =
-    availableColors[Math.floor(Math.random() * availableColors.length)];
-
-  return chroma(randomColor).alpha(opacity).css();
-};
-
 export const saveSearchResult = (result: SearchResult) => {
-  const existingResults = localStorage.getItem("searchResults");
-  const resultsArray: SearchResult[] = existingResults
-    ? JSON.parse(existingResults)
-    : [];
-
-  const extendedResult: SearchResultUpdated = {
-    ...result,
-    color: getRandomColor(1),
-    opacity: 0.4,
-    stroke: 1,
-    visibility: true,
-  };
-
-  resultsArray.push(extendedResult);
-
-  localStorage.setItem("searchResults", JSON.stringify(resultsArray));
+  useOverlayStore.getState().addOverlay(result);
 };
 
 export const getSearchResults = (): SearchResultUpdated[] => {
-  const existingResults = localStorage.getItem("searchResults");
-  return existingResults ? JSON.parse(existingResults) : [];
+  return useOverlayStore.getState().overlays.map((o) => ({
+    name: o.name,
+    type: o.type,
+    url: o.url,
+    color: o.color,
+    opacity: o.opacity,
+    stroke: o.stroke,
+    visibility: o.visible,
+    showLabel: o.showLabel !== false,
+  }));
 };
 
 export const clearSearchResults = () => {
-  localStorage.removeItem("searchResults");
-  window.location.reload();
+  useOverlayStore.getState().clearAll();
 };
 
 export const removeSearchResultByName = (name: string) => {
-  const existingResults = localStorage.getItem("searchResults");
-  const resultsArray: SearchResultUpdated[] = existingResults
-    ? JSON.parse(existingResults)
-    : [];
-
-  const updatedResults = resultsArray.filter((result) => result.name !== name);
-
-  localStorage.setItem("searchResults", JSON.stringify(updatedResults));
+  const target = useOverlayStore.getState().overlays.find((o) => o.name === name);
+  if (target) useOverlayStore.getState().removeOverlay(target.id);
 };

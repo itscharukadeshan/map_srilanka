@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@maplibre/maplibre-gl-leaflet": "^0.0.22",
+    "@turf/boolean-intersects": "^7.4.0",
+    "@turf/buffer": "^7.4.0",
     "@types/geojson": "^7946.0.14",
     "@uidotdev/usehooks": "^2.4.1",
     "axios": "^1.7.7",
@@ -19,17 +21,20 @@
     "fuse.js": "^7.0.0",
     "html-to-image": "^1.11.11",
     "leaflet": "^1.9.4",
+    "leaflet-draw": "^1.0.4",
     "lucide-react": "^0.451.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-leaflet": "^4.2.1",
-    "react-select": "^5.8.1"
+    "react-select": "^5.8.1",
+    "zustand": "^5.0.15"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
     "@types/chroma-js": "^2.4.4",
     "@types/esri-leaflet": "^3.0.3",
     "@types/leaflet": "^1.9.12",
+    "@types/leaflet-draw": "^1.0.13",
     "@types/node": "^22.5.5",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
